@@ -10,6 +10,7 @@ using Firebase.Database;
 
 public class FirebaseFunction : MonoBehaviour
 {
+    [SerializeField] private AudioClip cfmClickSFX;
     public GameObject userDataUI;
     public GameObject modeSelectionPanel;
 
@@ -69,37 +70,43 @@ public class FirebaseFunction : MonoBehaviour
 
     public void ScoreboardButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         FirebaseManager.Instance.ScoreboardButton();
     }
 
     public void SignOutButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         FirebaseManager.Instance.SignOutButton();
     }
 
     public void DisplayStar()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         FirebaseManager.Instance.displayStarsPoints();
     }
 
     public void ShowButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         FirebaseManager.Instance.displayWorldSectionData();
     }
 
     public void ResetButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         FirebaseManager.Instance.displayTotalPoints();
     }
 
     public void viewProfile()
     {
-
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         StartCoroutine(loadMainMenu());
     }
 
     private IEnumerator loadMainMenu()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         //get the currently logged in user data
         FirebaseUser  User = FirebaseManager.User;
         var DBtask = DBreference.Child("users").Child(User.UserId).GetValueAsync();
@@ -200,6 +207,7 @@ public class FirebaseFunction : MonoBehaviour
 
     public void BacktoGameMode() 
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         userDataUI.SetActive(false);
         modeSelectionPanel.SetActive(true);
     }

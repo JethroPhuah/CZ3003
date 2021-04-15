@@ -2046,6 +2046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 958f5c2f6211ada40bbfa029e184b26f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cfmClickSFX: {fileID: 8300000, guid: eaa81b68478a1af4696ae4a8971f2ece, type: 3}
   userDataUI: {fileID: 2069035536}
   modeSelectionPanel: {fileID: 285450975}
   dependencyStatus: 0
@@ -3322,7 +3323,6 @@ MonoBehaviour:
   questionElement: {fileID: 1977510919180741868, guid: 63dae8a067c274949aa9c2bad226c908,
     type: 3}
   questionListContent: {fileID: 1999672086}
-  errormsg: {fileID: 710102516}
   StartPanel: {fileID: 1936616786}
   SelectionPanel: {fileID: 2089907207}
   Room: 
@@ -47455,7 +47455,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Game Mode
+  m_Text: Main Menu
 --- !u!222 &1726492944
 CanvasRenderer:
   m_ObjectHideFlags: 0

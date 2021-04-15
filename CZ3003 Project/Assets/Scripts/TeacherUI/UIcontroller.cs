@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class UIcontroller : MonoBehaviour
 {
+    [SerializeField] private AudioClip cfmClickSFX;
+
     // This is an instance of UIcontroller
     public static UIcontroller instance;
     //This is the panel to add question
@@ -47,77 +49,90 @@ public class UIcontroller : MonoBehaviour
     //This method is called when the user selects to add a question
     public void PressAddQuestionButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         AddQuestionPanel.gameObject.SetActive(true);
         FunctionSelectionPanel.gameObject.SetActive(false);
     }
     //This method is called when the user selects the leaderboard
     public void PressLeaderboardButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         LeaderBoardPanel.gameObject.SetActive(true);
         FunctionSelectionPanel.gameObject.SetActive(false);
     }
     //This method is called when the user wants to view statistics
     public void PressViewStatisticButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         ViewStatisticPanel.gameObject.SetActive(true);
         FunctionSelectionPanel.gameObject.SetActive(false);
     }
     //This method is called when the user wants to make an assignment
     public void PressMakeAssignmentButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         MakeAssignmentPanel.gameObject.SetActive(true);
         FunctionSelectionPanel.gameObject.SetActive(false);
     }
     //This method is called when the user wants to edit a question
     public void PressEditQuestionButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         EditQuestionPanel.gameObject.SetActive(true);
         FunctionSelectionPanel.gameObject.SetActive(false);
     }
     //This method is called when the user wants to exit the add question panel
     public void PressBackAddQuestionButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         AddQuestionPanel.gameObject.SetActive(false);
         FunctionSelectionPanel.gameObject.SetActive(true);
     }
     //This method is called when the user wants to exit the leaderboard panel
     public void PressBackLeaderboardButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         LeaderBoardPanel.gameObject.SetActive(false);
         FunctionSelectionPanel.gameObject.SetActive(true);
     }
     //This method is called when the user wants to exit the view statistic panel
     public void PressBackViewStatisticButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         ViewStatisticPanel.gameObject.SetActive(false);
         FunctionSelectionPanel.gameObject.SetActive(true);
     }
     //This method is called when the user wants to exit the make an assignment panel
     public void PressBackMakeAssignmentButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         MakeAssignmentPanel.gameObject.SetActive(false);
         FunctionSelectionPanel.gameObject.SetActive(true);
     }
     //This method is called when the user wants to exit the edit question panel
     public void PressBackEditQuestionButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         EditQuestionPanel.gameObject.SetActive(false);
         FunctionSelectionPanel.gameObject.SetActive(true);
     }
     //This method is called when the user wants to exit the teacher UI
     public void Presslogoutbutton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         SceneManager.LoadScene("LoginScene");
     }
     //This method is called when the user wants to exit the score panel
     public void PressBackScorePanel()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         ScorePanel.gameObject.SetActive(false);
         MakeAssignmentPanel.gameObject.SetActive(true);
     }
     //This method obtains the world selected by the user
     public void WorldLdrboardSelect()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         Debug.Log(WorldLeaderboard.options[WorldLeaderboard.value].text);
         switch (WorldLeaderboard.options[WorldLeaderboard.value].text)
         {
@@ -139,6 +154,7 @@ public class UIcontroller : MonoBehaviour
     //This method obtains the section selected by the user
     public void SectionLdrboardSelection()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         SectionLdrboard = int.Parse(SectionLeaderboard.options[SectionLeaderboard.value].text);
         Debug.Log(SectionLdrboard);
     }

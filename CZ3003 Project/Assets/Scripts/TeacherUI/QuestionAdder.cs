@@ -5,6 +5,8 @@ using UnityEngine.UI;
 //Done by Jun Hao and Zhi Fah
 public class QuestionAdder : MonoBehaviour
 {
+    [SerializeField] private AudioClip cfmClickSFX;
+
     // The instance of the file that can be reference by other files later
     public static QuestionAdder instance;
     // The panel where users are going to type their questions and answers
@@ -39,6 +41,7 @@ public class QuestionAdder : MonoBehaviour
     // This methods extracts the data in the dropdown for world
     public void WorldSelect()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         Debug.Log(WorldSelection.options[WorldSelection.value].text);
         switch (WorldSelection.options[WorldSelection.value].text)
         {
@@ -59,22 +62,26 @@ public class QuestionAdder : MonoBehaviour
     // This methods extracts the data in the dropdown for difficulty
     public void DifficultySelection()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         Difficulty = DifficultySelect.options[DifficultySelect.value].text;
     }
     // This methods extracts the data in the dropdown for section
     public void SectionSelection()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         Section = int.Parse(SectionSelect.options[SectionSelect.value].text);
     }
     // This method brings the user to the page where he/she can type his new question and answers out
     public void PressNextButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         AddQuestionPanel.gameObject.SetActive(true);
         OptionSelectionPanel.gameObject.SetActive(false);
     }
     //This method brings the user back to the page where he/she can change the filters for world, difficulty and section
     public void PressBackButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         AddQuestionPanel.gameObject.SetActive(false);
         OptionSelectionPanel.gameObject.SetActive(true);
     }

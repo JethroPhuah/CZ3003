@@ -116,6 +116,7 @@ public class FirebaseManager : MonoBehaviour
         emailRegisterField.text = "";
         passwordRegisterField.text = "";
         passwordRegisterVerifyField.text = "";
+        UniquePin.text = "";
     }
 
     //Function for the login button
@@ -243,17 +244,23 @@ public class FirebaseManager : MonoBehaviour
         var DBTask = DBreference.Child("users").GetValueAsync(); // add
         yield return new WaitUntil(predicate: () => DBTask.IsCompleted); // add
         bool exist = false; // add
-        if (_username == "")
-        {
-            //If the username field is blank show a warning
-            warningRegisterText.text = "Missing Username";
-        }
-        else if(passwordRegisterField.text != passwordRegisterVerifyField.text)
-        {
-            //If the password does not match show a warning
-            warningRegisterText.text = "Password Does Not Match!";
-        }
-        else 
+        // if (_username == "")
+        // {
+        //     //If the username field is blank show a warning
+        //     warningRegisterText.text = "Missing Username";
+        // }
+        // else if(_email == ""){
+        //     warningRegisterText.text = "Missing Email";
+        // }
+        // else if(CheckPassword(_password) == false){
+        //     warningRegisterText.text = "Password Requires >=6 Characters With Lowercase Letter, Uppercase Letter And Digit!";
+        // }
+        // else if(passwordRegisterField.text != passwordRegisterVerifyField.text)
+        // {
+        //     //If the password does not match show a warning
+        //     warningRegisterText.text = "Password Does Not Match!";
+        // }
+        if (CheckInput(_email, _password, _username) == true) 
         {
              //Data has been retrieved
             DataSnapshot snapshot = DBTask.Result;// add
@@ -262,10 +269,9 @@ public class FirebaseManager : MonoBehaviour
             {
                 string existing_user = childSnapshot.Child("username").Value.ToString(); 
                 if (existing_user == _username){
-                    warningRegisterText.text = "Username Taken!";
+                    warningRegisterText.text = "Username Taken! Please Choose Another Username!";
                     exist = true;
                 }
-
             }
             if(exist == false) // here
             {
@@ -284,15 +290,15 @@ public class FirebaseManager : MonoBehaviour
                     string message = "Register Failed!";
                     switch (errorCode)
                     {
-                        case AuthError.MissingEmail:
-                            message = "Missing Email";
-                            break;
-                        case AuthError.MissingPassword:
-                            message = "Missing Password";
-                            break;
-                        case AuthError.WeakPassword:
-                            message = "Weak Password";
-                            break;
+                        // case AuthError.MissingEmail:
+                        //     message = "Missing Email";
+                        //     break;
+                        // case AuthError.MissingPassword:
+                        //     message = "Missing Password";
+                        //     break;
+                        // case AuthError.WeakPassword:
+                        //     message = "Weak Password";
+                        //     break;
                         case AuthError.EmailAlreadyInUse:
                             message = "Email Already In Use";
                             break;
@@ -343,17 +349,18 @@ public class FirebaseManager : MonoBehaviour
 
     private IEnumerator TeacherRegister(string _email, string _password, string _username)
     {
-        if (_username == "")
-        {
-            //If the username field is blank show a warning
-            warningRegisterText.text = "Missing Username";
-        }
-        else if (passwordRegisterField.text != passwordRegisterVerifyField.text)
-        {
-            //If the password does not match show a warning
-            warningRegisterText.text = "Password Does Not Match!";
-        }
-        else
+        // if (_username == "")
+        // {
+        //     //If the username field is blank show a warning
+        //     warningRegisterText.text = "Missing Username";
+        // }
+        // else if (passwordRegisterField.text != passwordRegisterVerifyField.text)
+        // {
+        //     //If the password does not match show a warning
+        //     warningRegisterText.text = "Password Does Not Match!";
+        // }
+        
+        if (CheckInput(_email, _password, _username) == true) 
         {
             //Call the Firebase auth signin function passing the email and password
             var RegisterTask = auth.CreateUserWithEmailAndPasswordAsync(_email, _password);
@@ -370,15 +377,15 @@ public class FirebaseManager : MonoBehaviour
                 string message = "Register Failed!";
                 switch (errorCode)
                 {
-                    case AuthError.MissingEmail:
-                        message = "Missing Email";
-                        break;
-                    case AuthError.MissingPassword:
-                        message = "Missing Password";
-                        break;
-                    case AuthError.WeakPassword:
-                        message = "Weak Password";
-                        break;
+                    // case AuthError.MissingEmail:
+                    //     message = "Missing Email";
+                    //     break;
+                    // case AuthError.MissingPassword:
+                    //     message = "Missing Password";
+                    //     break;
+                    // case AuthError.WeakPassword:
+                    //     message = "Weak Password";
+                    //     break;
                     case AuthError.EmailAlreadyInUse:
                         message = "Email Already In Use";
                         break;
@@ -412,14 +419,52 @@ public class FirebaseManager : MonoBehaviour
                     {
                         //Username is now set
                         //Now return to login screen
-                        UIManager.instance.LoginScreen();
                         warningRegisterText.text = "";
+                        confirmRegisterText.text = "Teacher Account Created Successfully";
+                        yield return new WaitForSeconds(1f);
+                        confirmRegisterText.text = "";
+                        UIManager.instance.LoginScreen();
                         ClearRegisterFeilds();
                         ClearLoginFeilds();
                     }
                 }
             }
         }
+    }
+
+    public bool CheckPassword(string password){
+        if (password.Any(char.IsLetter) && password.Any(char.IsDigit) && password.Any(char.IsUpper) && password.Length>=6){
+            return true;
+            Debug.Log("pass");
+        }
+        else{
+            // warningRegisterText.text = "Password requires at least 1 uppercase letter, lowercase letter and a digit!";
+            return false;
+        }
+    }
+
+    public bool CheckInput(string _email, string _password, string _username){
+        bool pass = false;
+        if (_username == "")
+        {
+            //If the username field is blank show a warning
+            warningRegisterText.text = "Missing Username";
+        }
+        else if(_email == ""){
+            warningRegisterText.text = "Missing Email";
+        }
+        else if(CheckPassword(_password)==false){
+            warningRegisterText.text = "Password Requires >=6 Characters With Lowercase Letter, Uppercase Letter And Digit!";
+        }
+        else if(passwordRegisterField.text != passwordRegisterVerifyField.text)
+        {
+            //If the password does not match show a warning
+            warningRegisterText.text = "Password Does Not Match!";
+        }
+        else{
+            pass = true;
+        }
+        return pass;
     }
 
     public void ToggleTeacher()

@@ -11,6 +11,7 @@ using UnityEngine.SceneManagement;
 
 public class TeacherFireBase : MonoBehaviour
 {
+    [SerializeField] private AudioClip cfmClickSFX;
     //Firebase variables
     [Header("Firebase")]
     //Variable for DependencyStatus
@@ -208,6 +209,7 @@ public class TeacherFireBase : MonoBehaviour
     //Function for the register button
     public void SubmitButtonMethod()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         if (QuestionInputField.text != "" & AnswerInputField1.text != "" & AnswerInputField2.text != "" & AnswerInputField3.text != "")
         {
             missinginput.text = "";
@@ -280,6 +282,7 @@ public class TeacherFireBase : MonoBehaviour
     //Method is called when searchbar is filled
     public void SearchStudent()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         StudentSearched = SearchBar.text;
         Debug.Log(StudentSearched);
         SearchBar.text = "";
@@ -453,6 +456,7 @@ public class TeacherFireBase : MonoBehaviour
     //Method is called when the filter button is clicked
     public void filter()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         world = Worldselection.options[Worldselection.value].text;
         section = SectionSelection.options[SectionSelection.value].text;
         StartCoroutine(LoadOverallStatistics(world, section));
@@ -810,7 +814,9 @@ public class TeacherFireBase : MonoBehaviour
         FunctionSelectionPanel.gameObject.SetActive(true);// shift this to button
     }
     //This method check whether the room exist when making an assignment
-    public void checkRoomExist(){
+    public void checkRoomExist()
+    {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         StartCoroutine(CheckExistingRoom());
     }
     //This method compares the room to the existing room in firebase
@@ -1004,7 +1010,9 @@ public class TeacherFireBase : MonoBehaviour
         }
     }
     //This methods checks if the custom room exist to view scores
-    public void checkRoomExistForViewScore(){
+    public void checkRoomExistForViewScore()
+    {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         StartCoroutine(CheckExistingRoomView());
     }
     //This method will check the custom room with the pre-existing rooms in the firebase backend
@@ -1072,6 +1080,7 @@ public class TeacherFireBase : MonoBehaviour
     //Function for the scoreboard button
     public void ScoreboardButton()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         StartCoroutine(LoadScoreboardData());
     }
     //This method pulls the data from firebase to be displayed
@@ -1119,6 +1128,7 @@ public class TeacherFireBase : MonoBehaviour
     //This method is called when the leaderboard is filtered
     public void displayWorldSectionData()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         StartCoroutine(LoadWorldSectionData());
     }
     //This method pulls the relevant data to be displayed

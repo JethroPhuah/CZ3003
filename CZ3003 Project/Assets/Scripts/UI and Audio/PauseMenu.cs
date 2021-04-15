@@ -115,6 +115,9 @@ public class PauseMenu : MonoBehaviour
         // Reset timescale to default
         Time.timeScale = 1f;
 
+        // Resume activeSource music
+        AudioManager.Instance.ResumeMusic();
+
         // Set bool to false
         GameisPaused = false;
     }

@@ -8446,6 +8446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e500fc2d3be9d4aaa443307d2b2b96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cfmClickSFX: {fileID: 8300000, guid: eaa81b68478a1af4696ae4a8971f2ece, type: 3}
   dependencyStatus: 0
   statisticElement: {fileID: 3018647671656288021, guid: b71285aaf9bd40f45a7e181c5062f5ee,
     type: 3}
@@ -17342,6 +17343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69e577b187c1f944a535ddacbf5f581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cfmClickSFX: {fileID: 0}
   AddQuestionPanel: {fileID: 563528052}
   OptionSelectionPanel: {fileID: 960469325}
   WorldSelection: {fileID: 1253856426}
@@ -23683,6 +23685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7519429b609a1f94b96ff406ffe3d57e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cfmClickSFX: {fileID: 8300000, guid: eaa81b68478a1af4696ae4a8971f2ece, type: 3}
   AddQuestionPanel: {fileID: 960469325}
   LeaderBoardPanel: {fileID: 1257675824}
   ViewStatisticPanel: {fileID: 1019857100}
@@ -23704,6 +23707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69e577b187c1f944a535ddacbf5f581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cfmClickSFX: {fileID: 8300000, guid: eaa81b68478a1af4696ae4a8971f2ece, type: 3}
   AddQuestionPanel: {fileID: 563528052}
   OptionSelectionPanel: {fileID: 960469325}
   WorldSelection: {fileID: 1253856426}

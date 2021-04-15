@@ -76,18 +76,22 @@ public class UIManager : MonoBehaviour
 
     public void UserDataScreen() //Logged in
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         ClearScreen();
         userDataUI.SetActive(true);
     }
 
     public void EnterGame() //Enter Game
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         ClearScreen();
         levelLoader.LoadCharSel();
     }
 
     public void ScoreboardScreen() //Scoreboard button
     {
+
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         ClearScreen();
         scoreboardUI.SetActive(true);
     }
@@ -142,6 +146,7 @@ public class UIManager : MonoBehaviour
 
     public void SectionLdrboardSelection()
     {
+        AudioManager.Instance.PlaySFX(cfmClickSFX);
         SectionLdrboard = int.Parse(SectionLeaderboard.options[SectionLeaderboard.value].text);
         Debug.Log(SectionLdrboard);
     }
