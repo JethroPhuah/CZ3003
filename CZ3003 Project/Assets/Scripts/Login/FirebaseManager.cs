@@ -131,11 +131,14 @@ public class FirebaseManager : MonoBehaviour
     public void RegisterButton()
     {
         AudioManager.Instance.PlaySFX(cfmClickSFX);
-        if (register_toggle.isOn & UniquePin.text == "pin1")
+        if (register_toggle.isOn & UniquePin.text == "PIN1")
         {
             StartCoroutine(TeacherRegister(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text)); // Unique pin can get from database
         }
         //Call the register coroutine passing the email, password, and username
+        else if (register_toggle.isOn & UniquePin.text != "PIN1"){
+            warningRegisterText.text = "Invalid Pin!";
+        }
         else
         {
             StartCoroutine(Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text));
@@ -453,8 +456,12 @@ public class FirebaseManager : MonoBehaviour
         else if(_email == ""){
             warningRegisterText.text = "Missing Email";
         }
+
+        else if (_password.Length<6){
+            warningRegisterText.text = "Password Must Contain At Least 6 Characters";
+        }
         else if(CheckPassword(_password)==false){
-            warningRegisterText.text = "Password Requires >=6 Characters With Lowercase Letter, Uppercase Letter And Digit!";
+            warningRegisterText.text = "Password Must Contain A Lowercase Letter, Uppercase Letter And Number!";
         }
         else if(passwordRegisterField.text != passwordRegisterVerifyField.text)
         {
