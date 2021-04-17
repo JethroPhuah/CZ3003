@@ -131,18 +131,21 @@ public class FirebaseManager : MonoBehaviour
     public void RegisterButton()
     {
         AudioManager.Instance.PlaySFX(cfmClickSFX);
-        if (register_toggle.isOn & UniquePin.text == "PIN1")
+        if (CheckInput(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text) == true)
         {
-            StartCoroutine(TeacherRegister(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text)); // Unique pin can get from database
-        }
-        //Call the register coroutine passing the email, password, and username
-        else if (register_toggle.isOn & UniquePin.text != "PIN1"){
-            warningRegisterText.text = "Invalid Pin!";
-        }
-        else
-        {
-            StartCoroutine(Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text));
-        }
+            if (register_toggle.isOn & UniquePin.text == "PIN1")
+            {
+                StartCoroutine(TeacherRegister(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text)); // Unique pin can get from database
+            }
+            //Call the register coroutine passing the email, password, and username
+            else if (register_toggle.isOn & UniquePin.text != "PIN1"){
+                warningRegisterText.text = "Invalid Pin!";
+            }
+            else
+            {
+                StartCoroutine(Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text));
+            }
+      }
     }
     //Function for the sign out button
     public void SignOutButton()
@@ -263,8 +266,8 @@ public class FirebaseManager : MonoBehaviour
         //     //If the password does not match show a warning
         //     warningRegisterText.text = "Password Does Not Match!";
         // }
-        if (CheckInput(_email, _password, _username) == true) 
-        {
+        // if (CheckInput(_email, _password, _username) == true) 
+        // {
              //Data has been retrieved
             DataSnapshot snapshot = DBTask.Result;// add
             //Loop through every users UID
@@ -346,7 +349,7 @@ public class FirebaseManager : MonoBehaviour
                         }
                     }
                 }
-            }
+            // }
         }
     }
 
@@ -363,8 +366,8 @@ public class FirebaseManager : MonoBehaviour
         //     warningRegisterText.text = "Password Does Not Match!";
         // }
         
-        if (CheckInput(_email, _password, _username) == true) 
-        {
+        // if (CheckInput(_email, _password, _username) == true) 
+        // {
             //Call the Firebase auth signin function passing the email and password
             var RegisterTask = auth.CreateUserWithEmailAndPasswordAsync(_email, _password);
             //Wait until the task completes
@@ -431,7 +434,7 @@ public class FirebaseManager : MonoBehaviour
                         ClearLoginFeilds();
                     }
                 }
-            }
+            // }
         }
     }
 
