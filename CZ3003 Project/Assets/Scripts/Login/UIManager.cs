@@ -39,9 +39,8 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    //Functions to change the login screen UI
-
-    public void ClearScreen() //Turn off all screens
+    // Function to turn off all screens from the main menu UI
+    public void ClearScreen() 
     {
         if(loginUI!=null)
         loginUI.SetActive(false);
@@ -51,7 +50,9 @@ public class UIManager : MonoBehaviour
         userDataUI.SetActive(false);
         scoreboardUI.SetActive(false);
     }
-    public void ClearScreenForTeacher() //Turn off all screens
+
+    // Function to turn off all screens from the teacher UI
+    public void ClearScreenForTeacher() 
     {
         if(loginUI!=null)
         loginUI.SetActive(true);
@@ -61,34 +62,40 @@ public class UIManager : MonoBehaviour
         scoreboardUI.SetActive(false);
     }
 
-    public void LoginScreen() //Back button
+    // Function to switch to Login UI
+    public void LoginScreen() 
     {
         AudioManager.Instance.PlaySFX(cfmClickSFX);
         ClearScreen();
         loginUI.SetActive(true);
     }
-    public void RegisterScreen() // Regester button
+
+    // Function to switch to Register UI
+    public void RegisterScreen() 
     {
         AudioManager.Instance.PlaySFX(cfmClickSFX);
         ClearScreen();
         registerUI.SetActive(true);
     }
 
-    public void UserDataScreen() //Logged in
+    // Function to switch to user data UI
+    public void UserDataScreen()
     {
         AudioManager.Instance.PlaySFX(cfmClickSFX);
         ClearScreen();
         userDataUI.SetActive(true);
     }
 
-    public void EnterGame() //Enter Game
+    // Function to switch to the game UI
+    public void EnterGame()
     {
         AudioManager.Instance.PlaySFX(cfmClickSFX);
         ClearScreen();
         levelLoader.LoadCharSel();
     }
 
-    public void ScoreboardScreen() //Scoreboard button
+    // Function to display scoreboard UI
+    public void ScoreboardScreen() 
     {
 
         AudioManager.Instance.PlaySFX(cfmClickSFX);
@@ -96,9 +103,9 @@ public class UIManager : MonoBehaviour
         scoreboardUI.SetActive(true);
     }
 
+    // Function for selecting world
     public void WorldSelect()
     {
-        Debug.Log(WorldSelection.options[WorldSelection.value].text);
         switch (WorldSelection.options[WorldSelection.value].text)
         {
             case "OODP":
@@ -114,18 +121,17 @@ public class UIManager : MonoBehaviour
                 Debug.Log("Error Occured");
                 break;
         }
-        Debug.Log(World);
     }
 
+    // Function for selecting section
     public void SectionSelection()
     {
         Section = int.Parse(SectionSelect.options[SectionSelect.value].text);
-        Debug.Log(Section);
     }
 
+    // Function to display world leaderboard for the specific world
     public void WorldLdrboardSelect()
     {
-        Debug.Log(WorldLeaderboard.options[WorldLeaderboard.value].text);
         switch (WorldLeaderboard.options[WorldLeaderboard.value].text)
         {
             case "OODP":
@@ -141,14 +147,13 @@ public class UIManager : MonoBehaviour
                 Debug.Log("Error Occured");
                 break;
         }
-        Debug.Log(WorldLdrboard);
     }
 
+    // Function to store section leaderboard selection 
     public void SectionLdrboardSelection()
     {
         AudioManager.Instance.PlaySFX(cfmClickSFX);
         SectionLdrboard = int.Parse(SectionLeaderboard.options[SectionLeaderboard.value].text);
-        Debug.Log(SectionLdrboard);
     }
     
 }
