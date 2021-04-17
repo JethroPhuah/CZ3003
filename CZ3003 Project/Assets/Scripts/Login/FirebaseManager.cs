@@ -387,7 +387,6 @@ public class FirebaseManager : MonoBehaviour
             Debug.Log("pass");
         }
         else{
-            // warningRegisterText.text = "Password requires at least 1 uppercase letter, lowercase letter and a digit!";
             return false;
         }
     }
