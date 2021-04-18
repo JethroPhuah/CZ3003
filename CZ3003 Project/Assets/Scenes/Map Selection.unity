@@ -26178,6 +26178,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4154214844707886617, guid: 85b75aa0b50bf154a9d9fd0ffe3d4ee2,
+        type: 3}
+      propertyPath: m_text
+      value: LeaderBoard
+      objectReference: {fileID: 0}
     - target: {fileID: 4154214844795345778, guid: 85b75aa0b50bf154a9d9fd0ffe3d4ee2,
         type: 3}
       propertyPath: m_ScrollSensitivity

@@ -1,4 +1,4 @@
-// Authors: Jethro, Su Te, Daryl, Zhi Fah
+// Authors: Jethro, Su Te, Daryl, Zhi Fah and Shaun
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

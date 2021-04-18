@@ -1,4 +1,4 @@
-﻿// Authors: Jethro, Su Te
+﻿// Authors: Jethro, Su Te and Shaun
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
