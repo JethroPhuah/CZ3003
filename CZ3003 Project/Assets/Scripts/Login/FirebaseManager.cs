@@ -1,4 +1,4 @@
-// Authors: Jethro, Su Te, Daryl, Zhi Fah
+// Authors: Jethro, Su Te, Daryl, Zhi Fah and Shaun
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -168,6 +168,7 @@ public class FirebaseManager : MonoBehaviour
     // Function to Enter the game
     public void EnterGameButton() {
         AudioManager.Instance.PlaySFX(cfmClickSFX);
+        UIManager.instance.EnterGame();
         ClearRegisterFeilds();
         ClearLoginFeilds();
         //levelLoader.LoadCharSel();
@@ -1196,6 +1197,10 @@ public class FirebaseManager : MonoBehaviour
             //Go to data screen
             if (teacher == false)
             {
+                loginUI.SetActive(false);
+                //UIManager.instance.EnterGame();
+                EnterGameButton();
+                /*
                 //get the currently logged in user data
                 var DBtask = DBreference.Child("users").Child(User.UserId).GetValueAsync();
 
@@ -1291,6 +1296,7 @@ public class FirebaseManager : MonoBehaviour
                 }
                 loginUI.SetActive(false);
                 userDataUI.SetActive(true);
+            }*/
             }
         }
     }
