@@ -2347,7 +2347,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4e3a3c9b006eaa54386af0694f140bdd, type: 3}
-    m_FontSize: 150
+    m_FontSize: 130
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -2358,7 +2358,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 0/12
+  m_Text: 12/12
 --- !u!222 &253764121
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20144,7 +20144,7 @@ Tilemap:
       - {fileID: 21301262, guid: fe3b1e453b9d88047b7d779f8a2ba8c1, type: 3}
       - {fileID: 21301264, guid: fe3b1e453b9d88047b7d779f8a2ba8c1, type: 3}
       - {fileID: 21301266, guid: fe3b1e453b9d88047b7d779f8a2ba8c1, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -3, y: 9, z: 0}
@@ -24059,7 +24059,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4e3a3c9b006eaa54386af0694f140bdd, type: 3}
-    m_FontSize: 150
+    m_FontSize: 130
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -24070,7 +24070,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 0/16
+  m_Text: 0/12
 --- !u!222 &998369029
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45079,7 +45079,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4e3a3c9b006eaa54386af0694f140bdd, type: 3}
-    m_FontSize: 100
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -45090,7 +45090,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 36
 --- !u!222 &1529302227
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47110,7 +47110,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4e3a3c9b006eaa54386af0694f140bdd, type: 3}
-    m_FontSize: 150
+    m_FontSize: 130
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -47121,7 +47121,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 0/16
+  m_Text: 0/12
 --- !u!222 &1707833870
 CanvasRenderer:
   m_ObjectHideFlags: 0
