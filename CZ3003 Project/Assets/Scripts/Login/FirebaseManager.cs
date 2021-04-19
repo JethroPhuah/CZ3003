@@ -1,4 +1,4 @@
-// Authors: Jethro, Su Te, Daryl, Zhi Fah
+// Authors: Jethro, Su Te, Daryl, Zhi Fah and Shaun
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,22 +17,21 @@ public class FirebaseManager : MonoBehaviour
 
     [SerializeField] private AudioClip cfmClickSFX;
     public LevelLoader levelLoader;
-    //[SerializeField] QuestionManager questionManager;
-    //Firebase variables
+    // Firebase variables
     [Header("Firebase")]
     public DependencyStatus dependencyStatus;
     public FirebaseAuth auth;    
     public static FirebaseUser User;
     public DatabaseReference DBreference;
 
-    //Login variables
+    // Login variables
     [Header("Login")]
     public TMP_InputField emailLoginField;
     public TMP_InputField passwordLoginField;
     public TMP_Text warningLoginText;
     public TMP_Text confirmLoginText;
 
-    //Register variables
+    // Register variables
     [Header("Register")]
     public TMP_InputField usernameRegisterField;
     public TMP_InputField emailRegisterField;
@@ -40,9 +39,9 @@ public class FirebaseManager : MonoBehaviour
     public TMP_InputField passwordRegisterVerifyField;
     public TMP_Text warningRegisterText;
     public TMP_Text confirmRegisterText;
-    public InputField UniquePin;
+    public InputField UniquePin; // Unique Pin required when registering for a teacher account
 
-  //User Data variables
+    // User Data variables
     [Header("UserData")]
     public TMP_Text usernameTitle;
     public TMP_Text totalStars;
@@ -53,10 +52,13 @@ public class FirebaseManager : MonoBehaviour
     public Transform scoreboardContent;
     public TMP_Text ranktext;
 
+    // Current player username
     public static string username;
 
+    // Toggle for registration of teacher account
     public Toggle register_toggle;
 
+    // Create an instance of FirebaseManager
     private static FirebaseManager instance;
 
     public static FirebaseManager Instance
@@ -78,6 +80,8 @@ public class FirebaseManager : MonoBehaviour
             instance = value;
         }
     }
+
+    // Awake function to call whenever this class is called.
     void Awake()
     {
         // Set gameobject as  DontDestroyOnLoad
@@ -98,6 +102,7 @@ public class FirebaseManager : MonoBehaviour
         });
     }
 
+    // Initialise firebase
     private void InitializeFirebase()
     {
         Debug.Log("Setting up Firebase Auth");
@@ -105,11 +110,15 @@ public class FirebaseManager : MonoBehaviour
         auth = FirebaseAuth.DefaultInstance;
         DBreference = FirebaseDatabase.DefaultInstance.RootReference;
     }
+
+    // Function to clear login UI fields
     public void ClearLoginFeilds()
     {
         emailLoginField.text = "";
         passwordLoginField.text = "";
     }
+
+    // Function to clear register UI fields
     public void ClearRegisterFeilds()
     {
         usernameRegisterField.text = "";
@@ -119,29 +128,34 @@ public class FirebaseManager : MonoBehaviour
         UniquePin.text = "";
     }
 
-    //Function for the login button
+    // Function for the login button
     public void LoginButton()
     {
-        //questionManager.Awake();
-        //Call the login coroutine passing the email and password
-        AudioManager.Instance.PlaySFX(cfmClickSFX);
-        StartCoroutine(Login(emailLoginField.text, passwordLoginField.text));
+        AudioManager.Instance.PlaySFX(cfmClickSFX); // Plays audio for login screen
+        StartCoroutine(Login(emailLoginField.text, passwordLoginField.text)); //Call the login coroutine passing the email and password
     }
-    //Function for the register button
+
+    // Function for the register button
     public void RegisterButton()
     {
-        AudioManager.Instance.PlaySFX(cfmClickSFX);
-        if (register_toggle.isOn & UniquePin.text == "pin1")
+        AudioManager.Instance.PlaySFX(cfmClickSFX); // Plays audio for login screen
+        if (CheckInput(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text) == true) // Check for inputs
         {
-            StartCoroutine(TeacherRegister(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text)); // Unique pin can get from database
-        }
-        //Call the register coroutine passing the email, password, and username
-        else
-        {
-            StartCoroutine(Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text));
-        }
+            if (register_toggle.isOn & UniquePin.text == "PIN1")
+            {
+                StartCoroutine(TeacherRegister(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text)); // Call TeacherRegister corouting if pin is correct
+            }
+            else if (register_toggle.isOn & UniquePin.text != "PIN1"){  // Warning text for incorrect pin
+                warningRegisterText.text = "Invalid Pin!";
+            }
+            else
+            {
+                StartCoroutine(Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text)); // Call Register corouting for student otherwise
+            }
+      }
     }
-    //Function for the sign out button
+
+    // Function for the sign out button
     public void SignOutButton()
     {
         AudioManager.Instance.PlaySFX(cfmClickSFX);
@@ -151,35 +165,22 @@ public class FirebaseManager : MonoBehaviour
         ClearLoginFeilds();
     }
 
+    // Function to Enter the game
     public void EnterGameButton() {
         AudioManager.Instance.PlaySFX(cfmClickSFX);
+        UIManager.instance.EnterGame();
         ClearRegisterFeilds();
         ClearLoginFeilds();
         //levelLoader.LoadCharSel();
     }
 
-    //Function for the scoreboard button
+    // Function for the scoreboard button
     public void ScoreboardButton()
     {
         StartCoroutine(LoadScoreboardData());
     }
 
-    //Function for the save button
-    // public void SaveDataButton()
-    // {   
-    //     AudioManager.Instance.PlaySFX(cfmClickSFX);
-    //     StartCoroutine(UpdateStars(1,1,1,0));
-    //     StartCoroutine(UpdateUsernameAuth(usernameField.text));
-    //     StartCoroutine(UpdateUsernameDatabase(usernameField.text));
-    //     StartCoroutine(UpdateKills(int.Parse(killsField.text)));
-    // }
-
-    //Function for the scoreboard button
-    // public void ScoreboardButton()
-    // {        
-    //     StartCoroutine(LoadScoreboardData());
-    // }
-
+    // Function for logging in an account using firebase authentication
     private IEnumerator Login(string _email, string _password)
     {
         //Call the Firebase auth signin function passing the email and password
@@ -239,41 +240,24 @@ public class FirebaseManager : MonoBehaviour
         }
     }
 
+    // Function to register a student account and store it in firebase realtime database
     private IEnumerator Register(string _email, string _password, string _username)
     {
-        var DBTask = DBreference.Child("users").GetValueAsync(); // add
-        yield return new WaitUntil(predicate: () => DBTask.IsCompleted); // add
-        bool exist = false; // add
-        // if (_username == "")
-        // {
-        //     //If the username field is blank show a warning
-        //     warningRegisterText.text = "Missing Username";
-        // }
-        // else if(_email == ""){
-        //     warningRegisterText.text = "Missing Email";
-        // }
-        // else if(CheckPassword(_password) == false){
-        //     warningRegisterText.text = "Password Requires >=6 Characters With Lowercase Letter, Uppercase Letter And Digit!";
-        // }
-        // else if(passwordRegisterField.text != passwordRegisterVerifyField.text)
-        // {
-        //     //If the password does not match show a warning
-        //     warningRegisterText.text = "Password Does Not Match!";
-        // }
-        if (CheckInput(_email, _password, _username) == true) 
-        {
+        var DBTask = DBreference.Child("users").GetValueAsync(); 
+        yield return new WaitUntil(predicate: () => DBTask.IsCompleted); 
+        bool exist = false; 
              //Data has been retrieved
-            DataSnapshot snapshot = DBTask.Result;// add
+            DataSnapshot snapshot = DBTask.Result;
             //Loop through every users UID
-            foreach (DataSnapshot childSnapshot in snapshot.Children) // add to
+            foreach (DataSnapshot childSnapshot in snapshot.Children) 
             {
                 string existing_user = childSnapshot.Child("username").Value.ToString(); 
                 if (existing_user == _username){
-                    warningRegisterText.text = "Username Taken! Please Choose Another Username!";
+                    warningRegisterText.text = "Username Taken! Please Choose Another Username!"; // Check if username is already taken
                     exist = true;
                 }
             }
-            if(exist == false) // here
+            if(exist == false) // If username does not exist, create an account with the username
             {
                 //Call the Firebase auth signin function passing the email and password
                 var RegisterTask = auth.CreateUserWithEmailAndPasswordAsync(_email, _password);
@@ -290,15 +274,6 @@ public class FirebaseManager : MonoBehaviour
                     string message = "Register Failed!";
                     switch (errorCode)
                     {
-                        // case AuthError.MissingEmail:
-                        //     message = "Missing Email";
-                        //     break;
-                        // case AuthError.MissingPassword:
-                        //     message = "Missing Password";
-                        //     break;
-                        // case AuthError.WeakPassword:
-                        //     message = "Weak Password";
-                        //     break;
                         case AuthError.EmailAlreadyInUse:
                             message = "Email Already In Use";
                             break;
@@ -320,8 +295,7 @@ public class FirebaseManager : MonoBehaviour
                         var ProfileTask = User.UpdateUserProfileAsync(profile);
                         //Wait until the task completes
                         yield return new WaitUntil(predicate: () => ProfileTask.IsCompleted);
-                        // StartCoroutine(UpdateInnerStars(0));
-                        InitialisePlayerProfile();
+                        InitialisePlayerProfile(); // Initialise all the game data required for the account
                         StartCoroutine(UpdateUsernameDatabase(_username));
                         if (ProfileTask.Exception != null)
                         {
@@ -343,26 +317,12 @@ public class FirebaseManager : MonoBehaviour
                         }
                     }
                 }
-            }
         }
     }
 
+    // Function to register for a teacher account and store it in firebase realtime database
     private IEnumerator TeacherRegister(string _email, string _password, string _username)
     {
-        // if (_username == "")
-        // {
-        //     //If the username field is blank show a warning
-        //     warningRegisterText.text = "Missing Username";
-        // }
-        // else if (passwordRegisterField.text != passwordRegisterVerifyField.text)
-        // {
-        //     //If the password does not match show a warning
-        //     warningRegisterText.text = "Password Does Not Match!";
-        // }
-        
-        if (CheckInput(_email, _password, _username) == true) 
-        {
-            //Call the Firebase auth signin function passing the email and password
             var RegisterTask = auth.CreateUserWithEmailAndPasswordAsync(_email, _password);
             //Wait until the task completes
             yield return new WaitUntil(predicate: () => RegisterTask.IsCompleted);
@@ -377,15 +337,6 @@ public class FirebaseManager : MonoBehaviour
                 string message = "Register Failed!";
                 switch (errorCode)
                 {
-                    // case AuthError.MissingEmail:
-                    //     message = "Missing Email";
-                    //     break;
-                    // case AuthError.MissingPassword:
-                    //     message = "Missing Password";
-                    //     break;
-                    // case AuthError.WeakPassword:
-                    //     message = "Weak Password";
-                    //     break;
                     case AuthError.EmailAlreadyInUse:
                         message = "Email Already In Use";
                         break;
@@ -407,7 +358,6 @@ public class FirebaseManager : MonoBehaviour
                     var ProfileTask = User.UpdateUserProfileAsync(profile);
                     //Wait until the task completes
                     yield return new WaitUntil(predicate: () => ProfileTask.IsCompleted);
-                    // StartCoroutine(UpdateInnerStars(0));
                     StartCoroutine(UpdateTeacherUsernameDatabase(_email));
                     if (ProfileTask.Exception != null)
                     {
@@ -428,21 +378,21 @@ public class FirebaseManager : MonoBehaviour
                         ClearLoginFeilds();
                     }
                 }
-            }
         }
     }
 
+    // Function to check password to consist of uppercase letter, lowercase letter and number
     public bool CheckPassword(string password){
-        if (password.Any(char.IsLetter) && password.Any(char.IsDigit) && password.Any(char.IsUpper) && password.Length>=6){
+        if (password.Any(char.IsLetter) && password.Any(char.IsDigit) && password.Any(char.IsUpper)){
             return true;
             Debug.Log("pass");
         }
         else{
-            // warningRegisterText.text = "Password requires at least 1 uppercase letter, lowercase letter and a digit!";
             return false;
         }
     }
 
+    // Function to check for invalid inputs during registration
     public bool CheckInput(string _email, string _password, string _username){
         bool pass = false;
         if (_username == "")
@@ -453,8 +403,12 @@ public class FirebaseManager : MonoBehaviour
         else if(_email == ""){
             warningRegisterText.text = "Missing Email";
         }
+
+        else if (_password.Length<6){
+            warningRegisterText.text = "Password Must Contain At Least 6 Characters";
+        }
         else if(CheckPassword(_password)==false){
-            warningRegisterText.text = "Password Requires >=6 Characters With Lowercase Letter, Uppercase Letter And Digit!";
+            warningRegisterText.text = "Password Must Contain A Lowercase Letter, Uppercase Letter And Number!";
         }
         else if(passwordRegisterField.text != passwordRegisterVerifyField.text)
         {
@@ -467,6 +421,7 @@ public class FirebaseManager : MonoBehaviour
         return pass;
     }
 
+    // Function to display the Unique Pin text field when the teacher checkbox is checked
     public void ToggleTeacher()
     {
         if (register_toggle.isOn)
@@ -476,10 +431,10 @@ public class FirebaseManager : MonoBehaviour
         else
         {
             UniquePin.gameObject.SetActive(false);
-
         }
     }
 
+    // Function to update the stars of a specific world and section of a player
     private IEnumerator UpdateStars(int starsworld, int starssection, int starslevel, int input)
     {   
         string starworld = starsworld.ToString();
@@ -492,16 +447,9 @@ public class FirebaseManager : MonoBehaviour
         {
             Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
         }
-        else
-        {
-            //Kills are now updated
-        }
     }
 
-    public void UniversalUpdateStars(int starsworld, int starssection, int starlevel, int input){
-        StartCoroutine(UpdateStars(starsworld,starssection, starlevel, input));
-    }
-
+    // Function to update the battlestats of a specific world and section of a player
     private IEnumerator UpdateBattleStats(int starsworld,int section, int input)
     {   
         string starsection = section.ToString();
@@ -513,17 +461,15 @@ public class FirebaseManager : MonoBehaviour
         {
             Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
         }
-        else
-        {
-            //Kills are now updated
-        }
     }
 
+    // Function to load player stars information
     public void initialisePlayerPrefStars() 
     {
         StartCoroutine(loadPlayerPrefStars());
     }
 
+    // Function to load player stars information
     private IEnumerator loadPlayerPrefStars() 
     {
         Debug.Log("reached here at load before");
@@ -587,7 +533,6 @@ public class FirebaseManager : MonoBehaviour
                                 totalStarsSection += value;
                                 PlayerPrefs.SetInt($"{level+20}", value);
                             }
-                            //PlayerPrefs.SetInt($"{world}.{section}", totalStarsSection);
                         }
                         if (world == 3) {
                             if (section == 1) {
@@ -619,15 +564,11 @@ public class FirebaseManager : MonoBehaviour
                 }
             }
         }
-        //levelLoader.LoadCharSel();
     }
-    // for (int i = 0; i<snapshot.ChildrenCount; i++) {
-    //             int value = int.Parse(snapshot.Child($"{i+1}").Value.ToString());
-    //             Debug.Log($"{value}");
-    //         }
 
+    // Function to initialise player's number of stars and battlestats in each world and section when the account is created
     private void InitialisePlayerProfile()
-    {   
+    {   // Register battlestats
         StartCoroutine(UpdateTotalPoints());
         StartCoroutine(UpdateBattleStats(1,1,0));
         StartCoroutine(UpdateBattleStats(1,2,0));
@@ -639,7 +580,7 @@ public class FirebaseManager : MonoBehaviour
         StartCoroutine(UpdateBattleStats(3,2,0));
         StartCoroutine(UpdateBattleStats(3,3,0));
 
-        //register stars
+        // Register stars
         StartCoroutine(UpdateStars(1,1,1,0));
         StartCoroutine(UpdateStars(1,1,2,0));
         StartCoroutine(UpdateStars(1,1,3,0));
@@ -686,6 +627,7 @@ public class FirebaseManager : MonoBehaviour
         StartCoroutine(UpdateStars(3,3,36,0));
     }
 
+    // Function to update player's username for authenthication
     private IEnumerator UpdateUsernameAuth(string _username)
     {
         //Create a user profile and set the username
@@ -699,13 +641,10 @@ public class FirebaseManager : MonoBehaviour
         if (ProfileTask.Exception != null)
         {
             Debug.LogWarning(message: $"Failed to register task with {ProfileTask.Exception}");
-        }
-        else
-        {
-            //Auth username is now updated
-        }        
+        }      
     }
 
+    // Function to update player's username
     private IEnumerator UpdateUsernameDatabase(string _username)
     {
         //Set the currently logged in user username in the database
@@ -717,12 +656,9 @@ public class FirebaseManager : MonoBehaviour
         {
             Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
         }
-        else
-        {
-            //Database username is now updated
-        }
     }
     
+    // Function to update stars to firebase realtime database
     public void UpdateStarsToDb() 
     {
         StartCoroutine(UpdateStars(1,1,1,PlayerPrefs.GetInt("1")));
@@ -771,24 +707,7 @@ public class FirebaseManager : MonoBehaviour
         StartCoroutine(UpdateStars(3,3,36,PlayerPrefs.GetInt("36")));
     }
 
-
-    private IEnumerator UpdateKills(int _kills)
-    {
-        //Set the currently logged in user kills
-        var DBTask = DBreference.Child("users").Child(User.UserId).Child("kills").SetValueAsync(_kills);
-
-        yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
-
-        if (DBTask.Exception != null)
-        {
-            Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
-        }
-        else
-        {
-            // Kills are now updated
-        }
-    }
-
+    // Function to update total points of player
     private IEnumerator UpdateTotalPoints()
     {
         var DBTask = DBreference.Child("users").Child(User.UserId).Child("TotalPoints").SetValueAsync(0);
@@ -805,6 +724,7 @@ public class FirebaseManager : MonoBehaviour
         }
     }
     
+    // Function to load the required data after logging in
     private IEnumerator LoadWorldSectionData()
     {
         int rank = 0;
@@ -874,6 +794,7 @@ public class FirebaseManager : MonoBehaviour
         }
     }
 
+    // Function to load scoreboard data
     private IEnumerator LoadScoreboardData()
     {
         int rank = 0;
@@ -944,16 +865,19 @@ public class FirebaseManager : MonoBehaviour
         }
     }
 
+    // Function to display star points of a player
     public void displayStarsPoints()
     {
         StartCoroutine(loadSelectedStarsPoints(usernameTitle.text));
     }
 
+    // Fuction to load main menu
     public void viewProfile()
     {
         StartCoroutine(loadMainMenu());
     }
 
+    // Function to load main menu
     private IEnumerator loadMainMenu()
     {
         //get the currently logged in user data
@@ -1053,6 +977,7 @@ public class FirebaseManager : MonoBehaviour
         userDataUI.SetActive(true);
     }
 
+    // Function to display star points of a selected world and section of a player
     private IEnumerator loadSelectedStarsPoints(string _username)
     {
         //get the currently logged in user data
@@ -1202,16 +1127,19 @@ public class FirebaseManager : MonoBehaviour
         }
     }
 
+    // Function to load the data required
     public void displayWorldSectionData()
     {
         StartCoroutine(LoadWorldSectionData());
     }
 
-     public void displayTotalPoints()
+    // Function to display total points of a player
+    public void displayTotalPoints()
     {
         StartCoroutine(LoadScoreboardData());
     }
 
+    // Function to update teacher username to the firebase realtime database
     private IEnumerator UpdateTeacherUsernameDatabase(string _username)
     {
         //Set the currently logged in user username in the database
@@ -1229,10 +1157,9 @@ public class FirebaseManager : MonoBehaviour
         }
     }
 
-
+    // Function to check if the account type(teacher/student) and then transit to their respective UI
     private IEnumerator CheckTeacher(string _username)
     {
-        //Get all the users data ordered by kills amount
         var DBTask1 = DBreference.Child("teachers").GetValueAsync();
 
         yield return new WaitUntil(predicate: () => DBTask1.IsCompleted);
@@ -1270,6 +1197,10 @@ public class FirebaseManager : MonoBehaviour
             //Go to data screen
             if (teacher == false)
             {
+                loginUI.SetActive(false);
+                //UIManager.instance.EnterGame();
+                EnterGameButton();
+                /*
                 //get the currently logged in user data
                 var DBtask = DBreference.Child("users").Child(User.UserId).GetValueAsync();
 
@@ -1365,6 +1296,7 @@ public class FirebaseManager : MonoBehaviour
                 }
                 loginUI.SetActive(false);
                 userDataUI.SetActive(true);
+            }*/
             }
         }
     }
