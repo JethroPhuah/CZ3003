@@ -1,0 +1,1101 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1619158172124,2171,Quora ,200,OK,Thread Group 1-16,text,true,,160000,377,20,20,https://softwaremon.quora.com/,12,0,7
+1619158172124,12,Quora -0,301,Moved Permanently,Thread Group 1-16,,true,,328,127,20,20,http://www.softwaremon.quora.com/,12,0,7
+1619158172137,1040,Quora -1,301,Moved Permanently,Thread Group 1-16,,true,,633,127,20,20,https://www.softwaremon.quora.com/,1040,0,767
+1619158173179,1116,Quora -2,200,OK,Thread Group 1-16,text,true,,159039,123,20,20,https://softwaremon.quora.com/,700,0,59
+1619158172273,2155,Quora ,200,OK,Thread Group 1-19,text,true,,159998,377,20,20,https://softwaremon.quora.com/,19,0,8
+1619158172273,19,Quora -0,301,Moved Permanently,Thread Group 1-19,,true,,328,127,20,20,http://www.softwaremon.quora.com/,19,0,8
+1619158172293,883,Quora -1,301,Moved Permanently,Thread Group 1-19,,true,,631,127,20,20,https://www.softwaremon.quora.com/,883,0,575
+1619158173178,1250,Quora -2,200,OK,Thread Group 1-19,text,true,,159039,123,20,20,https://softwaremon.quora.com/,893,0,80
+1619158171923,2571,Quora ,200,OK,Thread Group 1-12,text,true,,160032,377,20,20,https://softwaremon.quora.com/,10,0,4
+1619158171923,10,Quora -0,301,Moved Permanently,Thread Group 1-12,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,4
+1619158171935,1239,Quora -1,301,Moved Permanently,Thread Group 1-12,,true,,633,127,20,20,https://www.softwaremon.quora.com/,1239,0,936
+1619158173178,1316,Quora -2,200,OK,Thread Group 1-12,text,true,,159071,123,20,20,https://softwaremon.quora.com/,884,0,61
+1619158171629,2907,Quora ,200,OK,Thread Group 1-6,text,true,,159998,377,20,20,https://softwaremon.quora.com/,101,0,82
+1619158171629,105,Quora -0,301,Moved Permanently,Thread Group 1-6,,true,,328,127,20,20,http://www.softwaremon.quora.com/,101,0,82
+1619158171741,1426,Quora -1,301,Moved Permanently,Thread Group 1-6,,true,,631,127,20,20,https://www.softwaremon.quora.com/,1426,0,1118
+1619158173175,1361,Quora -2,200,OK,Thread Group 1-6,text,true,,159039,123,20,20,https://softwaremon.quora.com/,881,0,89
+1619158172324,2261,Quora ,200,OK,Thread Group 1-20,text,true,,160000,377,20,20,https://softwaremon.quora.com/,10,0,5
+1619158172324,10,Quora -0,301,Moved Permanently,Thread Group 1-20,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,5
+1619158172336,832,Quora -1,301,Moved Permanently,Thread Group 1-20,,true,,632,127,20,20,https://www.softwaremon.quora.com/,832,0,539
+1619158173171,1414,Quora -2,200,OK,Thread Group 1-20,text,true,,159040,123,20,20,https://softwaremon.quora.com/,885,0,90
+1619158172223,2365,Quora ,200,OK,Thread Group 1-18,text,true,,160000,377,20,20,https://softwaremon.quora.com/,12,0,7
+1619158171628,2960,Quora ,200,OK,Thread Group 1-3,text,true,,160025,377,20,20,https://softwaremon.quora.com/,101,0,84
+1619158172223,12,Quora -0,301,Moved Permanently,Thread Group 1-18,,true,,328,127,20,20,http://www.softwaremon.quora.com/,12,0,7
+1619158171628,105,Quora -0,301,Moved Permanently,Thread Group 1-3,,true,,328,127,20,20,http://www.softwaremon.quora.com/,101,0,84
+1619158172237,941,Quora -1,301,Moved Permanently,Thread Group 1-18,,true,,647,127,20,20,https://www.softwaremon.quora.com/,941,0,619
+1619158171741,1426,Quora -1,301,Moved Permanently,Thread Group 1-3,,true,,632,127,20,20,https://www.softwaremon.quora.com/,1426,0,1140
+1619158173179,1409,Quora -2,200,OK,Thread Group 1-18,text,true,,159025,123,20,20,https://softwaremon.quora.com/,890,0,79
+1619158173172,1416,Quora -2,200,OK,Thread Group 1-3,text,true,,159065,123,20,20,https://softwaremon.quora.com/,882,0,86
+1619158171676,3092,Quora ,200,OK,Thread Group 1-7,text,true,,160029,377,20,20,https://softwaremon.quora.com/,54,0,37
+1619158171676,58,Quora -0,301,Moved Permanently,Thread Group 1-7,,true,,328,127,20,20,http://www.softwaremon.quora.com/,54,0,37
+1619158171741,1434,Quora -1,301,Moved Permanently,Thread Group 1-7,,true,,630,127,20,20,https://www.softwaremon.quora.com/,1434,0,1157
+1619158173176,1592,Quora -2,200,OK,Thread Group 1-7,text,true,,159071,123,20,20,https://softwaremon.quora.com/,870,0,83
+1619158171723,3090,Quora ,200,OK,Thread Group 1-8,text,true,,159995,377,20,20,https://softwaremon.quora.com/,12,0,6
+1619158171723,12,Quora -0,301,Moved Permanently,Thread Group 1-8,,true,,328,127,20,20,http://www.softwaremon.quora.com/,12,0,6
+1619158171741,1437,Quora -1,301,Moved Permanently,Thread Group 1-8,,true,,631,127,20,20,https://www.softwaremon.quora.com/,1437,0,1152
+1619158173180,1633,Quora -2,200,OK,Thread Group 1-8,text,true,,159036,123,20,20,https://softwaremon.quora.com/,1369,0,132
+1619158171974,2858,Quora ,200,OK,Thread Group 1-13,text,true,,159960,377,20,20,https://softwaremon.quora.com/,9,0,4
+1619158171974,9,Quora -0,301,Moved Permanently,Thread Group 1-13,,true,,328,127,20,20,http://www.softwaremon.quora.com/,9,0,4
+1619158171985,1186,Quora -1,301,Moved Permanently,Thread Group 1-13,,true,,631,127,20,20,https://www.softwaremon.quora.com/,1186,0,873
+1619158173175,1657,Quora -2,200,OK,Thread Group 1-13,text,true,,159001,123,20,20,https://softwaremon.quora.com/,1147,0,69
+1619158171628,3238,Quora ,200,OK,Thread Group 1-1,text,true,,159999,377,20,20,https://softwaremon.quora.com/,101,0,84
+1619158171628,105,Quora -0,301,Moved Permanently,Thread Group 1-1,,true,,328,127,20,20,http://www.softwaremon.quora.com/,101,0,84
+1619158171741,1430,Quora -1,301,Moved Permanently,Thread Group 1-1,,true,,632,127,20,20,https://www.softwaremon.quora.com/,1430,0,1069
+1619158173172,1694,Quora -2,200,OK,Thread Group 1-1,text,true,,159039,123,20,20,https://softwaremon.quora.com/,959,0,66
+1619158174312,616,Facebook,200,OK,Thread Group 1-16,text,true,,192449,236,20,20,https://www.facebook.com/,222,0,22
+1619158174312,222,Facebook-0,301,Moved Permanently,Thread Group 1-16,text,true,,349,118,20,20,http://www.facebook.com/,222,0,22
+1619158174536,392,Facebook-1,200,OK,Thread Group 1-16,text,true,,192100,118,20,20,https://www.facebook.com/,359,0,78
+1619158171629,3418,Quora ,200,OK,Thread Group 1-4,text,true,,159945,377,20,20,https://softwaremon.quora.com/,101,0,84
+1619158171629,105,Quora -0,301,Moved Permanently,Thread Group 1-4,,true,,328,127,20,20,http://www.softwaremon.quora.com/,101,0,84
+1619158171741,1428,Quora -1,301,Moved Permanently,Thread Group 1-4,,true,,631,127,20,20,https://www.softwaremon.quora.com/,1428,0,1131
+1619158173176,1871,Quora -2,200,OK,Thread Group 1-4,text,true,,158986,123,20,20,https://softwaremon.quora.com/,1359,0,94
+1619158174431,620,Facebook,200,OK,Thread Group 1-19,text,true,,192456,236,20,20,https://www.facebook.com/,239,0,40
+1619158174431,239,Facebook-0,301,Moved Permanently,Thread Group 1-19,text,true,,349,118,20,20,http://www.facebook.com/,239,0,40
+1619158174672,379,Facebook-1,200,OK,Thread Group 1-19,text,true,,192107,118,20,20,https://www.facebook.com/,304,0,38
+1619158172024,3041,Quora ,200,OK,Thread Group 1-14,text,true,,159973,377,20,20,https://softwaremon.quora.com/,10,0,4
+1619158172024,10,Quora -0,301,Moved Permanently,Thread Group 1-14,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,4
+1619158172037,1347,Quora -1,301,Moved Permanently,Thread Group 1-14,,true,,633,127,20,20,https://www.softwaremon.quora.com/,1347,0,826
+1619158173386,1679,Quora -2,200,OK,Thread Group 1-14,text,true,,159012,123,20,20,https://softwaremon.quora.com/,1149,0,26
+1619158171873,3193,Quora ,200,OK,Thread Group 1-11,text,true,,159986,377,20,20,https://softwaremon.quora.com/,10,0,5
+1619158171873,10,Quora -0,301,Moved Permanently,Thread Group 1-11,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,5
+1619158171885,1282,Quora -1,301,Moved Permanently,Thread Group 1-11,,true,,633,127,20,20,https://www.softwaremon.quora.com/,1282,0,1017
+1619158173169,1897,Quora -2,200,OK,Thread Group 1-11,text,true,,159025,123,20,20,https://softwaremon.quora.com/,1399,0,98
+1619158171629,3549,Quora ,200,OK,Thread Group 1-5,text,true,,159980,377,20,20,https://softwaremon.quora.com/,101,0,82
+1619158171629,105,Quora -0,301,Moved Permanently,Thread Group 1-5,,true,,328,127,20,20,http://www.softwaremon.quora.com/,101,0,82
+1619158174538,641,Facebook,200,OK,Thread Group 1-6,text,true,,192456,236,20,20,https://www.facebook.com/,258,0,29
+1619158171741,1629,Quora -1,301,Moved Permanently,Thread Group 1-5,,true,,633,127,20,20,https://www.softwaremon.quora.com/,1629,0,1151
+1619158173371,1807,Quora -2,200,OK,Thread Group 1-5,text,true,,159019,123,20,20,https://softwaremon.quora.com/,1138,0,28
+1619158174538,258,Facebook-0,301,Moved Permanently,Thread Group 1-6,text,true,,349,118,20,20,http://www.facebook.com/,258,0,29
+1619158174797,382,Facebook-1,200,OK,Thread Group 1-6,text,true,,192107,118,20,20,https://www.facebook.com/,327,0,57
+1619158171628,3588,Quora ,200,OK,Thread Group 1-2,text,true,,159980,377,20,20,https://softwaremon.quora.com/,101,0,84
+1619158171628,105,Quora -0,301,Moved Permanently,Thread Group 1-2,,true,,328,127,20,20,http://www.softwaremon.quora.com/,101,0,84
+1619158171741,1438,Quora -1,301,Moved Permanently,Thread Group 1-2,,true,,633,127,20,20,https://www.softwaremon.quora.com/,1438,0,1154
+1619158173181,2035,Quora -2,200,OK,Thread Group 1-2,text,true,,159019,123,20,20,https://softwaremon.quora.com/,1563,0,97
+1619158174587,637,Facebook,200,OK,Thread Group 1-20,text,true,,192472,236,20,20,https://www.facebook.com/,236,0,10
+1619158174587,236,Facebook-0,301,Moved Permanently,Thread Group 1-20,text,true,,366,118,20,20,http://www.facebook.com/,236,0,10
+1619158174827,397,Facebook-1,200,OK,Thread Group 1-20,text,true,,192106,118,20,20,https://www.facebook.com/,328,0,43
+1619158174590,649,Facebook,200,OK,Thread Group 1-18,text,true,,192476,236,20,20,https://www.facebook.com/,233,0,7
+1619158174590,233,Facebook-0,301,Moved Permanently,Thread Group 1-18,text,true,,366,118,20,20,http://www.facebook.com/,233,0,7
+1619158174825,414,Facebook-1,200,OK,Thread Group 1-18,text,true,,192110,118,20,20,https://www.facebook.com/,328,0,36
+1619158174590,677,Facebook,200,OK,Thread Group 1-3,text,true,,192458,236,20,20,https://www.facebook.com/,232,0,7
+1619158171823,3445,Quora ,200,OK,Thread Group 1-10,text,true,,160021,377,20,20,https://softwaremon.quora.com/,10,0,5
+1619158174590,232,Facebook-0,301,Moved Permanently,Thread Group 1-3,text,true,,349,118,20,20,http://www.facebook.com/,232,0,7
+1619158174825,442,Facebook-1,200,OK,Thread Group 1-3,text,true,,192109,118,20,20,https://www.facebook.com/,353,0,51
+1619158171823,10,Quora -0,301,Moved Permanently,Thread Group 1-10,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,5
+1619158171835,1345,Quora -1,301,Moved Permanently,Thread Group 1-10,,true,,632,127,20,20,https://www.softwaremon.quora.com/,1345,0,1061
+1619158173181,2087,Quora -2,200,OK,Thread Group 1-10,text,true,,159061,123,20,20,https://softwaremon.quora.com/,1605,0,97
+1619158172074,3219,Quora ,200,OK,Thread Group 1-15,text,true,,159954,377,20,20,https://softwaremon.quora.com/,14,0,6
+1619158172074,14,Quora -0,301,Moved Permanently,Thread Group 1-15,,true,,328,127,20,20,http://www.softwaremon.quora.com/,14,0,6
+1619158172090,1078,Quora -1,301,Moved Permanently,Thread Group 1-15,,true,,632,127,20,20,https://www.softwaremon.quora.com/,1078,0,787
+1619158173169,2124,Quora -2,200,OK,Thread Group 1-15,text,true,,158994,123,20,20,https://softwaremon.quora.com/,1612,0,113
+1619158172174,3120,Quora ,200,OK,Thread Group 1-17,text,true,,159969,377,20,20,https://softwaremon.quora.com/,10,0,5
+1619158172174,10,Quora -0,301,Moved Permanently,Thread Group 1-17,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,5
+1619158172186,981,Quora -1,301,Moved Permanently,Thread Group 1-17,,true,,632,127,20,20,https://www.softwaremon.quora.com/,981,0,657
+1619158173172,2122,Quora -2,200,OK,Thread Group 1-17,text,true,,159009,123,20,20,https://softwaremon.quora.com/,879,0,82
+1619158174496,887,Facebook,200,OK,Thread Group 1-12,text,true,,192477,236,20,20,https://www.facebook.com/,215,0,5
+1619158174496,215,Facebook-0,301,Moved Permanently,Thread Group 1-12,text,true,,366,118,20,20,http://www.facebook.com/,215,0,5
+1619158174713,670,Facebook-1,200,OK,Thread Group 1-12,text,true,,192111,118,20,20,https://www.facebook.com/,635,0,39
+1619158174835,568,Facebook,200,OK,Thread Group 1-13,text,true,,192470,236,20,20,https://www.facebook.com/,230,0,7
+1619158174835,230,Facebook-0,301,Moved Permanently,Thread Group 1-13,text,true,,366,118,20,20,http://www.facebook.com/,230,0,7
+1619158175067,336,Facebook-1,200,OK,Thread Group 1-13,text,true,,192104,118,20,20,https://www.facebook.com/,292,0,25
+1619158174815,617,Facebook,200,OK,Thread Group 1-8,text,true,,192459,236,20,20,https://www.facebook.com/,250,0,13
+1619158174815,250,Facebook-0,301,Moved Permanently,Thread Group 1-8,text,true,,349,118,20,20,http://www.facebook.com/,250,0,13
+1619158175067,365,Facebook-1,200,OK,Thread Group 1-8,text,true,,192110,118,20,20,https://www.facebook.com/,308,0,36
+1619158174772,695,Facebook,200,OK,Thread Group 1-7,text,true,,192456,236,20,20,https://www.facebook.com/,259,0,42
+1619158174772,259,Facebook-0,301,Moved Permanently,Thread Group 1-7,text,true,,349,118,20,20,http://www.facebook.com/,259,0,42
+1619158175033,434,Facebook-1,200,OK,Thread Group 1-7,text,true,,192107,118,20,20,https://www.facebook.com/,350,0,70
+1619158174869,614,Facebook,200,OK,Thread Group 1-1,text,true,,192475,236,20,20,https://www.facebook.com/,209,0,9
+1619158174869,209,Facebook-0,301,Moved Permanently,Thread Group 1-1,text,true,,366,118,20,20,http://www.facebook.com/,209,0,9
+1619158175080,403,Facebook-1,200,OK,Thread Group 1-1,text,true,,192109,118,20,20,https://www.facebook.com/,316,0,39
+1619158175069,577,Facebook,200,OK,Thread Group 1-11,text,true,,192466,236,20,20,https://www.facebook.com/,218,0,9
+1619158175067,579,Facebook,200,OK,Thread Group 1-14,text,true,,192478,236,20,20,https://www.facebook.com/,222,0,11
+1619158175069,218,Facebook-0,301,Moved Permanently,Thread Group 1-11,text,true,,366,118,20,20,http://www.facebook.com/,218,0,9
+1619158175067,222,Facebook-0,301,Moved Permanently,Thread Group 1-14,text,true,,366,118,20,20,http://www.facebook.com/,222,0,11
+1619158175288,358,Facebook-1,200,OK,Thread Group 1-11,text,true,,192100,118,20,20,https://www.facebook.com/,312,0,42
+1619158175291,355,Facebook-1,200,OK,Thread Group 1-14,text,true,,192112,118,20,20,https://www.facebook.com/,311,0,32
+1619158175050,617,Facebook,200,OK,Thread Group 1-4,text,true,,192469,236,20,20,https://www.facebook.com/,237,0,15
+1619158175050,237,Facebook-0,301,Moved Permanently,Thread Group 1-4,text,true,,366,118,20,20,http://www.facebook.com/,237,0,15
+1619158175288,379,Facebook-1,200,OK,Thread Group 1-4,text,true,,192103,118,20,20,https://www.facebook.com/,328,0,34
+1619158174931,754,Twitter,200,OK,Thread Group 1-16,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,193,0,12
+1619158174931,193,Twitter-0,301,Moved Permanently,Thread Group 1-16,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,193,0,12
+1619158175126,236,Twitter-1,301,Moved Permanently,Thread Group 1-16,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,236,0,59
+1619158175365,320,Twitter-2,200,OK,Thread Group 1-16,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,298,0,80
+1619158171772,3968,Quora ,200,OK,Thread Group 1-9,text,true,,159984,377,20,20,https://softwaremon.quora.com/,11,0,6
+1619158171772,11,Quora -0,301,Moved Permanently,Thread Group 1-9,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,6
+1619158171784,2135,Quora -1,301,Moved Permanently,Thread Group 1-9,,true,,632,127,20,20,https://www.softwaremon.quora.com/,2135,0,1029
+1619158173921,1819,Quora -2,200,OK,Thread Group 1-9,text,true,,159024,123,20,20,https://softwaremon.quora.com/,1359,0,32
+1619158175053,778,Twitter,200,OK,Thread Group 1-19,text,true,,68118,383,20,20,https://twitter.com/intent/tweet,226,0,12
+1619158175053,226,Twitter-0,301,Moved Permanently,Thread Group 1-19,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,226,0,12
+1619158175281,253,Twitter-1,301,Moved Permanently,Thread Group 1-19,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,253,0,56
+1619158175537,294,Twitter-2,200,OK,Thread Group 1-19,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,264,0,49
+1619158175218,627,Facebook,200,OK,Thread Group 1-2,text,true,,192456,236,20,20,https://www.facebook.com/,229,0,21
+1619158175218,229,Facebook-0,301,Moved Permanently,Thread Group 1-2,text,true,,349,118,20,20,http://www.facebook.com/,229,0,21
+1619158175449,396,Facebook-1,200,OK,Thread Group 1-2,text,true,,192107,118,20,20,https://www.facebook.com/,350,0,76
+1619158175269,623,Facebook,200,OK,Thread Group 1-10,text,true,,192466,236,20,20,https://www.facebook.com/,222,0,17
+1619158175269,222,Facebook-0,301,Moved Permanently,Thread Group 1-10,text,true,,366,118,20,20,http://www.facebook.com/,222,0,17
+1619158175494,398,Facebook-1,200,OK,Thread Group 1-10,text,true,,192100,118,20,20,https://www.facebook.com/,337,0,66
+1619158175296,612,Facebook,200,OK,Thread Group 1-17,text,true,,192450,236,20,20,https://www.facebook.com/,218,0,15
+1619158175296,612,Facebook,200,OK,Thread Group 1-15,text,true,,192461,236,20,20,https://www.facebook.com/,216,0,15
+1619158175296,218,Facebook-0,301,Moved Permanently,Thread Group 1-17,text,true,,349,118,20,20,http://www.facebook.com/,218,0,15
+1619158175516,392,Facebook-1,200,OK,Thread Group 1-17,text,true,,192101,118,20,20,https://www.facebook.com/,320,0,55
+1619158175296,216,Facebook-0,301,Moved Permanently,Thread Group 1-15,text,true,,366,118,20,20,http://www.facebook.com/,216,0,15
+1619158175513,395,Facebook-1,200,OK,Thread Group 1-15,text,true,,192095,118,20,20,https://www.facebook.com/,323,0,47
+1619158175181,747,Twitter,200,OK,Thread Group 1-6,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,197,0,15
+1619158175181,197,Twitter-0,301,Moved Permanently,Thread Group 1-6,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,197,0,15
+1619158175380,240,Twitter-1,301,Moved Permanently,Thread Group 1-6,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,240,0,65
+1619158175622,306,Twitter-2,200,OK,Thread Group 1-6,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,279,0,63
+1619158175181,784,Facebook,200,OK,Thread Group 1-5,text,true,,192474,236,20,20,https://www.facebook.com/,222,0,15
+1619158175181,222,Facebook-0,301,Moved Permanently,Thread Group 1-5,text,true,,349,118,20,20,http://www.facebook.com/,222,0,15
+1619158175405,560,Facebook-1,200,OK,Thread Group 1-5,text,true,,192125,118,20,20,https://www.facebook.com/,396,0,75
+1619158175269,719,Twitter,200,OK,Thread Group 1-3,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,215,0,17
+1619158175269,215,Twitter-0,301,Moved Permanently,Thread Group 1-3,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,215,0,17
+1619158175486,222,Twitter-1,301,Moved Permanently,Thread Group 1-3,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,222,0,50
+1619158175710,278,Twitter-2,200,OK,Thread Group 1-3,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,249,0,43
+1619158175241,802,Twitter,200,OK,Thread Group 1-18,text,true,,69009,383,20,20,https://twitter.com/intent/tweet,242,0,38
+1619158175241,242,Twitter-0,301,Moved Permanently,Thread Group 1-18,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,242,0,38
+1619158175485,255,Twitter-1,301,Moved Permanently,Thread Group 1-18,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,255,0,77
+1619158175742,301,Twitter-2,200,OK,Thread Group 1-18,text,true,,67753,125,20,20,https://twitter.com/intent/tweet,270,0,68
+1619158175385,732,Twitter,200,OK,Thread Group 1-12,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,199,0,17
+1619158175385,199,Twitter-0,301,Moved Permanently,Thread Group 1-12,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,199,0,17
+1619158175586,225,Twitter-1,301,Moved Permanently,Thread Group 1-12,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,225,0,45
+1619158175814,303,Twitter-2,200,OK,Thread Group 1-12,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,289,0,57
+1619158175469,706,Twitter,200,OK,Thread Group 1-7,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,195,0,16
+1619158175469,195,Twitter-0,301,Moved Permanently,Thread Group 1-7,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,195,0,16
+1619158175665,214,Twitter-1,301,Moved Permanently,Thread Group 1-7,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,214,0,37
+1619158175881,294,Twitter-2,200,OK,Thread Group 1-7,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,263,0,60
+1619158175435,743,Twitter,200,OK,Thread Group 1-8,text,true,,68294,383,20,20,https://twitter.com/intent/tweet,227,0,33
+1619158175435,227,Twitter-0,301,Moved Permanently,Thread Group 1-8,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,227,0,33
+1619158175664,223,Twitter-1,301,Moved Permanently,Thread Group 1-8,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,223,0,41
+1619158175889,289,Twitter-2,200,OK,Thread Group 1-8,text,true,,67052,125,20,20,https://twitter.com/intent/tweet,268,0,53
+1619158175486,696,Twitter,200,OK,Thread Group 1-1,text,true,,68117,383,20,20,https://twitter.com/intent/tweet,183,0,7
+1619158175486,183,Twitter-0,301,Moved Permanently,Thread Group 1-1,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,183,0,7
+1619158175671,227,Twitter-1,301,Moved Permanently,Thread Group 1-1,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,227,0,38
+1619158175901,281,Twitter-2,200,OK,Thread Group 1-1,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,256,0,49
+1619158175742,543,Facebook,200,OK,Thread Group 1-9,text,true,,192460,236,20,20,https://www.facebook.com/,212,0,11
+1619158175742,212,Facebook-0,301,Moved Permanently,Thread Group 1-9,text,true,,349,118,20,20,http://www.facebook.com/,212,0,11
+1619158175956,329,Facebook-1,200,OK,Thread Group 1-9,text,true,,192111,118,20,20,https://www.facebook.com/,301,0,30
+1619158175227,1062,Twitter,200,OK,Thread Group 1-20,text,true,,68482,383,20,20,https://twitter.com/intent/tweet,241,0,40
+1619158175227,241,Twitter-0,301,Moved Permanently,Thread Group 1-20,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,241,0,40
+1619158175469,238,Twitter-1,301,Moved Permanently,Thread Group 1-20,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,238,0,66
+1619158175709,580,Twitter-2,200,OK,Thread Group 1-20,text,true,,67240,125,20,20,https://twitter.com/intent/tweet,249,0,44
+1619158175648,778,Twitter,200,OK,Thread Group 1-14,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,188,0,15
+1619158175648,778,Twitter,200,OK,Thread Group 1-11,text,true,,68803,383,20,20,https://twitter.com/intent/tweet,189,0,15
+1619158175670,756,Twitter,200,OK,Thread Group 1-4,text,true,,68334,383,20,20,https://twitter.com/intent/tweet,201,0,8
+1619158175648,188,Twitter-0,301,Moved Permanently,Thread Group 1-14,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,188,0,15
+1619158175648,189,Twitter-0,301,Moved Permanently,Thread Group 1-11,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,189,0,15
+1619158175670,201,Twitter-0,301,Moved Permanently,Thread Group 1-4,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,201,0,8
+1619158175838,264,Twitter-1,301,Moved Permanently,Thread Group 1-14,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,264,0,79
+1619158175838,264,Twitter-1,301,Moved Permanently,Thread Group 1-11,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,264,0,78
+1619158175873,236,Twitter-1,301,Moved Permanently,Thread Group 1-4,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,236,0,65
+1619158176105,321,Twitter-2,200,OK,Thread Group 1-14,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,290,0,53
+1619158176104,322,Twitter-2,200,OK,Thread Group 1-11,text,true,,67547,125,20,20,https://twitter.com/intent/tweet,293,0,53
+1619158176111,315,Twitter-2,200,OK,Thread Group 1-4,text,true,,67092,125,20,20,https://twitter.com/intent/tweet,285,0,48
+1619158175405,1048,Twitter,200,OK,Thread Group 1-13,text,true,,68070,383,20,20,https://twitter.com/intent/tweet,192,0,19
+1619158175405,192,Twitter-0,301,Moved Permanently,Thread Group 1-13,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,192,0,19
+1619158175599,237,Twitter-1,301,Moved Permanently,Thread Group 1-13,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,237,0,63
+1619158175838,615,Twitter-2,200,OK,Thread Group 1-13,text,true,,66828,125,20,20,https://twitter.com/intent/tweet,288,0,79
+1619158175849,709,Twitter,200,OK,Thread Group 1-2,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,198,0,23
+1619158175849,198,Twitter-0,301,Moved Permanently,Thread Group 1-2,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,198,0,23
+1619158176048,232,Twitter-1,301,Moved Permanently,Thread Group 1-2,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,232,0,58
+1619158176281,277,Twitter-2,200,OK,Thread Group 1-2,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,248,0,35
+1619158175914,719,Twitter,200,OK,Thread Group 1-15,text,true,,68118,383,20,20,https://twitter.com/intent/tweet,189,0,14
+1619158175914,189,Twitter-0,301,Moved Permanently,Thread Group 1-15,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,189,0,14
+1619158176104,226,Twitter-1,301,Moved Permanently,Thread Group 1-15,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,226,0,55
+1619158176331,302,Twitter-2,200,OK,Thread Group 1-15,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,275,0,67
+1619158175895,748,Twitter,200,OK,Thread Group 1-10,text,true,,68308,383,20,20,https://twitter.com/intent/tweet,207,0,17
+1619158175895,207,Twitter-0,301,Moved Permanently,Thread Group 1-10,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,207,0,17
+1619158176104,221,Twitter-1,301,Moved Permanently,Thread Group 1-10,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,221,0,40
+1619158176326,317,Twitter-2,200,OK,Thread Group 1-10,text,true,,67052,125,20,20,https://twitter.com/intent/tweet,284,0,69
+1619158175686,1041,Quora ,200,OK,Thread Group 1-16,text,true,,159987,377,20,20,https://softwaremon.quora.com/,11,0,6
+1619158175686,11,Quora -0,301,Moved Permanently,Thread Group 1-16,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,6
+1619158175698,264,Quora -1,301,Moved Permanently,Thread Group 1-16,,true,,633,127,20,20,https://www.softwaremon.quora.com/,264,0,0
+1619158175962,765,Quora -2,200,OK,Thread Group 1-16,text,true,,159026,123,20,20,https://softwaremon.quora.com/,265,0,0
+1619158175967,766,Twitter,200,OK,Thread Group 1-5,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,191,0,6
+1619158175967,191,Twitter-0,301,Moved Permanently,Thread Group 1-5,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,191,0,6
+1619158176160,237,Twitter-1,301,Moved Permanently,Thread Group 1-5,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,237,0,36
+1619158176399,334,Twitter-2,200,OK,Thread Group 1-5,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,246,0,41
+1619158175832,1065,Quora ,200,OK,Thread Group 1-19,text,true,,159972,377,20,20,https://softwaremon.quora.com/,33,0,10
+1619158175832,33,Quora -0,301,Moved Permanently,Thread Group 1-19,,true,,328,127,20,20,http://www.softwaremon.quora.com/,33,0,10
+1619158175865,262,Quora -1,301,Moved Permanently,Thread Group 1-19,,true,,633,127,20,20,https://www.softwaremon.quora.com/,262,0,0
+1619158176128,769,Quora -2,200,OK,Thread Group 1-19,text,true,,159011,123,20,20,https://softwaremon.quora.com/,304,0,0
+1619158175910,1044,Twitter,200,OK,Thread Group 1-17,text,true,,68084,383,20,20,https://twitter.com/intent/tweet,192,0,18
+1619158175910,192,Twitter-0,301,Moved Permanently,Thread Group 1-17,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,192,0,18
+1619158176104,226,Twitter-1,301,Moved Permanently,Thread Group 1-17,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,226,0,54
+1619158176331,623,Twitter-2,200,OK,Thread Group 1-17,text,true,,66828,125,20,20,https://twitter.com/intent/tweet,275,0,65
+1619158175929,1046,Quora ,200,OK,Thread Group 1-6,text,true,,159996,377,20,20,https://softwaremon.quora.com/,15,0,9
+1619158175929,15,Quora -0,301,Moved Permanently,Thread Group 1-6,,true,,328,127,20,20,http://www.softwaremon.quora.com/,15,0,9
+1619158175945,259,Quora -1,301,Moved Permanently,Thread Group 1-6,,true,,631,127,20,20,https://www.softwaremon.quora.com/,259,0,0
+1619158176204,771,Quora -2,200,OK,Thread Group 1-6,text,true,,159037,123,20,20,https://softwaremon.quora.com/,284,0,0
+1619158175989,1034,Quora ,200,OK,Thread Group 1-3,text,true,,159986,377,20,20,https://softwaremon.quora.com/,10,0,4
+1619158175989,10,Quora -0,301,Moved Permanently,Thread Group 1-3,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,4
+1619158175999,258,Quora -1,301,Moved Permanently,Thread Group 1-3,,true,,631,127,20,20,https://www.softwaremon.quora.com/,258,0,0
+1619158176257,766,Quora -2,200,OK,Thread Group 1-3,text,true,,159027,123,20,20,https://softwaremon.quora.com/,292,0,0
+1619158176286,849,Twitter,200,OK,Thread Group 1-9,text,true,,68117,383,20,20,https://twitter.com/intent/tweet,182,0,6
+1619158176286,182,Twitter-0,301,Moved Permanently,Thread Group 1-9,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,182,0,6
+1619158176470,405,Twitter-1,301,Moved Permanently,Thread Group 1-9,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,405,0,28
+1619158176877,258,Twitter-2,200,OK,Thread Group 1-9,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,225,0,26
+1619158176728,497,Facebook,200,OK,Thread Group 1-16,text,true,,192439,236,20,20,https://www.facebook.com/,216,0,0
+1619158176728,216,Facebook-0,301,Moved Permanently,Thread Group 1-16,text,true,,349,118,20,20,http://www.facebook.com/,216,0,0
+1619158176945,280,Facebook-1,200,OK,Thread Group 1-16,text,true,,192090,118,20,20,https://www.facebook.com/,261,0,0
+1619158176179,1059,Quora ,200,OK,Thread Group 1-8,text,true,,159955,377,20,20,https://softwaremon.quora.com/,19,0,12
+1619158176179,19,Quora -0,301,Moved Permanently,Thread Group 1-8,,true,,328,127,20,20,http://www.softwaremon.quora.com/,19,0,12
+1619158176198,268,Quora -1,301,Moved Permanently,Thread Group 1-8,,true,,633,127,20,20,https://www.softwaremon.quora.com/,268,0,0
+1619158176466,772,Quora -2,200,OK,Thread Group 1-8,text,true,,158994,123,20,20,https://softwaremon.quora.com/,281,0,0
+1619158176183,1071,Quora ,200,OK,Thread Group 1-1,text,true,,160049,377,20,20,https://softwaremon.quora.com/,15,0,8
+1619158176183,15,Quora -0,301,Moved Permanently,Thread Group 1-1,,true,,328,127,20,20,http://www.softwaremon.quora.com/,15,0,8
+1619158176198,270,Quora -1,301,Moved Permanently,Thread Group 1-1,,true,,631,127,20,20,https://www.softwaremon.quora.com/,270,0,0
+1619158176468,786,Quora -2,200,OK,Thread Group 1-1,text,true,,159090,123,20,20,https://softwaremon.quora.com/,297,0,0
+1619158176043,1237,Quora ,200,OK,Thread Group 1-18,text,true,,160017,377,20,20,https://softwaremon.quora.com/,16,0,7
+1619158176043,16,Quora -0,301,Moved Permanently,Thread Group 1-18,,true,,328,127,20,20,http://www.softwaremon.quora.com/,16,0,7
+1619158176059,264,Quora -1,301,Moved Permanently,Thread Group 1-18,,true,,631,127,20,20,https://www.softwaremon.quora.com/,264,0,0
+1619158176323,957,Quora -2,200,OK,Thread Group 1-18,text,true,,159058,123,20,20,https://softwaremon.quora.com/,486,0,0
+1619158176898,531,Facebook,200,OK,Thread Group 1-19,text,true,,192473,236,20,20,https://www.facebook.com/,204,0,0
+1619158176898,204,Facebook-0,301,Moved Permanently,Thread Group 1-19,text,true,,366,118,20,20,http://www.facebook.com/,204,0,0
+1619158177102,327,Facebook-1,200,OK,Thread Group 1-19,text,true,,192107,118,20,20,https://www.facebook.com/,267,0,0
+1619158176427,1050,Quora ,200,OK,Thread Group 1-11,text,true,,160002,377,20,20,https://softwaremon.quora.com/,11,0,6
+1619158176427,11,Quora -0,301,Moved Permanently,Thread Group 1-11,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,6
+1619158176438,275,Quora -1,301,Moved Permanently,Thread Group 1-11,,true,,632,127,20,20,https://www.softwaremon.quora.com/,275,0,0
+1619158176713,764,Quora -2,200,OK,Thread Group 1-11,text,true,,159042,123,20,20,https://softwaremon.quora.com/,284,0,0
+1619158176176,1310,Quora ,200,OK,Thread Group 1-7,text,true,,159981,377,20,20,https://softwaremon.quora.com/,22,0,15
+1619158176176,22,Quora -0,301,Moved Permanently,Thread Group 1-7,,true,,328,127,20,20,http://www.softwaremon.quora.com/,22,0,15
+1619158176198,268,Quora -1,301,Moved Permanently,Thread Group 1-7,,true,,631,127,20,20,https://www.softwaremon.quora.com/,268,0,0
+1619158176466,1020,Quora -2,200,OK,Thread Group 1-7,text,true,,159022,123,20,20,https://softwaremon.quora.com/,290,0,0
+1619158176427,1070,Quora ,200,OK,Thread Group 1-14,text,true,,159995,377,20,20,https://softwaremon.quora.com/,11,0,6
+1619158176427,11,Quora -0,301,Moved Permanently,Thread Group 1-14,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,6
+1619158176438,275,Quora -1,301,Moved Permanently,Thread Group 1-14,,true,,631,127,20,20,https://www.softwaremon.quora.com/,275,0,0
+1619158176713,784,Quora -2,200,OK,Thread Group 1-14,text,true,,159036,123,20,20,https://softwaremon.quora.com/,299,0,0
+1619158176454,1060,Quora ,200,OK,Thread Group 1-13,text,true,,160011,377,20,20,https://softwaremon.quora.com/,19,0,13
+1619158176454,19,Quora -0,301,Moved Permanently,Thread Group 1-13,,true,,328,127,20,20,http://www.softwaremon.quora.com/,19,0,13
+1619158176473,265,Quora -1,301,Moved Permanently,Thread Group 1-13,,true,,633,127,20,20,https://www.softwaremon.quora.com/,265,0,0
+1619158176738,776,Quora -2,200,OK,Thread Group 1-13,text,true,,159050,123,20,20,https://softwaremon.quora.com/,292,0,0
+1619158176427,1092,Quora ,200,OK,Thread Group 1-4,text,true,,159979,377,20,20,https://softwaremon.quora.com/,11,0,6
+1619158176427,11,Quora -0,301,Moved Permanently,Thread Group 1-4,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,6
+1619158176438,281,Quora -1,301,Moved Permanently,Thread Group 1-4,,true,,632,127,20,20,https://www.softwaremon.quora.com/,281,0,0
+1619158176719,800,Quora -2,200,OK,Thread Group 1-4,text,true,,159019,123,20,20,https://softwaremon.quora.com/,286,0,0
+1619158177024,501,Facebook,200,OK,Thread Group 1-3,text,true,,192457,236,20,20,https://www.facebook.com/,201,0,0
+1619158177024,201,Facebook-0,301,Moved Permanently,Thread Group 1-3,text,true,,349,118,20,20,http://www.facebook.com/,201,0,0
+1619158177225,300,Facebook-1,200,OK,Thread Group 1-3,text,true,,192108,118,20,20,https://www.facebook.com/,268,0,0
+1619158176289,1282,Quora ,200,OK,Thread Group 1-20,text,true,,159981,377,20,20,https://softwaremon.quora.com/,10,0,5
+1619158176289,10,Quora -0,301,Moved Permanently,Thread Group 1-20,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,5
+1619158176300,265,Quora -1,301,Moved Permanently,Thread Group 1-20,,true,,632,127,20,20,https://www.softwaremon.quora.com/,265,0,0
+1619158176565,1006,Quora -2,200,OK,Thread Group 1-20,text,true,,159021,123,20,20,https://softwaremon.quora.com/,524,0,0
+1619158176975,691,Facebook,200,OK,Thread Group 1-6,text,true,,192455,236,20,20,https://www.facebook.com/,211,0,0
+1619158176975,211,Facebook-0,301,Moved Permanently,Thread Group 1-6,text,true,,349,118,20,20,http://www.facebook.com/,211,0,0
+1619158177186,480,Facebook-1,200,OK,Thread Group 1-6,text,true,,192106,118,20,20,https://www.facebook.com/,271,0,0
+1619158176118,1582,Quora ,200,OK,Thread Group 1-12,text,true,,159982,377,20,20,https://softwaremon.quora.com/,22,0,8
+1619158176118,22,Quora -0,301,Moved Permanently,Thread Group 1-12,,true,,328,127,20,20,http://www.softwaremon.quora.com/,22,0,8
+1619158176140,261,Quora -1,301,Moved Permanently,Thread Group 1-12,,true,,633,127,20,20,https://www.softwaremon.quora.com/,261,0,0
+1619158176401,1299,Quora -2,200,OK,Thread Group 1-12,text,true,,159021,123,20,20,https://softwaremon.quora.com/,543,0,0
+1619158176635,1082,Quora ,200,OK,Thread Group 1-15,text,true,,160004,377,20,20,https://softwaremon.quora.com/,26,0,6
+1619158176635,26,Quora -0,301,Moved Permanently,Thread Group 1-15,,true,,328,127,20,20,http://www.softwaremon.quora.com/,26,0,6
+1619158176662,282,Quora -1,301,Moved Permanently,Thread Group 1-15,,true,,632,127,20,20,https://www.softwaremon.quora.com/,282,0,0
+1619158176945,772,Quora -2,200,OK,Thread Group 1-15,text,true,,159044,123,20,20,https://softwaremon.quora.com/,286,0,0
+1619158177239,501,Facebook,200,OK,Thread Group 1-8,text,true,,192459,236,20,20,https://www.facebook.com/,200,0,0
+1619158177239,200,Facebook-0,301,Moved Permanently,Thread Group 1-8,text,true,,349,118,20,20,http://www.facebook.com/,200,0,0
+1619158177439,301,Facebook-1,200,OK,Thread Group 1-8,text,true,,192110,118,20,20,https://www.facebook.com/,275,0,0
+1619158177255,524,Facebook,200,OK,Thread Group 1-1,text,true,,192457,236,20,20,https://www.facebook.com/,200,0,0
+1619158177255,200,Facebook-0,301,Moved Permanently,Thread Group 1-1,text,true,,349,118,20,20,http://www.facebook.com/,200,0,0
+1619158177455,324,Facebook-1,200,OK,Thread Group 1-1,text,true,,192108,118,20,20,https://www.facebook.com/,272,0,0
+1619158177281,501,Facebook,200,OK,Thread Group 1-18,text,true,,192478,236,20,20,https://www.facebook.com/,206,0,0
+1619158177281,206,Facebook-0,301,Moved Permanently,Thread Group 1-18,text,true,,366,118,20,20,http://www.facebook.com/,206,0,0
+1619158177487,295,Facebook-1,200,OK,Thread Group 1-18,text,true,,192112,118,20,20,https://www.facebook.com/,274,0,0
+1619158176559,1235,Quora ,200,OK,Thread Group 1-2,text,true,,159998,377,20,20,https://softwaremon.quora.com/,11,0,5
+1619158176559,11,Quora -0,301,Moved Permanently,Thread Group 1-2,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,5
+1619158176570,256,Quora -1,301,Moved Permanently,Thread Group 1-2,,true,,633,127,20,20,https://www.softwaremon.quora.com/,256,0,0
+1619158176827,967,Quora -2,200,OK,Thread Group 1-2,text,true,,159037,123,20,20,https://softwaremon.quora.com/,510,0,0
+1619158177226,607,Twitter,200,OK,Thread Group 1-16,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,203,0,0
+1619158177226,203,Twitter-0,301,Moved Permanently,Thread Group 1-16,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,203,0,0
+1619158177429,173,Twitter-1,301,Moved Permanently,Thread Group 1-16,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,173,0,0
+1619158177602,231,Twitter-2,200,OK,Thread Group 1-16,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,200,0,0
+1619158177478,487,Facebook,200,OK,Thread Group 1-11,text,true,,192477,236,20,20,https://www.facebook.com/,199,0,0
+1619158177478,199,Facebook-0,301,Moved Permanently,Thread Group 1-11,text,true,,349,118,20,20,http://www.facebook.com/,199,0,0
+1619158177678,287,Facebook-1,200,OK,Thread Group 1-11,text,true,,192128,118,20,20,https://www.facebook.com/,267,0,0
+1619158176644,1350,Quora ,200,OK,Thread Group 1-10,text,true,,159993,377,20,20,https://softwaremon.quora.com/,57,0,17
+1619158176644,57,Quora -0,301,Moved Permanently,Thread Group 1-10,,true,,328,127,20,20,http://www.softwaremon.quora.com/,57,0,17
+1619158176701,274,Quora -1,301,Moved Permanently,Thread Group 1-10,,true,,632,127,20,20,https://www.softwaremon.quora.com/,274,0,0
+1619158176975,1019,Quora -2,200,OK,Thread Group 1-10,text,true,,159033,123,20,20,https://softwaremon.quora.com/,519,0,0
+1619158177497,536,Facebook,200,OK,Thread Group 1-14,text,true,,192472,236,20,20,https://www.facebook.com/,203,0,0
+1619158177497,203,Facebook-0,301,Moved Permanently,Thread Group 1-14,text,true,,366,118,20,20,http://www.facebook.com/,203,0,0
+1619158177700,333,Facebook-1,200,OK,Thread Group 1-14,text,true,,192106,118,20,20,https://www.facebook.com/,267,0,0
+1619158177488,545,Facebook,200,OK,Thread Group 1-7,text,true,,192466,236,20,20,https://www.facebook.com/,200,0,0
+1619158177488,200,Facebook-0,301,Moved Permanently,Thread Group 1-7,text,true,,366,118,20,20,http://www.facebook.com/,200,0,0
+1619158177688,345,Facebook-1,200,OK,Thread Group 1-7,text,true,,192100,118,20,20,https://www.facebook.com/,276,0,0
+1619158177430,604,Twitter,200,OK,Thread Group 1-19,text,true,,68118,383,20,20,https://twitter.com/intent/tweet,172,0,0
+1619158177430,172,Twitter-0,301,Moved Permanently,Thread Group 1-19,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,172,0,0
+1619158177602,176,Twitter-1,301,Moved Permanently,Thread Group 1-19,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,176,0,0
+1619158177778,256,Twitter-2,200,OK,Thread Group 1-19,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,223,0,0
+1619158177515,534,Facebook,200,OK,Thread Group 1-13,text,true,,192457,236,20,20,https://www.facebook.com/,204,0,0
+1619158177515,204,Facebook-0,301,Moved Permanently,Thread Group 1-13,text,true,,349,118,20,20,http://www.facebook.com/,204,0,0
+1619158177719,330,Facebook-1,200,OK,Thread Group 1-13,text,true,,192108,118,20,20,https://www.facebook.com/,289,0,0
+1619158177136,927,Quora ,200,OK,Thread Group 1-9,text,true,,159993,377,20,20,https://softwaremon.quora.com/,36,0,16
+1619158177520,543,Facebook,200,OK,Thread Group 1-4,text,true,,192467,236,20,20,https://www.facebook.com/,201,0,0
+1619158177136,36,Quora -0,301,Moved Permanently,Thread Group 1-9,,true,,328,127,20,20,http://www.softwaremon.quora.com/,36,0,16
+1619158177520,201,Facebook-0,301,Moved Permanently,Thread Group 1-4,text,true,,366,118,20,20,http://www.facebook.com/,201,0,0
+1619158177172,265,Quora -1,301,Moved Permanently,Thread Group 1-9,,true,,632,127,20,20,https://www.softwaremon.quora.com/,265,0,0
+1619158177722,341,Facebook-1,200,OK,Thread Group 1-4,text,true,,192101,118,20,20,https://www.facebook.com/,295,0,0
+1619158177438,625,Quora -2,200,OK,Thread Group 1-9,text,true,,159033,123,20,20,https://softwaremon.quora.com/,297,0,0
+1619158177572,515,Facebook,200,OK,Thread Group 1-20,text,true,,192475,236,20,20,https://www.facebook.com/,206,0,0
+1619158177572,206,Facebook-0,301,Moved Permanently,Thread Group 1-20,text,true,,366,118,20,20,http://www.facebook.com/,206,0,0
+1619158177778,309,Facebook-1,200,OK,Thread Group 1-20,text,true,,192109,118,20,20,https://www.facebook.com/,288,0,0
+1619158177525,581,Twitter,200,OK,Thread Group 1-3,text,true,,68329,383,20,20,https://twitter.com/intent/tweet,174,0,0
+1619158177525,174,Twitter-0,301,Moved Permanently,Thread Group 1-3,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,174,0,0
+1619158177700,173,Twitter-1,301,Moved Permanently,Thread Group 1-3,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,173,0,0
+1619158177874,232,Twitter-2,200,OK,Thread Group 1-3,text,true,,67073,125,20,20,https://twitter.com/intent/tweet,205,0,0
+1619158177700,546,Facebook,200,OK,Thread Group 1-12,text,true,,192456,236,20,20,https://www.facebook.com/,207,0,0
+1619158177700,207,Facebook-0,301,Moved Permanently,Thread Group 1-12,text,true,,349,118,20,20,http://www.facebook.com/,207,0,0
+1619158177908,338,Facebook-1,200,OK,Thread Group 1-12,text,true,,192107,118,20,20,https://www.facebook.com/,286,0,0
+1619158177666,610,Twitter,200,OK,Thread Group 1-6,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,174,0,0
+1619158177666,174,Twitter-0,301,Moved Permanently,Thread Group 1-6,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,174,0,0
+1619158177840,193,Twitter-1,301,Moved Permanently,Thread Group 1-6,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,193,0,0
+1619158178033,243,Twitter-2,200,OK,Thread Group 1-6,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,222,0,0
+1619158177718,558,Facebook,200,OK,Thread Group 1-15,text,true,,192466,236,20,20,https://www.facebook.com/,213,0,0
+1619158177718,213,Facebook-0,301,Moved Permanently,Thread Group 1-15,text,true,,349,118,20,20,http://www.facebook.com/,213,0,0
+1619158177931,345,Facebook-1,200,OK,Thread Group 1-15,text,true,,192117,118,20,20,https://www.facebook.com/,316,0,0
+1619158176955,1363,Quora ,200,OK,Thread Group 1-17,text,true,,159984,377,20,20,https://softwaremon.quora.com/,20,0,10
+1619158176955,20,Quora -0,301,Moved Permanently,Thread Group 1-17,,true,,328,127,20,20,http://www.softwaremon.quora.com/,20,0,10
+1619158176975,266,Quora -1,301,Moved Permanently,Thread Group 1-17,,true,,631,127,20,20,https://www.softwaremon.quora.com/,266,0,0
+1619158177241,1077,Quora -2,200,OK,Thread Group 1-17,text,true,,159025,123,20,20,https://softwaremon.quora.com/,599,0,0
+1619158177795,526,Facebook,200,OK,Thread Group 1-2,text,true,,192475,236,20,20,https://www.facebook.com/,238,0,0
+1619158177795,238,Facebook-0,301,Moved Permanently,Thread Group 1-2,text,true,,366,118,20,20,http://www.facebook.com/,238,0,0
+1619158178033,288,Facebook-1,200,OK,Thread Group 1-2,text,true,,192109,118,20,20,https://www.facebook.com/,264,0,0
+1619158177741,600,Twitter,200,OK,Thread Group 1-8,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,190,0,0
+1619158177741,190,Twitter-0,301,Moved Permanently,Thread Group 1-8,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,190,0,0
+1619158177931,175,Twitter-1,301,Moved Permanently,Thread Group 1-8,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,175,0,0
+1619158178107,234,Twitter-2,200,OK,Thread Group 1-8,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,212,0,0
+1619158177783,577,Twitter,200,OK,Thread Group 1-18,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,177,0,0
+1619158177783,177,Twitter-0,301,Moved Permanently,Thread Group 1-18,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,177,0,0
+1619158177961,171,Twitter-1,301,Moved Permanently,Thread Group 1-18,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,171,0,0
+1619158178132,228,Twitter-2,200,OK,Thread Group 1-18,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,199,0,0
+1619158177779,586,Twitter,200,OK,Thread Group 1-1,text,true,,68118,383,20,20,https://twitter.com/intent/tweet,180,0,0
+1619158177779,180,Twitter-0,301,Moved Permanently,Thread Group 1-1,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,180,0,0
+1619158177959,173,Twitter-1,301,Moved Permanently,Thread Group 1-1,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,173,0,0
+1619158178132,233,Twitter-2,200,OK,Thread Group 1-1,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,212,0,0
+1619158177965,613,Twitter,200,OK,Thread Group 1-11,text,true,,68103,383,20,20,https://twitter.com/intent/tweet,181,0,0
+1619158177965,181,Twitter-0,301,Moved Permanently,Thread Group 1-11,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,181,0,0
+1619158178146,175,Twitter-1,301,Moved Permanently,Thread Group 1-11,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,175,0,0
+1619158178321,257,Twitter-2,200,OK,Thread Group 1-11,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,233,0,0
+1619158178064,520,Facebook,200,OK,Thread Group 1-9,text,true,,192452,236,20,20,https://www.facebook.com/,203,0,0
+1619158178064,203,Facebook-0,301,Moved Permanently,Thread Group 1-9,text,true,,349,118,20,20,http://www.facebook.com/,203,0,0
+1619158178267,317,Facebook-1,200,OK,Thread Group 1-9,text,true,,192103,118,20,20,https://www.facebook.com/,291,0,0
+1619158178033,608,Twitter,200,OK,Thread Group 1-14,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,213,0,0
+1619158178033,213,Twitter-0,301,Moved Permanently,Thread Group 1-14,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,213,0,0
+1619158178246,175,Twitter-1,301,Moved Permanently,Thread Group 1-14,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,175,0,0
+1619158178421,220,Twitter-2,200,OK,Thread Group 1-14,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,210,0,0
+1619158178034,614,Twitter,200,OK,Thread Group 1-7,text,true,,68089,383,20,20,https://twitter.com/intent/tweet,208,0,0
+1619158178034,208,Twitter-0,301,Moved Permanently,Thread Group 1-7,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,208,0,0
+1619158178242,172,Twitter-1,301,Moved Permanently,Thread Group 1-7,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,172,0,0
+1619158178415,233,Twitter-2,200,OK,Thread Group 1-7,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,216,0,0
+1619158177995,675,Facebook,200,OK,Thread Group 1-10,text,true,,192477,236,20,20,https://www.facebook.com/,207,0,0
+1619158177995,207,Facebook-0,301,Moved Permanently,Thread Group 1-10,text,true,,366,118,20,20,http://www.facebook.com/,207,0,0
+1619158178202,468,Facebook-1,200,OK,Thread Group 1-10,text,true,,192111,118,20,20,https://www.facebook.com/,272,0,0
+1619158178064,607,Twitter,200,OK,Thread Group 1-4,text,true,,68295,383,20,20,https://twitter.com/intent/tweet,191,0,0
+1619158178064,191,Twitter-0,301,Moved Permanently,Thread Group 1-4,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,191,0,0
+1619158178255,182,Twitter-1,301,Moved Permanently,Thread Group 1-4,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,182,0,0
+1619158178438,233,Twitter-2,200,OK,Thread Group 1-4,text,true,,67053,125,20,20,https://twitter.com/intent/tweet,204,0,0
+1619158176734,2028,Quora ,200,OK,Thread Group 1-5,text,true,,159997,377,20,20,https://softwaremon.quora.com/,11,0,6
+1619158176734,11,Quora -0,301,Moved Permanently,Thread Group 1-5,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,6
+1619158176745,276,Quora -1,301,Moved Permanently,Thread Group 1-5,,true,,633,127,20,20,https://www.softwaremon.quora.com/,276,0,0
+1619158177022,1740,Quora -2,200,OK,Thread Group 1-5,text,true,,159036,123,20,20,https://softwaremon.quora.com/,1027,0,0
+1619158178247,612,Twitter,200,OK,Thread Group 1-12,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,181,0,0
+1619158178247,181,Twitter-0,301,Moved Permanently,Thread Group 1-12,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,181,0,0
+1619158178428,171,Twitter-1,301,Moved Permanently,Thread Group 1-12,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,171,0,0
+1619158178599,260,Twitter-2,200,OK,Thread Group 1-12,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,206,0,0
+1619158178277,608,Twitter,200,OK,Thread Group 1-15,text,true,,68117,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158178318,567,Facebook,200,OK,Thread Group 1-17,text,true,,192460,236,20,20,https://www.facebook.com/,236,0,0
+1619158178277,173,Twitter-0,301,Moved Permanently,Thread Group 1-15,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158178450,181,Twitter-1,301,Moved Permanently,Thread Group 1-15,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,181,0,0
+1619158178632,253,Twitter-2,200,OK,Thread Group 1-15,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,232,0,0
+1619158178318,236,Facebook-0,301,Moved Permanently,Thread Group 1-17,text,true,,349,118,20,20,http://www.facebook.com/,236,0,0
+1619158178554,331,Facebook-1,200,OK,Thread Group 1-17,text,true,,192111,118,20,20,https://www.facebook.com/,305,0,0
+1619158178050,919,Twitter,200,OK,Thread Group 1-13,text,true,,68070,383,20,20,https://twitter.com/intent/tweet,203,0,0
+1619158178050,203,Twitter-0,301,Moved Permanently,Thread Group 1-13,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,203,0,0
+1619158178253,184,Twitter-1,301,Moved Permanently,Thread Group 1-13,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,184,0,0
+1619158178438,531,Twitter-2,200,OK,Thread Group 1-13,text,true,,66828,125,20,20,https://twitter.com/intent/tweet,206,0,0
+1619158178088,902,Twitter,200,OK,Thread Group 1-20,text,true,,68273,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158178088,173,Twitter-0,301,Moved Permanently,Thread Group 1-20,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158178262,175,Twitter-1,301,Moved Permanently,Thread Group 1-20,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,175,0,0
+1619158178438,552,Twitter-2,200,OK,Thread Group 1-20,text,true,,67031,125,20,20,https://twitter.com/intent/tweet,225,0,0
+1619158178321,818,Twitter,200,OK,Thread Group 1-2,text,true,,69035,383,20,20,https://twitter.com/intent/tweet,172,0,0
+1619158178321,172,Twitter-0,301,Moved Permanently,Thread Group 1-2,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,172,0,0
+1619158178493,177,Twitter-1,301,Moved Permanently,Thread Group 1-2,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,177,0,0
+1619158178671,468,Twitter-2,200,OK,Thread Group 1-2,text,true,,67793,125,20,20,https://twitter.com/intent/tweet,208,0,0
+1619158178585,585,Twitter,200,OK,Thread Group 1-9,text,true,,68323,383,20,20,https://twitter.com/intent/tweet,178,0,0
+1619158178585,178,Twitter-0,301,Moved Permanently,Thread Group 1-9,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,178,0,0
+1619158178763,172,Twitter-1,301,Moved Permanently,Thread Group 1-9,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,172,0,0
+1619158178935,235,Twitter-2,200,OK,Thread Group 1-9,text,true,,67053,125,20,20,https://twitter.com/intent/tweet,216,0,0
+1619158178671,616,Twitter,200,OK,Thread Group 1-10,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,200,0,0
+1619158178671,200,Twitter-0,301,Moved Permanently,Thread Group 1-10,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,200,0,0
+1619158178871,179,Twitter-1,301,Moved Permanently,Thread Group 1-10,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,179,0,0
+1619158179050,237,Twitter-2,200,OK,Thread Group 1-10,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,211,0,0
+1619158178764,557,Facebook,200,OK,Thread Group 1-5,text,true,,192483,236,20,20,https://www.facebook.com/,200,0,0
+1619158178764,200,Facebook-0,301,Moved Permanently,Thread Group 1-5,text,true,,366,118,20,20,http://www.facebook.com/,200,0,0
+1619158178965,356,Facebook-1,200,OK,Thread Group 1-5,text,true,,192117,118,20,20,https://www.facebook.com/,280,0,0
+1619158178365,1054,Quora ,200,OK,Thread Group 1-1,text,true,,159957,377,20,20,https://softwaremon.quora.com/,10,0,5
+1619158178365,10,Quora -0,301,Moved Permanently,Thread Group 1-1,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,5
+1619158178375,273,Quora -1,301,Moved Permanently,Thread Group 1-1,,true,,632,127,20,20,https://www.softwaremon.quora.com/,273,0,0
+1619158178648,771,Quora -2,200,OK,Thread Group 1-1,text,true,,158997,123,20,20,https://softwaremon.quora.com/,296,0,0
+1619158178276,1163,Quora ,200,OK,Thread Group 1-6,text,true,,159979,377,20,20,https://softwaremon.quora.com/,10,0,5
+1619158178276,10,Quora -0,301,Moved Permanently,Thread Group 1-6,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,5
+1619158178287,344,Quora -1,301,Moved Permanently,Thread Group 1-6,,true,,632,127,20,20,https://www.softwaremon.quora.com/,344,0,0
+1619158178632,807,Quora -2,200,OK,Thread Group 1-6,text,true,,159019,123,20,20,https://softwaremon.quora.com/,305,0,0
+1619158178578,1070,Quora ,200,OK,Thread Group 1-11,text,true,,159966,377,20,20,https://softwaremon.quora.com/,12,0,6
+1619158178578,12,Quora -0,301,Moved Permanently,Thread Group 1-11,,true,,328,127,20,20,http://www.softwaremon.quora.com/,12,0,6
+1619158178590,281,Quora -1,301,Moved Permanently,Thread Group 1-11,,true,,632,127,20,20,https://www.softwaremon.quora.com/,281,0,0
+1619158178871,777,Quora -2,200,OK,Thread Group 1-11,text,true,,159006,123,20,20,https://softwaremon.quora.com/,287,0,0
+1619158178342,1338,Quora ,200,OK,Thread Group 1-8,text,true,,159962,377,20,20,https://softwaremon.quora.com/,9,0,4
+1619158178361,1319,Quora ,200,OK,Thread Group 1-18,text,true,,160003,377,20,20,https://softwaremon.quora.com/,12,0,7
+1619158178342,9,Quora -0,301,Moved Permanently,Thread Group 1-8,,true,,328,127,20,20,http://www.softwaremon.quora.com/,9,0,4
+1619158178351,280,Quora -1,301,Moved Permanently,Thread Group 1-8,,true,,630,127,20,20,https://www.softwaremon.quora.com/,280,0,0
+1619158178361,12,Quora -0,301,Moved Permanently,Thread Group 1-18,,true,,328,127,20,20,http://www.softwaremon.quora.com/,12,0,7
+1619158178632,1048,Quora -2,200,OK,Thread Group 1-8,text,true,,159004,123,20,20,https://softwaremon.quora.com/,544,0,0
+1619158178373,258,Quora -1,301,Moved Permanently,Thread Group 1-18,,true,,631,127,20,20,https://www.softwaremon.quora.com/,258,0,0
+1619158178632,1048,Quora -2,200,OK,Thread Group 1-18,text,true,,159044,123,20,20,https://softwaremon.quora.com/,540,0,0
+1619158178886,877,Twitter,200,OK,Thread Group 1-17,text,true,,68084,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158178886,173,Twitter-0,301,Moved Permanently,Thread Group 1-17,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158179059,176,Twitter-1,301,Moved Permanently,Thread Group 1-17,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,176,0,0
+1619158179235,528,Twitter-2,200,OK,Thread Group 1-17,text,true,,66828,125,20,20,https://twitter.com/intent/tweet,209,0,0
+1619158178642,1143,Quora ,200,OK,Thread Group 1-14,text,true,,160000,377,20,20,https://softwaremon.quora.com/,28,0,21
+1619158178642,28,Quora -0,301,Moved Permanently,Thread Group 1-14,,true,,328,127,20,20,http://www.softwaremon.quora.com/,28,0,21
+1619158178671,346,Quora -1,301,Moved Permanently,Thread Group 1-14,,true,,631,127,20,20,https://www.softwaremon.quora.com/,346,0,0
+1619158179017,768,Quora -2,200,OK,Thread Group 1-14,text,true,,159041,123,20,20,https://softwaremon.quora.com/,296,0,0
+1619158177834,2028,Quora ,200,OK,Thread Group 1-16,text,true,,159983,377,20,20,https://softwaremon.quora.com/,10,0,6
+1619158177834,10,Quora -0,301,Moved Permanently,Thread Group 1-16,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,6
+1619158177845,1014,Quora -1,301,Moved Permanently,Thread Group 1-16,,true,,633,127,20,20,https://www.softwaremon.quora.com/,1014,0,0
+1619158178859,1003,Quora -2,200,OK,Thread Group 1-16,text,true,,159022,123,20,20,https://softwaremon.quora.com/,530,0,0
+1619158179420,493,Facebook,200,OK,Thread Group 1-1,text,true,,192452,236,20,20,https://www.facebook.com/,200,0,0
+1619158179420,200,Facebook-0,301,Moved Permanently,Thread Group 1-1,text,true,,349,118,20,20,http://www.facebook.com/,200,0,0
+1619158179620,293,Facebook-1,200,OK,Thread Group 1-1,text,true,,192103,118,20,20,https://www.facebook.com/,267,0,0
+1619158179321,593,Twitter,200,OK,Thread Group 1-5,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,172,0,0
+1619158179321,172,Twitter-0,301,Moved Permanently,Thread Group 1-5,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,172,0,0
+1619158179494,187,Twitter-1,301,Moved Permanently,Thread Group 1-5,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,187,0,0
+1619158179681,233,Twitter-2,200,OK,Thread Group 1-5,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,203,0,0
+1619158179440,507,Facebook,200,OK,Thread Group 1-6,text,true,,192479,236,20,20,https://www.facebook.com/,198,0,0
+1619158179440,198,Facebook-0,301,Moved Permanently,Thread Group 1-6,text,true,,366,118,20,20,http://www.facebook.com/,198,0,0
+1619158179639,308,Facebook-1,200,OK,Thread Group 1-6,text,true,,192113,118,20,20,https://www.facebook.com/,272,0,0
+1619158178648,1312,Quora ,200,OK,Thread Group 1-7,text,true,,159971,377,20,20,https://softwaremon.quora.com/,22,0,15
+1619158178648,22,Quora -0,301,Moved Permanently,Thread Group 1-7,,true,,328,127,20,20,http://www.softwaremon.quora.com/,22,0,15
+1619158178671,264,Quora -1,301,Moved Permanently,Thread Group 1-7,,true,,632,127,20,20,https://www.softwaremon.quora.com/,264,0,0
+1619158178935,1025,Quora -2,200,OK,Thread Group 1-7,text,true,,159011,123,20,20,https://softwaremon.quora.com/,299,0,0
+1619158178969,1042,Quora ,200,OK,Thread Group 1-13,text,true,,159963,377,20,20,https://softwaremon.quora.com/,21,0,16
+1619158178969,21,Quora -0,301,Moved Permanently,Thread Group 1-13,,true,,328,127,20,20,http://www.softwaremon.quora.com/,21,0,16
+1619158178990,272,Quora -1,301,Moved Permanently,Thread Group 1-13,,true,,631,127,20,20,https://www.softwaremon.quora.com/,272,0,0
+1619158179262,749,Quora -2,200,OK,Thread Group 1-13,text,true,,159004,123,20,20,https://softwaremon.quora.com/,281,0,0
+1619158178035,2052,Quora ,200,OK,Thread Group 1-19,text,true,,160015,377,20,20,https://softwaremon.quora.com/,28,0,14
+1619158178035,28,Quora -0,301,Moved Permanently,Thread Group 1-19,,true,,328,127,20,20,http://www.softwaremon.quora.com/,28,0,14
+1619158178063,980,Quora -1,301,Moved Permanently,Thread Group 1-19,,true,,632,127,20,20,https://www.softwaremon.quora.com/,980,0,0
+1619158179044,1043,Quora -2,200,OK,Thread Group 1-19,text,true,,159055,123,20,20,https://softwaremon.quora.com/,529,0,0
+1619158179648,518,Facebook,200,OK,Thread Group 1-11,text,true,,192474,236,20,20,https://www.facebook.com/,200,0,0
+1619158179648,200,Facebook-0,301,Moved Permanently,Thread Group 1-11,text,true,,366,118,20,20,http://www.facebook.com/,200,0,0
+1619158179848,318,Facebook-1,200,OK,Thread Group 1-11,text,true,,192108,118,20,20,https://www.facebook.com/,289,0,0
+1619158179680,492,Facebook,200,OK,Thread Group 1-18,text,true,,192451,236,20,20,https://www.facebook.com/,204,0,0
+1619158179680,204,Facebook-0,301,Moved Permanently,Thread Group 1-18,text,true,,349,118,20,20,http://www.facebook.com/,204,0,0
+1619158179884,288,Facebook-1,200,OK,Thread Group 1-18,text,true,,192102,118,20,20,https://www.facebook.com/,267,0,0
+1619158178859,1322,Quora ,200,OK,Thread Group 1-12,text,true,,159995,377,20,20,https://softwaremon.quora.com/,26,0,14
+1619158178859,26,Quora -0,301,Moved Permanently,Thread Group 1-12,,true,,328,127,20,20,http://www.softwaremon.quora.com/,26,0,14
+1619158178886,265,Quora -1,301,Moved Permanently,Thread Group 1-12,,true,,632,127,20,20,https://www.softwaremon.quora.com/,265,0,0
+1619158179152,1029,Quora -2,200,OK,Thread Group 1-12,text,true,,159035,123,20,20,https://softwaremon.quora.com/,545,0,0
+1619158178107,2083,Quora ,200,OK,Thread Group 1-3,text,true,,159964,377,20,20,https://softwaremon.quora.com/,9,0,4
+1619158178886,1304,Quora ,200,OK,Thread Group 1-15,text,true,,160008,377,20,20,https://softwaremon.quora.com/,9,0,3
+1619158178107,9,Quora -0,301,Moved Permanently,Thread Group 1-3,,true,,328,127,20,20,http://www.softwaremon.quora.com/,9,0,4
+1619158178886,9,Quora -0,301,Moved Permanently,Thread Group 1-15,,true,,328,127,20,20,http://www.softwaremon.quora.com/,9,0,3
+1619158178117,993,Quora -1,301,Moved Permanently,Thread Group 1-3,,true,,633,127,20,20,https://www.softwaremon.quora.com/,993,0,0
+1619158178895,268,Quora -1,301,Moved Permanently,Thread Group 1-15,,true,,632,127,20,20,https://www.softwaremon.quora.com/,268,0,0
+1619158179110,1080,Quora -2,200,OK,Thread Group 1-3,text,true,,159003,123,20,20,https://softwaremon.quora.com/,540,0,0
+1619158179163,1027,Quora -2,200,OK,Thread Group 1-15,text,true,,159048,123,20,20,https://softwaremon.quora.com/,302,0,0
+1619158179785,509,Facebook,200,OK,Thread Group 1-14,text,true,,192473,236,20,20,https://www.facebook.com/,200,0,0
+1619158179785,200,Facebook-0,301,Moved Permanently,Thread Group 1-14,text,true,,366,118,20,20,http://www.facebook.com/,200,0,0
+1619158179986,308,Facebook-1,200,OK,Thread Group 1-14,text,true,,192107,118,20,20,https://www.facebook.com/,272,0,0
+1619158179680,636,Facebook,200,OK,Thread Group 1-8,text,true,,195745,236,20,20,https://www.facebook.com/,201,0,0
+1619158179680,201,Facebook-0,301,Moved Permanently,Thread Group 1-8,text,true,,349,118,20,20,http://www.facebook.com/,201,0,0
+1619158179881,435,Facebook-1,200,OK,Thread Group 1-8,text,true,,195396,118,20,20,https://www.facebook.com/,287,0,0
+1619158179862,516,Facebook,200,OK,Thread Group 1-16,text,true,,192449,236,20,20,https://www.facebook.com/,210,0,0
+1619158179862,210,Facebook-0,301,Moved Permanently,Thread Group 1-16,text,true,,349,118,20,20,http://www.facebook.com/,210,0,0
+1619158180072,306,Facebook-1,200,OK,Thread Group 1-16,text,true,,192100,118,20,20,https://www.facebook.com/,285,0,0
+1619158179140,1321,Quora ,200,OK,Thread Group 1-2,text,true,,160008,377,20,20,https://softwaremon.quora.com/,16,0,11
+1619158179140,16,Quora -0,301,Moved Permanently,Thread Group 1-2,,true,,328,127,20,20,http://www.softwaremon.quora.com/,16,0,11
+1619158179156,274,Quora -1,301,Moved Permanently,Thread Group 1-2,,true,,632,127,20,20,https://www.softwaremon.quora.com/,274,0,0
+1619158179431,1030,Quora -2,200,OK,Thread Group 1-2,text,true,,159048,123,20,20,https://softwaremon.quora.com/,541,0,0
+1619158179961,521,Facebook,200,OK,Thread Group 1-7,text,true,,192460,236,20,20,https://www.facebook.com/,208,0,0
+1619158179961,208,Facebook-0,301,Moved Permanently,Thread Group 1-7,text,true,,349,118,20,20,http://www.facebook.com/,208,0,0
+1619158180169,313,Facebook-1,200,OK,Thread Group 1-7,text,true,,192111,118,20,20,https://www.facebook.com/,272,0,0
+1619158179170,1365,Quora ,200,OK,Thread Group 1-9,text,true,,159970,377,20,20,https://softwaremon.quora.com/,18,0,9
+1619158179170,18,Quora -0,301,Moved Permanently,Thread Group 1-9,,true,,328,127,20,20,http://www.softwaremon.quora.com/,18,0,9
+1619158179189,325,Quora -1,301,Moved Permanently,Thread Group 1-9,,true,,631,127,20,20,https://www.softwaremon.quora.com/,325,0,0
+1619158179515,1020,Quora -2,200,OK,Thread Group 1-9,text,true,,159011,123,20,20,https://softwaremon.quora.com/,542,0,0
+1619158179948,593,Twitter,200,OK,Thread Group 1-6,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,172,0,0
+1619158179948,172,Twitter-0,301,Moved Permanently,Thread Group 1-6,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,172,0,0
+1619158180120,195,Twitter-1,301,Moved Permanently,Thread Group 1-6,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,195,0,0
+1619158180315,226,Twitter-2,200,OK,Thread Group 1-6,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,204,0,0
+1619158180012,530,Facebook,200,OK,Thread Group 1-13,text,true,,192461,236,20,20,https://www.facebook.com/,206,0,0
+1619158180012,206,Facebook-0,301,Moved Permanently,Thread Group 1-13,text,true,,349,118,20,20,http://www.facebook.com/,206,0,0
+1619158180218,324,Facebook-1,200,OK,Thread Group 1-13,text,true,,192112,118,20,20,https://www.facebook.com/,285,0,0
+1619158179913,634,Twitter,200,OK,Thread Group 1-1,text,true,,68362,383,20,20,https://twitter.com/intent/tweet,186,0,0
+1619158179913,186,Twitter-0,301,Moved Permanently,Thread Group 1-1,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,186,0,0
+1619158180100,185,Twitter-1,301,Moved Permanently,Thread Group 1-1,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,185,0,0
+1619158180285,262,Twitter-2,200,OK,Thread Group 1-1,text,true,,67092,125,20,20,https://twitter.com/intent/tweet,224,0,0
+1619158179288,1296,Quora ,200,OK,Thread Group 1-10,text,true,,159961,377,20,20,https://softwaremon.quora.com/,10,0,4
+1619158179288,10,Quora -0,301,Moved Permanently,Thread Group 1-10,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,4
+1619158179298,257,Quora -1,301,Moved Permanently,Thread Group 1-10,,true,,632,127,20,20,https://www.softwaremon.quora.com/,257,0,0
+1619158179555,1029,Quora -2,200,OK,Thread Group 1-10,text,true,,159001,123,20,20,https://softwaremon.quora.com/,544,0,0
+1619158180088,531,Facebook,200,OK,Thread Group 1-19,text,true,,192456,236,20,20,https://www.facebook.com/,222,0,0
+1619158180088,222,Facebook-0,301,Moved Permanently,Thread Group 1-19,text,true,,349,118,20,20,http://www.facebook.com/,222,0,0
+1619158180310,309,Facebook-1,200,OK,Thread Group 1-19,text,true,,192107,118,20,20,https://www.facebook.com/,280,0,0
+1619158180182,518,Facebook,200,OK,Thread Group 1-12,text,true,,192479,236,20,20,https://www.facebook.com/,205,0,0
+1619158180182,205,Facebook-0,301,Moved Permanently,Thread Group 1-12,text,true,,366,118,20,20,http://www.facebook.com/,205,0,0
+1619158180388,312,Facebook-1,200,OK,Thread Group 1-12,text,true,,192113,118,20,20,https://www.facebook.com/,269,0,0
+1619158180191,558,Facebook,200,OK,Thread Group 1-3,text,true,,192453,236,20,20,https://www.facebook.com/,197,0,0
+1619158180191,197,Facebook-0,301,Moved Permanently,Thread Group 1-3,text,true,,349,118,20,20,http://www.facebook.com/,197,0,0
+1619158180388,361,Facebook-1,200,OK,Thread Group 1-3,text,true,,192104,118,20,20,https://www.facebook.com/,280,0,0
+1619158178671,2078,Quora ,200,OK,Thread Group 1-4,text,true,,159993,377,20,20,https://softwaremon.quora.com/,10,0,6
+1619158178671,10,Quora -0,301,Moved Permanently,Thread Group 1-4,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,6
+1619158178681,983,Quora -1,301,Moved Permanently,Thread Group 1-4,,true,,632,127,20,20,https://www.softwaremon.quora.com/,983,0,0
+1619158179664,1085,Quora -2,200,OK,Thread Group 1-4,text,true,,159033,123,20,20,https://softwaremon.quora.com/,543,0,0
+1619158180191,561,Facebook,200,OK,Thread Group 1-15,text,true,,192482,236,20,20,https://www.facebook.com/,207,0,0
+1619158180191,207,Facebook-0,301,Moved Permanently,Thread Group 1-15,text,true,,366,118,20,20,http://www.facebook.com/,207,0,0
+1619158180398,354,Facebook-1,200,OK,Thread Group 1-15,text,true,,192116,118,20,20,https://www.facebook.com/,279,0,0
+1619158180173,590,Twitter,200,OK,Thread Group 1-18,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158180173,173,Twitter-0,301,Moved Permanently,Thread Group 1-18,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158180346,176,Twitter-1,301,Moved Permanently,Thread Group 1-18,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,176,0,0
+1619158180522,241,Twitter-2,200,OK,Thread Group 1-18,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,220,0,0
+1619158180166,600,Twitter,200,OK,Thread Group 1-11,text,true,,68330,383,20,20,https://twitter.com/intent/tweet,180,0,0
+1619158180166,180,Twitter-0,301,Moved Permanently,Thread Group 1-11,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,180,0,0
+1619158180346,178,Twitter-1,301,Moved Permanently,Thread Group 1-11,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,178,0,0
+1619158180524,242,Twitter-2,200,OK,Thread Group 1-11,text,true,,67074,125,20,20,https://twitter.com/intent/tweet,218,0,0
+1619158180295,586,Twitter,200,OK,Thread Group 1-14,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,183,0,0
+1619158180295,183,Twitter-0,301,Moved Permanently,Thread Group 1-14,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,183,0,0
+1619158180478,173,Twitter-1,301,Moved Permanently,Thread Group 1-14,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,173,0,0
+1619158180651,230,Twitter-2,200,OK,Thread Group 1-14,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,202,0,0
+1619158180317,588,Twitter,200,OK,Thread Group 1-8,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,176,0,0
+1619158180317,176,Twitter-0,301,Moved Permanently,Thread Group 1-8,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,176,0,0
+1619158180493,174,Twitter-1,301,Moved Permanently,Thread Group 1-8,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,174,0,0
+1619158180667,238,Twitter-2,200,OK,Thread Group 1-8,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,215,0,0
+1619158179915,1052,Quora ,200,OK,Thread Group 1-5,text,true,,159995,377,20,20,https://softwaremon.quora.com/,33,0,14
+1619158179915,33,Quora -0,301,Moved Permanently,Thread Group 1-5,,true,,328,127,20,20,http://www.softwaremon.quora.com/,33,0,14
+1619158179949,248,Quora -1,301,Moved Permanently,Thread Group 1-5,,true,,633,127,20,20,https://www.softwaremon.quora.com/,248,0,0
+1619158180198,769,Quora -2,200,OK,Thread Group 1-5,text,true,,159034,123,20,20,https://softwaremon.quora.com/,296,0,0
+1619158180462,505,Facebook,200,OK,Thread Group 1-2,text,true,,192486,236,20,20,https://www.facebook.com/,202,0,0
+1619158180462,202,Facebook-0,301,Moved Permanently,Thread Group 1-2,text,true,,366,118,20,20,http://www.facebook.com/,202,0,0
+1619158180664,303,Facebook-1,200,OK,Thread Group 1-2,text,true,,192120,118,20,20,https://www.facebook.com/,281,0,0
+1619158180378,593,Twitter,200,OK,Thread Group 1-16,text,true,,68089,383,20,20,https://twitter.com/intent/tweet,171,0,0
+1619158180378,171,Twitter-0,301,Moved Permanently,Thread Group 1-16,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,171,0,0
+1619158180550,187,Twitter-1,301,Moved Permanently,Thread Group 1-16,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,187,0,0
+1619158180737,234,Twitter-2,200,OK,Thread Group 1-16,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,207,0,0
+1619158180535,522,Facebook,200,OK,Thread Group 1-9,text,true,,192479,236,20,20,https://www.facebook.com/,213,0,0
+1619158180535,213,Facebook-0,301,Moved Permanently,Thread Group 1-9,text,true,,366,118,20,20,http://www.facebook.com/,213,0,0
+1619158180748,309,Facebook-1,200,OK,Thread Group 1-9,text,true,,192113,118,20,20,https://www.facebook.com/,287,0,0
+1619158180482,579,Twitter,200,OK,Thread Group 1-7,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,172,0,0
+1619158180482,172,Twitter-0,301,Moved Permanently,Thread Group 1-7,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,172,0,0
+1619158180654,173,Twitter-1,301,Moved Permanently,Thread Group 1-7,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,173,0,0
+1619158180827,234,Twitter-2,200,OK,Thread Group 1-7,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,202,0,0
+1619158180584,521,Facebook,200,OK,Thread Group 1-10,text,true,,192475,236,20,20,https://www.facebook.com/,198,0,0
+1619158180584,198,Facebook-0,301,Moved Permanently,Thread Group 1-10,text,true,,366,118,20,20,http://www.facebook.com/,198,0,0
+1619158180783,322,Facebook-1,200,OK,Thread Group 1-10,text,true,,192109,118,20,20,https://www.facebook.com/,284,0,0
+1619158180619,592,Twitter,200,OK,Thread Group 1-19,text,true,,68118,383,20,20,https://twitter.com/intent/tweet,176,0,0
+1619158180619,176,Twitter-0,301,Moved Permanently,Thread Group 1-19,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,176,0,0
+1619158180795,176,Twitter-1,301,Moved Permanently,Thread Group 1-19,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,176,0,0
+1619158180971,240,Twitter-2,200,OK,Thread Group 1-19,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,202,0,0
+1619158180749,488,Facebook,200,OK,Thread Group 1-4,text,true,,192448,236,20,20,https://www.facebook.com/,199,0,0
+1619158180749,199,Facebook-0,301,Moved Permanently,Thread Group 1-4,text,true,,349,118,20,20,http://www.facebook.com/,199,0,0
+1619158180949,288,Facebook-1,200,OK,Thread Group 1-4,text,true,,192099,118,20,20,https://www.facebook.com/,266,0,0
+1619158180700,602,Twitter,200,OK,Thread Group 1-12,text,true,,68283,383,20,20,https://twitter.com/intent/tweet,174,0,0
+1619158180700,174,Twitter-0,301,Moved Permanently,Thread Group 1-12,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,174,0,0
+1619158180874,182,Twitter-1,301,Moved Permanently,Thread Group 1-12,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,182,0,0
+1619158181056,246,Twitter-2,200,OK,Thread Group 1-12,text,true,,67027,125,20,20,https://twitter.com/intent/tweet,221,0,0
+1619158180749,583,Twitter,200,OK,Thread Group 1-3,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,172,0,0
+1619158180749,172,Twitter-0,301,Moved Permanently,Thread Group 1-3,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,172,0,0
+1619158180922,174,Twitter-1,301,Moved Permanently,Thread Group 1-3,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,174,0,0
+1619158181096,236,Twitter-2,200,OK,Thread Group 1-3,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,207,0,0
+1619158180752,589,Twitter,200,OK,Thread Group 1-15,text,true,,68117,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158180752,173,Twitter-0,301,Moved Permanently,Thread Group 1-15,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158180925,176,Twitter-1,301,Moved Permanently,Thread Group 1-15,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,176,0,0
+1619158181101,240,Twitter-2,200,OK,Thread Group 1-15,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,205,0,0
+1619158180542,899,Twitter,200,OK,Thread Group 1-13,text,true,,68070,383,20,20,https://twitter.com/intent/tweet,192,0,0
+1619158180542,192,Twitter-0,301,Moved Permanently,Thread Group 1-13,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,192,0,0
+1619158180735,171,Twitter-1,301,Moved Permanently,Thread Group 1-13,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,171,0,0
+1619158180906,535,Twitter-2,200,OK,Thread Group 1-13,text,true,,66828,125,20,20,https://twitter.com/intent/tweet,208,0,0
+1619158180968,546,Facebook,200,OK,Thread Group 1-5,text,true,,192474,236,20,20,https://www.facebook.com/,203,0,0
+1619158180968,203,Facebook-0,301,Moved Permanently,Thread Group 1-5,text,true,,366,118,20,20,http://www.facebook.com/,203,0,0
+1619158181171,343,Facebook-1,200,OK,Thread Group 1-5,text,true,,192108,118,20,20,https://www.facebook.com/,283,0,0
+1619158178991,2537,Quora ,200,OK,Thread Group 1-20,text,true,,159995,377,20,20,https://softwaremon.quora.com/,14,0,4
+1619158178991,14,Quora -0,301,Moved Permanently,Thread Group 1-20,,true,,328,127,20,20,http://www.softwaremon.quora.com/,14,0,4
+1619158179005,258,Quora -1,301,Moved Permanently,Thread Group 1-20,,true,,633,127,20,20,https://www.softwaremon.quora.com/,258,0,0
+1619158179264,2264,Quora -2,200,OK,Thread Group 1-20,text,true,,159034,123,20,20,https://softwaremon.quora.com/,1054,0,0
+1619158180968,587,Twitter,200,OK,Thread Group 1-2,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,175,0,0
+1619158180968,175,Twitter-0,301,Moved Permanently,Thread Group 1-2,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,175,0,0
+1619158181143,177,Twitter-1,301,Moved Permanently,Thread Group 1-2,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,177,0,0
+1619158181320,235,Twitter-2,200,OK,Thread Group 1-2,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,209,0,0
+1619158180542,1054,Quora ,200,OK,Thread Group 1-6,text,true,,159989,377,20,20,https://softwaremon.quora.com/,10,0,5
+1619158180542,10,Quora -0,301,Moved Permanently,Thread Group 1-6,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,5
+1619158180552,274,Quora -1,301,Moved Permanently,Thread Group 1-6,,true,,632,127,20,20,https://www.softwaremon.quora.com/,274,0,0
+1619158180826,770,Quora -2,200,OK,Thread Group 1-6,text,true,,159029,123,20,20,https://softwaremon.quora.com/,294,0,0
+1619158181057,582,Twitter,200,OK,Thread Group 1-9,text,true,,68117,383,20,20,https://twitter.com/intent/tweet,179,0,0
+1619158181057,179,Twitter-0,301,Moved Permanently,Thread Group 1-9,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,179,0,0
+1619158181236,171,Twitter-1,301,Moved Permanently,Thread Group 1-9,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,171,0,0
+1619158181407,232,Twitter-2,200,OK,Thread Group 1-9,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,206,0,0
+1619158180763,882,Quora ,200,OK,Thread Group 1-18,text,true,,159992,377,20,20,https://softwaremon.quora.com/,11,0,6
+1619158180763,11,Quora -0,301,Moved Permanently,Thread Group 1-18,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,6
+1619158180774,254,Quora -1,301,Moved Permanently,Thread Group 1-18,,true,,632,127,20,20,https://www.softwaremon.quora.com/,254,0,0
+1619158181029,616,Quora -2,200,OK,Thread Group 1-18,text,true,,159032,123,20,20,https://softwaremon.quora.com/,288,0,0
+1619158181106,611,Twitter,200,OK,Thread Group 1-10,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158181106,173,Twitter-0,301,Moved Permanently,Thread Group 1-10,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158181279,172,Twitter-1,301,Moved Permanently,Thread Group 1-10,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,172,0,0
+1619158181451,266,Twitter-2,200,OK,Thread Group 1-10,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,238,0,0
+1619158180547,1244,Quora ,200,OK,Thread Group 1-1,text,true,,159966,377,20,20,https://softwaremon.quora.com/,9,0,4
+1619158180547,9,Quora -0,301,Moved Permanently,Thread Group 1-1,,true,,328,127,20,20,http://www.softwaremon.quora.com/,9,0,4
+1619158180556,263,Quora -1,301,Moved Permanently,Thread Group 1-1,,true,,632,127,20,20,https://www.softwaremon.quora.com/,263,0,0
+1619158180819,972,Quora -2,200,OK,Thread Group 1-1,text,true,,159006,123,20,20,https://softwaremon.quora.com/,506,0,0
+1619158181238,584,Twitter,200,OK,Thread Group 1-4,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158181238,173,Twitter-0,301,Moved Permanently,Thread Group 1-4,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158181411,172,Twitter-1,301,Moved Permanently,Thread Group 1-4,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,172,0,0
+1619158181583,239,Twitter-2,200,OK,Thread Group 1-4,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,210,0,0
+1619158180767,1063,Quora ,200,OK,Thread Group 1-11,text,true,,159977,377,20,20,https://softwaremon.quora.com/,9,0,4
+1619158180767,9,Quora -0,301,Moved Permanently,Thread Group 1-11,,true,,328,127,20,20,http://www.softwaremon.quora.com/,9,0,4
+1619158180777,279,Quora -1,301,Moved Permanently,Thread Group 1-11,,true,,633,127,20,20,https://www.softwaremon.quora.com/,279,0,0
+1619158181056,774,Quora -2,200,OK,Thread Group 1-11,text,true,,159016,123,20,20,https://softwaremon.quora.com/,293,0,0
+1619158179764,2092,Quora ,200,OK,Thread Group 1-17,text,true,,159992,377,20,20,https://softwaremon.quora.com/,10,0,4
+1619158179764,10,Quora -0,301,Moved Permanently,Thread Group 1-17,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,4
+1619158179774,283,Quora -1,301,Moved Permanently,Thread Group 1-17,,true,,632,127,20,20,https://www.softwaremon.quora.com/,283,0,0
+1619158180057,1799,Quora -2,200,OK,Thread Group 1-17,text,true,,159032,123,20,20,https://softwaremon.quora.com/,1044,0,0
+1619158181529,514,Facebook,200,OK,Thread Group 1-20,text,true,,192473,236,20,20,https://www.facebook.com/,202,0,0
+1619158181529,202,Facebook-0,301,Moved Permanently,Thread Group 1-20,text,true,,366,118,20,20,http://www.facebook.com/,202,0,0
+1619158181731,312,Facebook-1,200,OK,Thread Group 1-20,text,true,,192107,118,20,20,https://www.facebook.com/,286,0,0
+1619158181514,583,Twitter,200,OK,Thread Group 1-5,text,true,,68334,383,20,20,https://twitter.com/intent/tweet,175,0,0
+1619158181514,175,Twitter-0,301,Moved Permanently,Thread Group 1-5,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,175,0,0
+1619158181689,172,Twitter-1,301,Moved Permanently,Thread Group 1-5,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,172,0,0
+1619158181861,236,Twitter-2,200,OK,Thread Group 1-5,text,true,,67092,125,20,20,https://twitter.com/intent/tweet,205,0,0
+1619158181303,830,Quora ,200,OK,Thread Group 1-12,text,true,,159986,377,20,20,https://softwaremon.quora.com/,18,0,8
+1619158181303,18,Quora -0,301,Moved Permanently,Thread Group 1-12,,true,,328,127,20,20,http://www.softwaremon.quora.com/,18,0,8
+1619158181321,263,Quora -1,301,Moved Permanently,Thread Group 1-12,,true,,631,127,20,20,https://www.softwaremon.quora.com/,263,0,0
+1619158181585,548,Quora -2,200,OK,Thread Group 1-12,text,true,,159027,123,20,20,https://softwaremon.quora.com/,292,0,0
+1619158181645,499,Facebook,200,OK,Thread Group 1-18,text,true,,192462,236,20,20,https://www.facebook.com/,202,0,0
+1619158181645,202,Facebook-0,301,Moved Permanently,Thread Group 1-18,text,true,,349,118,20,20,http://www.facebook.com/,202,0,0
+1619158181847,297,Facebook-1,200,OK,Thread Group 1-18,text,true,,192113,118,20,20,https://www.facebook.com/,266,0,0
+1619158180881,1277,Quora ,200,OK,Thread Group 1-14,text,true,,160011,377,20,20,https://softwaremon.quora.com/,11,0,6
+1619158180881,11,Quora -0,301,Moved Permanently,Thread Group 1-14,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,6
+1619158180892,252,Quora -1,301,Moved Permanently,Thread Group 1-14,,true,,631,127,20,20,https://www.softwaremon.quora.com/,252,0,0
+1619158181144,1014,Quora -2,200,OK,Thread Group 1-14,text,true,,159052,123,20,20,https://softwaremon.quora.com/,299,0,0
+1619158180905,1284,Quora ,200,OK,Thread Group 1-8,text,true,,159983,377,20,20,https://softwaremon.quora.com/,13,0,5
+1619158180905,13,Quora -0,301,Moved Permanently,Thread Group 1-8,,true,,328,127,20,20,http://www.softwaremon.quora.com/,13,0,5
+1619158180918,274,Quora -1,301,Moved Permanently,Thread Group 1-8,,true,,631,127,20,20,https://www.softwaremon.quora.com/,274,0,0
+1619158181192,997,Quora -2,200,OK,Thread Group 1-8,text,true,,159024,123,20,20,https://softwaremon.quora.com/,520,0,0
+1619158181596,604,Facebook,200,OK,Thread Group 1-6,text,true,,192485,236,20,20,https://www.facebook.com/,201,0,0
+1619158181596,201,Facebook-0,301,Moved Permanently,Thread Group 1-6,text,true,,366,118,20,20,http://www.facebook.com/,201,0,0
+1619158181797,403,Facebook-1,200,OK,Thread Group 1-6,text,true,,192119,118,20,20,https://www.facebook.com/,264,0,0
+1619158181212,1013,Quora ,200,OK,Thread Group 1-19,text,true,,159995,377,20,20,https://softwaremon.quora.com/,16,0,6
+1619158181212,16,Quora -0,301,Moved Permanently,Thread Group 1-19,,true,,328,127,20,20,http://www.softwaremon.quora.com/,16,0,6
+1619158181228,254,Quora -1,301,Moved Permanently,Thread Group 1-19,,true,,631,127,20,20,https://www.softwaremon.quora.com/,254,0,0
+1619158181482,743,Quora -2,200,OK,Thread Group 1-19,text,true,,159036,123,20,20,https://softwaremon.quora.com/,287,0,0
+1619158181792,504,Facebook,200,OK,Thread Group 1-1,text,true,,192466,236,20,20,https://www.facebook.com/,205,0,0
+1619158181792,205,Facebook-0,301,Moved Permanently,Thread Group 1-1,text,true,,366,118,20,20,http://www.facebook.com/,205,0,0
+1619158181997,299,Facebook-1,200,OK,Thread Group 1-1,text,true,,192100,118,20,20,https://www.facebook.com/,270,0,0
+1619158180971,1358,Quora ,200,OK,Thread Group 1-16,text,true,,159999,377,20,20,https://softwaremon.quora.com/,9,0,4
+1619158180971,9,Quora -0,301,Moved Permanently,Thread Group 1-16,,true,,328,127,20,20,http://www.softwaremon.quora.com/,9,0,4
+1619158180980,341,Quora -1,301,Moved Permanently,Thread Group 1-16,,true,,632,127,20,20,https://www.softwaremon.quora.com/,341,0,0
+1619158181321,1008,Quora -2,200,OK,Thread Group 1-16,text,true,,159039,123,20,20,https://softwaremon.quora.com/,286,0,0
+1619158181831,505,Facebook,200,OK,Thread Group 1-11,text,true,,192465,236,20,20,https://www.facebook.com/,208,0,0
+1619158181831,208,Facebook-0,301,Moved Permanently,Thread Group 1-11,text,true,,366,118,20,20,http://www.facebook.com/,208,0,0
+1619158182039,297,Facebook-1,200,OK,Thread Group 1-11,text,true,,192099,118,20,20,https://www.facebook.com/,275,0,0
+1619158181333,1072,Quora ,200,OK,Thread Group 1-3,text,true,,159954,377,20,20,https://softwaremon.quora.com/,13,0,7
+1619158181333,13,Quora -0,301,Moved Permanently,Thread Group 1-3,,true,,328,127,20,20,http://www.softwaremon.quora.com/,13,0,7
+1619158181346,274,Quora -1,301,Moved Permanently,Thread Group 1-3,,true,,631,127,20,20,https://www.softwaremon.quora.com/,274,0,0
+1619158181620,785,Quora -2,200,OK,Thread Group 1-3,text,true,,158995,123,20,20,https://softwaremon.quora.com/,281,0,0
+1619158181442,1077,Quora ,200,OK,Thread Group 1-13,text,true,,159978,377,20,20,https://softwaremon.quora.com/,9,0,4
+1619158181442,9,Quora -0,301,Moved Permanently,Thread Group 1-13,,true,,328,127,20,20,http://www.softwaremon.quora.com/,9,0,4
+1619158181451,254,Quora -1,301,Moved Permanently,Thread Group 1-13,,true,,633,127,20,20,https://www.softwaremon.quora.com/,254,0,0
+1619158181705,814,Quora -2,200,OK,Thread Group 1-13,text,true,,159017,123,20,20,https://softwaremon.quora.com/,340,0,0
+1619158181062,1531,Quora ,200,OK,Thread Group 1-7,text,true,,160013,377,20,20,https://softwaremon.quora.com/,12,0,7
+1619158181062,12,Quora -0,301,Moved Permanently,Thread Group 1-7,,true,,328,127,20,20,http://www.softwaremon.quora.com/,12,0,7
+1619158181075,271,Quora -1,301,Moved Permanently,Thread Group 1-7,,true,,631,127,20,20,https://www.softwaremon.quora.com/,271,0,0
+1619158181346,1247,Quora -2,200,OK,Thread Group 1-7,text,true,,159054,123,20,20,https://softwaremon.quora.com/,287,0,0
+1619158182133,507,Facebook,200,OK,Thread Group 1-12,text,true,,192479,236,20,20,https://www.facebook.com/,203,0,0
+1619158182133,203,Facebook-0,301,Moved Permanently,Thread Group 1-12,text,true,,366,118,20,20,http://www.facebook.com/,203,0,0
+1619158182336,304,Facebook-1,200,OK,Thread Group 1-12,text,true,,192113,118,20,20,https://www.facebook.com/,274,0,0
+1619158182159,497,Facebook,200,OK,Thread Group 1-14,text,true,,192462,236,20,20,https://www.facebook.com/,199,0,0
+1619158182159,199,Facebook-0,301,Moved Permanently,Thread Group 1-14,text,true,,349,118,20,20,http://www.facebook.com/,199,0,0
+1619158182358,298,Facebook-1,200,OK,Thread Group 1-14,text,true,,192113,118,20,20,https://www.facebook.com/,263,0,0
+1619158181856,805,Facebook,200,OK,Thread Group 1-17,text,true,,192476,236,20,20,https://www.facebook.com/,201,0,0
+1619158181856,201,Facebook-0,301,Moved Permanently,Thread Group 1-17,text,true,,366,118,20,20,http://www.facebook.com/,201,0,0
+1619158182057,604,Facebook-1,200,OK,Thread Group 1-17,text,true,,192110,118,20,20,https://www.facebook.com/,339,0,0
+1619158181639,1068,Quora ,200,OK,Thread Group 1-9,text,true,,159992,377,20,20,https://softwaremon.quora.com/,17,0,6
+1619158182189,518,Facebook,200,OK,Thread Group 1-8,text,true,,192488,236,20,20,https://www.facebook.com/,204,0,0
+1619158181639,17,Quora -0,301,Moved Permanently,Thread Group 1-9,,true,,328,127,20,20,http://www.softwaremon.quora.com/,17,0,6
+1619158182189,204,Facebook-0,301,Moved Permanently,Thread Group 1-8,text,true,,366,118,20,20,http://www.facebook.com/,204,0,0
+1619158181656,277,Quora -1,301,Moved Permanently,Thread Group 1-9,,true,,631,127,20,20,https://www.softwaremon.quora.com/,277,0,0
+1619158181933,774,Quora -2,200,OK,Thread Group 1-9,text,true,,159033,123,20,20,https://softwaremon.quora.com/,297,0,0
+1619158182393,314,Facebook-1,200,OK,Thread Group 1-8,text,true,,192122,118,20,20,https://www.facebook.com/,282,0,0
+1619158182145,600,Twitter,200,OK,Thread Group 1-18,text,true,,68103,383,20,20,https://twitter.com/intent/tweet,191,0,0
+1619158182145,191,Twitter-0,301,Moved Permanently,Thread Group 1-18,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,191,0,0
+1619158182336,174,Twitter-1,301,Moved Permanently,Thread Group 1-18,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,174,0,0
+1619158182510,235,Twitter-2,200,OK,Thread Group 1-18,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,207,0,0
+1619158182200,582,Twitter,200,OK,Thread Group 1-6,text,true,,68789,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158182200,173,Twitter-0,301,Moved Permanently,Thread Group 1-6,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158182373,171,Twitter-1,301,Moved Permanently,Thread Group 1-6,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,171,0,0
+1619158182544,238,Twitter-2,200,OK,Thread Group 1-6,text,true,,67547,125,20,20,https://twitter.com/intent/tweet,209,0,0
+1619158182330,488,Facebook,200,OK,Thread Group 1-16,text,true,,192446,236,20,20,https://www.facebook.com/,200,0,0
+1619158182330,200,Facebook-0,301,Moved Permanently,Thread Group 1-16,text,true,,349,118,20,20,http://www.facebook.com/,200,0,0
+1619158182530,288,Facebook-1,200,OK,Thread Group 1-16,text,true,,192097,118,20,20,https://www.facebook.com/,267,0,0
+1619158181556,1308,Quora ,200,OK,Thread Group 1-2,text,true,,159979,377,20,20,https://softwaremon.quora.com/,14,0,9
+1619158181556,14,Quora -0,301,Moved Permanently,Thread Group 1-2,,true,,328,127,20,20,http://www.softwaremon.quora.com/,14,0,9
+1619158181570,285,Quora -1,301,Moved Permanently,Thread Group 1-2,,true,,631,127,20,20,https://www.softwaremon.quora.com/,285,0,0
+1619158181855,1009,Quora -2,200,OK,Thread Group 1-2,text,true,,159020,123,20,20,https://softwaremon.quora.com/,534,0,0
+1619158182296,600,Twitter,200,OK,Thread Group 1-1,text,true,,68117,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158182296,173,Twitter-0,301,Moved Permanently,Thread Group 1-1,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158182469,186,Twitter-1,301,Moved Permanently,Thread Group 1-1,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,186,0,0
+1619158182655,241,Twitter-2,200,OK,Thread Group 1-1,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,209,0,0
+1619158182226,691,Facebook,200,OK,Thread Group 1-19,text,true,,192464,236,20,20,https://www.facebook.com/,200,0,0
+1619158182226,200,Facebook-0,301,Moved Permanently,Thread Group 1-19,text,true,,366,118,20,20,http://www.facebook.com/,200,0,0
+1619158182426,491,Facebook-1,200,OK,Thread Group 1-19,text,true,,192098,118,20,20,https://www.facebook.com/,266,0,0
+1619158182337,593,Twitter,200,OK,Thread Group 1-11,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,172,0,0
+1619158182337,172,Twitter-0,301,Moved Permanently,Thread Group 1-11,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,172,0,0
+1619158182509,171,Twitter-1,301,Moved Permanently,Thread Group 1-11,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,171,0,0
+1619158182680,250,Twitter-2,200,OK,Thread Group 1-11,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,206,0,0
+1619158182406,531,Facebook,200,OK,Thread Group 1-3,text,true,,192472,236,20,20,https://www.facebook.com/,204,0,0
+1619158182406,204,Facebook-0,301,Moved Permanently,Thread Group 1-3,text,true,,349,118,20,20,http://www.facebook.com/,204,0,0
+1619158182611,326,Facebook-1,200,OK,Thread Group 1-3,text,true,,192123,118,20,20,https://www.facebook.com/,274,0,0
+1619158182044,896,Twitter,200,OK,Thread Group 1-20,text,true,,68070,383,20,20,https://twitter.com/intent/tweet,172,0,0
+1619158182044,172,Twitter-0,301,Moved Permanently,Thread Group 1-20,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,172,0,0
+1619158182216,172,Twitter-1,301,Moved Permanently,Thread Group 1-20,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,172,0,0
+1619158182388,552,Twitter-2,200,OK,Thread Group 1-20,text,true,,66828,125,20,20,https://twitter.com/intent/tweet,210,0,0
+1619158182519,496,Facebook,200,OK,Thread Group 1-13,text,true,,195733,236,20,20,https://www.facebook.com/,200,0,0
+1619158182519,200,Facebook-0,301,Moved Permanently,Thread Group 1-13,text,true,,349,118,20,20,http://www.facebook.com/,200,0,0
+1619158182720,295,Facebook-1,200,OK,Thread Group 1-13,text,true,,195384,118,20,20,https://www.facebook.com/,274,0,0
+1619158181717,1347,Quora ,200,OK,Thread Group 1-10,text,true,,159964,377,20,20,https://softwaremon.quora.com/,12,0,5
+1619158181717,12,Quora -0,301,Moved Permanently,Thread Group 1-10,,true,,328,127,20,20,http://www.softwaremon.quora.com/,12,0,5
+1619158181729,292,Quora -1,301,Moved Permanently,Thread Group 1-10,,true,,631,127,20,20,https://www.softwaremon.quora.com/,292,0,0
+1619158182021,1043,Quora -2,200,OK,Thread Group 1-10,text,true,,159005,123,20,20,https://softwaremon.quora.com/,304,0,0
+1619158181822,1273,Quora ,200,OK,Thread Group 1-4,text,true,,159988,377,20,20,https://softwaremon.quora.com/,14,0,8
+1619158181822,14,Quora -0,301,Moved Permanently,Thread Group 1-4,,true,,328,127,20,20,http://www.softwaremon.quora.com/,14,0,8
+1619158181836,259,Quora -1,301,Moved Permanently,Thread Group 1-4,,true,,630,127,20,20,https://www.softwaremon.quora.com/,259,0,0
+1619158182096,999,Quora -2,200,OK,Thread Group 1-4,text,true,,159030,123,20,20,https://softwaremon.quora.com/,516,0,0
+1619158182594,512,Facebook,200,OK,Thread Group 1-7,text,true,,192458,236,20,20,https://www.facebook.com/,203,0,0
+1619158182594,203,Facebook-0,301,Moved Permanently,Thread Group 1-7,text,true,,349,118,20,20,http://www.facebook.com/,203,0,0
+1619158182797,309,Facebook-1,200,OK,Thread Group 1-7,text,true,,192109,118,20,20,https://www.facebook.com/,275,0,0
+1619158182640,585,Twitter,200,OK,Thread Group 1-12,text,true,,68308,383,20,20,https://twitter.com/intent/tweet,174,0,0
+1619158182640,174,Twitter-0,301,Moved Permanently,Thread Group 1-12,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,174,0,0
+1619158182814,174,Twitter-1,301,Moved Permanently,Thread Group 1-12,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,174,0,0
+1619158182988,237,Twitter-2,200,OK,Thread Group 1-12,text,true,,67052,125,20,20,https://twitter.com/intent/tweet,203,0,0
+1619158182708,521,Facebook,200,OK,Thread Group 1-9,text,true,,192468,236,20,20,https://www.facebook.com/,215,0,0
+1619158182708,215,Facebook-0,301,Moved Permanently,Thread Group 1-9,text,true,,349,118,20,20,http://www.facebook.com/,215,0,0
+1619158182923,306,Facebook-1,200,OK,Thread Group 1-9,text,true,,192119,118,20,20,https://www.facebook.com/,268,0,0
+1619158182656,581,Twitter,200,OK,Thread Group 1-14,text,true,,68089,383,20,20,https://twitter.com/intent/tweet,175,0,0
+1619158182656,175,Twitter-0,301,Moved Permanently,Thread Group 1-14,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,175,0,0
+1619158182831,174,Twitter-1,301,Moved Permanently,Thread Group 1-14,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,174,0,0
+1619158183005,232,Twitter-2,200,OK,Thread Group 1-14,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,209,0,0
+1619158182708,593,Twitter,200,OK,Thread Group 1-8,text,true,,68089,383,20,20,https://twitter.com/intent/tweet,176,0,0
+1619158182708,176,Twitter-0,301,Moved Permanently,Thread Group 1-8,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,176,0,0
+1619158182885,179,Twitter-1,301,Moved Permanently,Thread Group 1-8,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,179,0,0
+1619158183064,237,Twitter-2,200,OK,Thread Group 1-8,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,201,0,0
+1619158182865,463,Facebook,200,OK,Thread Group 1-2,text,true,,192463,236,20,20,https://www.facebook.com/,167,0,0
+1619158182865,167,Facebook-0,301,Moved Permanently,Thread Group 1-2,text,true,,349,118,20,20,http://www.facebook.com/,167,0,0
+1619158183032,296,Facebook-1,200,OK,Thread Group 1-2,text,true,,192114,118,20,20,https://www.facebook.com/,273,0,0
+1619158182098,1242,Quora ,200,OK,Thread Group 1-5,text,true,,159966,377,20,20,https://softwaremon.quora.com/,9,0,4
+1619158182098,9,Quora -0,301,Moved Permanently,Thread Group 1-5,,true,,328,127,20,20,http://www.softwaremon.quora.com/,9,0,4
+1619158182107,273,Quora -1,301,Moved Permanently,Thread Group 1-5,,true,,633,127,20,20,https://www.softwaremon.quora.com/,273,0,0
+1619158182380,960,Quora -2,200,OK,Thread Group 1-5,text,true,,159005,123,20,20,https://softwaremon.quora.com/,500,0,0
+1619158182818,578,Twitter,200,OK,Thread Group 1-16,text,true,,68089,383,20,20,https://twitter.com/intent/tweet,176,0,0
+1619158182818,176,Twitter-0,301,Moved Permanently,Thread Group 1-16,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,176,0,0
+1619158182995,171,Twitter-1,301,Moved Permanently,Thread Group 1-16,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,171,0,0
+1619158183166,230,Twitter-2,200,OK,Thread Group 1-16,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,201,0,0
+1619158182917,581,Twitter,200,OK,Thread Group 1-19,text,true,,68362,383,20,20,https://twitter.com/intent/tweet,183,0,0
+1619158182917,183,Twitter-0,301,Moved Permanently,Thread Group 1-19,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,183,0,0
+1619158183100,172,Twitter-1,301,Moved Permanently,Thread Group 1-19,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,172,0,0
+1619158183272,226,Twitter-2,200,OK,Thread Group 1-19,text,true,,67092,125,20,20,https://twitter.com/intent/tweet,200,0,0
+1619158182938,568,Twitter,200,OK,Thread Group 1-3,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,174,0,0
+1619158182938,174,Twitter-0,301,Moved Permanently,Thread Group 1-3,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,174,0,0
+1619158183112,173,Twitter-1,301,Moved Permanently,Thread Group 1-3,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,173,0,0
+1619158183285,221,Twitter-2,200,OK,Thread Group 1-3,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,196,0,0
+1619158182661,906,Twitter,200,OK,Thread Group 1-17,text,true,,68084,383,20,20,https://twitter.com/intent/tweet,176,0,0
+1619158182661,176,Twitter-0,301,Moved Permanently,Thread Group 1-17,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,176,0,0
+1619158182837,174,Twitter-1,301,Moved Permanently,Thread Group 1-17,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,174,0,0
+1619158183011,556,Twitter-2,200,OK,Thread Group 1-17,text,true,,66828,125,20,20,https://twitter.com/intent/tweet,225,0,0
+1619158183065,503,Facebook,200,OK,Thread Group 1-10,text,true,,192467,236,20,20,https://www.facebook.com/,199,0,0
+1619158183065,199,Facebook-0,301,Moved Permanently,Thread Group 1-10,text,true,,366,118,20,20,http://www.facebook.com/,199,0,0
+1619158183264,304,Facebook-1,200,OK,Thread Group 1-10,text,true,,192101,118,20,20,https://www.facebook.com/,282,0,0
+1619158183096,510,Facebook,200,OK,Thread Group 1-4,text,true,,192474,236,20,20,https://www.facebook.com/,203,0,0
+1619158183096,203,Facebook-0,301,Moved Permanently,Thread Group 1-4,text,true,,366,118,20,20,http://www.facebook.com/,203,0,0
+1619158183299,307,Facebook-1,200,OK,Thread Group 1-4,text,true,,192108,118,20,20,https://www.facebook.com/,273,0,0
+1619158183106,573,Twitter,200,OK,Thread Group 1-7,text,true,,68089,383,20,20,https://twitter.com/intent/tweet,175,0,0
+1619158183106,175,Twitter-0,301,Moved Permanently,Thread Group 1-7,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,175,0,0
+1619158183281,171,Twitter-1,301,Moved Permanently,Thread Group 1-7,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,171,0,0
+1619158183452,227,Twitter-2,200,OK,Thread Group 1-7,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,204,0,0
+1619158182746,1017,Quora ,200,OK,Thread Group 1-18,text,true,,159951,377,20,20,https://softwaremon.quora.com/,14,0,9
+1619158182746,14,Quora -0,301,Moved Permanently,Thread Group 1-18,,true,,328,127,20,20,http://www.softwaremon.quora.com/,14,0,9
+1619158182760,257,Quora -1,301,Moved Permanently,Thread Group 1-18,,true,,632,127,20,20,https://www.softwaremon.quora.com/,257,0,0
+1619158183017,746,Quora -2,200,OK,Thread Group 1-18,text,true,,158991,123,20,20,https://softwaremon.quora.com/,276,0,0
+1619158181342,2455,Quora ,200,OK,Thread Group 1-15,text,true,,160007,377,20,20,https://softwaremon.quora.com/,20,0,5
+1619158181342,20,Quora -0,301,Moved Permanently,Thread Group 1-15,,true,,328,127,20,20,http://www.softwaremon.quora.com/,20,0,5
+1619158181362,266,Quora -1,301,Moved Permanently,Thread Group 1-15,,true,,632,127,20,20,https://www.softwaremon.quora.com/,266,0,0
+1619158181628,2169,Quora -2,200,OK,Thread Group 1-15,text,true,,159047,123,20,20,https://softwaremon.quora.com/,526,0,0
+1619158183230,576,Twitter,200,OK,Thread Group 1-9,text,true,,68118,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158183230,173,Twitter-0,301,Moved Permanently,Thread Group 1-9,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158183403,171,Twitter-1,301,Moved Permanently,Thread Group 1-9,,true,,656,129,20,20,https://www.twitter.com/intent/tweet,171,0,0
+1619158183575,231,Twitter-2,200,OK,Thread Group 1-9,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,210,0,0
+1619158183341,532,Facebook,200,OK,Thread Group 1-5,text,true,,192457,236,20,20,https://www.facebook.com/,216,0,0
+1619158183341,216,Facebook-0,301,Moved Permanently,Thread Group 1-5,text,true,,349,118,20,20,http://www.facebook.com/,216,0,0
+1619158183557,316,Facebook-1,200,OK,Thread Group 1-5,text,true,,192108,118,20,20,https://www.facebook.com/,262,0,0
+1619158183016,882,Twitter,200,OK,Thread Group 1-13,text,true,,68070,383,20,20,https://twitter.com/intent/tweet,177,0,0
+1619158183016,177,Twitter-0,301,Moved Permanently,Thread Group 1-13,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,177,0,0
+1619158183193,174,Twitter-1,301,Moved Permanently,Thread Group 1-13,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,174,0,0
+1619158183368,530,Twitter-2,200,OK,Thread Group 1-13,text,true,,66828,125,20,20,https://twitter.com/intent/tweet,204,0,0
+1619158183328,591,Twitter,200,OK,Thread Group 1-2,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,181,0,0
+1619158183328,181,Twitter-0,301,Moved Permanently,Thread Group 1-2,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,181,0,0
+1619158183509,173,Twitter-1,301,Moved Permanently,Thread Group 1-2,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,173,0,0
+1619158183682,237,Twitter-2,200,OK,Thread Group 1-2,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,205,0,0
+1619158182897,1083,Quora ,200,OK,Thread Group 1-1,text,true,,159996,377,20,20,https://softwaremon.quora.com/,40,0,22
+1619158182897,40,Quora -0,301,Moved Permanently,Thread Group 1-1,,true,,328,127,20,20,http://www.softwaremon.quora.com/,40,0,22
+1619158182938,260,Quora -1,301,Moved Permanently,Thread Group 1-1,,true,,633,127,20,20,https://www.softwaremon.quora.com/,260,0,0
+1619158183198,782,Quora -2,200,OK,Thread Group 1-1,text,true,,159035,123,20,20,https://softwaremon.quora.com/,306,0,0
+1619158182940,1108,Quora ,200,OK,Thread Group 1-20,text,true,,159984,377,20,20,https://softwaremon.quora.com/,13,0,7
+1619158182940,13,Quora -0,301,Moved Permanently,Thread Group 1-20,,true,,328,127,20,20,http://www.softwaremon.quora.com/,13,0,7
+1619158182953,319,Quora -1,301,Moved Permanently,Thread Group 1-20,,true,,631,127,20,20,https://www.softwaremon.quora.com/,319,0,0
+1619158183272,776,Quora -2,200,OK,Thread Group 1-20,text,true,,159025,123,20,20,https://softwaremon.quora.com/,348,0,0
+1619158182783,1293,Quora ,200,OK,Thread Group 1-6,text,true,,160005,377,20,20,https://softwaremon.quora.com/,11,0,5
+1619158182783,11,Quora -0,301,Moved Permanently,Thread Group 1-6,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,5
+1619158182794,275,Quora -1,301,Moved Permanently,Thread Group 1-6,,true,,631,127,20,20,https://www.softwaremon.quora.com/,275,0,0
+1619158183070,1006,Quora -2,200,OK,Thread Group 1-6,text,true,,159046,123,20,20,https://softwaremon.quora.com/,529,0,0
+1619158183568,586,Twitter,200,OK,Thread Group 1-10,text,true,,68104,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158183568,173,Twitter-0,301,Moved Permanently,Thread Group 1-10,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158183741,175,Twitter-1,301,Moved Permanently,Thread Group 1-10,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,175,0,0
+1619158183916,238,Twitter-2,200,OK,Thread Group 1-10,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,207,0,0
+1619158183606,581,Twitter,200,OK,Thread Group 1-4,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,172,0,0
+1619158183606,172,Twitter-0,301,Moved Permanently,Thread Group 1-4,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,172,0,0
+1619158183779,176,Twitter-1,301,Moved Permanently,Thread Group 1-4,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,176,0,0
+1619158183955,232,Twitter-2,200,OK,Thread Group 1-4,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,210,0,0
+1619158182930,1310,Quora ,200,OK,Thread Group 1-11,text,true,,159993,377,20,20,https://softwaremon.quora.com/,14,0,8
+1619158182930,14,Quora -0,301,Moved Permanently,Thread Group 1-11,,true,,328,127,20,20,http://www.softwaremon.quora.com/,14,0,8
+1619158182944,280,Quora -1,301,Moved Permanently,Thread Group 1-11,,true,,631,127,20,20,https://www.softwaremon.quora.com/,280,0,0
+1619158183224,1016,Quora -2,200,OK,Thread Group 1-11,text,true,,159034,123,20,20,https://softwaremon.quora.com/,522,0,0
+1619158183764,500,Facebook,200,OK,Thread Group 1-18,text,true,,192457,236,20,20,https://www.facebook.com/,205,0,0
+1619158183764,205,Facebook-0,301,Moved Permanently,Thread Group 1-18,text,true,,349,118,20,20,http://www.facebook.com/,205,0,0
+1619158183969,295,Facebook-1,200,OK,Thread Group 1-18,text,true,,192108,118,20,20,https://www.facebook.com/,271,0,0
+1619158183226,1045,Quora ,200,OK,Thread Group 1-12,text,true,,159981,377,20,20,https://softwaremon.quora.com/,11,0,5
+1619158183226,11,Quora -0,301,Moved Permanently,Thread Group 1-12,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,5
+1619158183237,262,Quora -1,301,Moved Permanently,Thread Group 1-12,,true,,631,127,20,20,https://www.softwaremon.quora.com/,262,0,0
+1619158183499,772,Quora -2,200,OK,Thread Group 1-12,text,true,,159022,123,20,20,https://softwaremon.quora.com/,286,0,0
+1619158183797,529,Facebook,200,OK,Thread Group 1-15,text,true,,192474,236,20,20,https://www.facebook.com/,200,0,0
+1619158183797,200,Facebook-0,301,Moved Permanently,Thread Group 1-15,text,true,,366,118,20,20,http://www.facebook.com/,200,0,0
+1619158183997,329,Facebook-1,200,OK,Thread Group 1-15,text,true,,192108,118,20,20,https://www.facebook.com/,279,0,0
+1619158183874,597,Twitter,200,OK,Thread Group 1-5,text,true,,68090,383,20,20,https://twitter.com/intent/tweet,173,0,0
+1619158183874,173,Twitter-0,301,Moved Permanently,Thread Group 1-5,,true,,600,129,20,20,http://www.twitter.com/intent/tweet,173,0,0
+1619158184047,178,Twitter-1,301,Moved Permanently,Thread Group 1-5,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,178,0,0
+1619158184225,246,Twitter-2,200,OK,Thread Group 1-5,text,true,,66848,125,20,20,https://twitter.com/intent/tweet,207,0,0
+1619158183302,1187,Quora ,200,OK,Thread Group 1-8,text,true,,159951,377,20,20,https://softwaremon.quora.com/,19,0,6
+1619158183302,19,Quora -0,301,Moved Permanently,Thread Group 1-8,,true,,328,127,20,20,http://www.softwaremon.quora.com/,19,0,6
+1619158183321,293,Quora -1,301,Moved Permanently,Thread Group 1-8,,true,,631,127,20,20,https://www.softwaremon.quora.com/,293,0,0
+1619158183614,875,Quora -2,200,OK,Thread Group 1-8,text,true,,158992,123,20,20,https://softwaremon.quora.com/,374,0,0
+1619158183980,516,Facebook,200,OK,Thread Group 1-1,text,true,,192456,236,20,20,https://www.facebook.com/,204,0,0
+1619158183980,204,Facebook-0,301,Moved Permanently,Thread Group 1-1,text,true,,349,118,20,20,http://www.facebook.com/,204,0,0
+1619158184184,312,Facebook-1,200,OK,Thread Group 1-1,text,true,,192107,118,20,20,https://www.facebook.com/,280,0,0
+1619158183499,1009,Quora ,200,OK,Thread Group 1-19,text,true,,159983,377,20,20,https://softwaremon.quora.com/,17,0,10
+1619158183499,17,Quora -0,301,Moved Permanently,Thread Group 1-19,,true,,328,127,20,20,http://www.softwaremon.quora.com/,17,0,10
+1619158183516,269,Quora -1,301,Moved Permanently,Thread Group 1-19,,true,,632,127,20,20,https://www.softwaremon.quora.com/,269,0,0
+1619158183786,722,Quora -2,200,OK,Thread Group 1-19,text,true,,159023,123,20,20,https://softwaremon.quora.com/,273,0,0
+1619158183238,1317,Quora ,200,OK,Thread Group 1-14,text,true,,160009,377,20,20,https://softwaremon.quora.com/,11,0,4
+1619158183238,11,Quora -0,301,Moved Permanently,Thread Group 1-14,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,4
+1619158183249,266,Quora -1,301,Moved Permanently,Thread Group 1-14,,true,,632,127,20,20,https://www.softwaremon.quora.com/,266,0,0
+1619158183515,1040,Quora -2,200,OK,Thread Group 1-14,text,true,,159049,123,20,20,https://softwaremon.quora.com/,314,0,0
+1619158184048,513,Facebook,200,OK,Thread Group 1-20,text,true,,192470,236,20,20,https://www.facebook.com/,214,0,0
+1619158184048,214,Facebook-0,301,Moved Permanently,Thread Group 1-20,text,true,,349,118,20,20,http://www.facebook.com/,214,0,0
+1619158184263,298,Facebook-1,200,OK,Thread Group 1-20,text,true,,192121,118,20,20,https://www.facebook.com/,265,0,0
+1619158183507,1057,Quora ,200,OK,Thread Group 1-3,text,true,,159972,377,20,20,https://softwaremon.quora.com/,11,0,5
+1619158183507,11,Quora -0,301,Moved Permanently,Thread Group 1-3,,true,,328,127,20,20,http://www.softwaremon.quora.com/,11,0,5
+1619158183518,268,Quora -1,301,Moved Permanently,Thread Group 1-3,,true,,632,127,20,20,https://www.softwaremon.quora.com/,268,0,0
+1619158183786,778,Quora -2,200,OK,Thread Group 1-3,text,true,,159012,123,20,20,https://softwaremon.quora.com/,289,0,0
+1619158184077,509,Facebook,200,OK,Thread Group 1-6,text,true,,192468,236,20,20,https://www.facebook.com/,199,0,0
+1619158184077,199,Facebook-0,301,Moved Permanently,Thread Group 1-6,text,true,,366,118,20,20,http://www.facebook.com/,199,0,0
+1619158184277,309,Facebook-1,200,OK,Thread Group 1-6,text,true,,192102,118,20,20,https://www.facebook.com/,281,0,0
+1619158183396,1290,Quora ,200,OK,Thread Group 1-16,text,true,,159991,377,20,20,https://softwaremon.quora.com/,10,0,5
+1619158183396,10,Quora -0,301,Moved Permanently,Thread Group 1-16,,true,,328,127,20,20,http://www.softwaremon.quora.com/,10,0,5
+1619158183406,324,Quora -1,301,Moved Permanently,Thread Group 1-16,,true,,631,127,20,20,https://www.softwaremon.quora.com/,324,0,0
+1619158183730,956,Quora -2,200,OK,Thread Group 1-16,text,true,,159032,123,20,20,https://softwaremon.quora.com/,499,0,0
+1619158183680,1072,Quora ,200,OK,Thread Group 1-7,text,true,,159993,377,20,20,https://softwaremon.quora.com/,13,0,6
+1619158183680,13,Quora -0,301,Moved Permanently,Thread Group 1-7,,true,,328,127,20,20,http://www.softwaremon.quora.com/,13,0,6
+1619158183693,267,Quora -1,301,Moved Permanently,Thread Group 1-7,,true,,631,127,20,20,https://www.softwaremon.quora.com/,267,0,0
+1619158183960,792,Quora -2,200,OK,Thread Group 1-7,text,true,,159034,123,20,20,https://softwaremon.quora.com/,303,0,0
+1619158184241,517,Facebook,200,OK,Thread Group 1-11,text,true,,192478,236,20,20,https://www.facebook.com/,211,0,0
+1619158184241,211,Facebook-0,301,Moved Permanently,Thread Group 1-11,text,true,,366,118,20,20,http://www.facebook.com/,211,0,0
+1619158184452,306,Facebook-1,200,OK,Thread Group 1-11,text,true,,192112,118,20,20,https://www.facebook.com/,277,0,0
+1619158184272,507,Facebook,200,OK,Thread Group 1-12,text,true,,192459,236,20,20,https://www.facebook.com/,216,0,0
+1619158184272,216,Facebook-0,301,Moved Permanently,Thread Group 1-12,text,true,,349,118,20,20,http://www.facebook.com/,216,0,0
+1619158184488,291,Facebook-1,200,OK,Thread Group 1-12,text,true,,192110,118,20,20,https://www.facebook.com/,270,0,0
+1619158183568,1241,Quora ,200,OK,Thread Group 1-17,text,true,,159984,377,20,20,https://softwaremon.quora.com/,15,0,6
+1619158183568,15,Quora -0,301,Moved Permanently,Thread Group 1-17,,true,,328,127,20,20,http://www.softwaremon.quora.com/,15,0,6
+1619158183583,265,Quora -1,301,Moved Permanently,Thread Group 1-17,,true,,632,127,20,20,https://www.softwaremon.quora.com/,265,0,0
+1619158183849,960,Quora -2,200,OK,Thread Group 1-17,text,true,,159024,123,20,20,https://softwaremon.quora.com/,498,0,0
+1619158184265,593,Twitter,200,OK,Thread Group 1-18,text,true,,68103,383,20,20,https://twitter.com/intent/tweet,175,0,0
+1619158184265,175,Twitter-0,301,Moved Permanently,Thread Group 1-18,,true,,614,129,20,20,http://www.twitter.com/intent/tweet,175,0,0
+1619158184441,174,Twitter-1,301,Moved Permanently,Thread Group 1-18,,true,,642,129,20,20,https://www.twitter.com/intent/tweet,174,0,0
+1619158184616,242,Twitter-2,200,OK,Thread Group 1-18,text,true,,66847,125,20,20,https://twitter.com/intent/tweet,212,0,0
+1619158183807,1062,Quora ,200,OK,Thread Group 1-9,text,true,,159964,377,20,20,https://softwaremon.quora.com/,14,0,5
+1619158183807,14,Quora -0,301,Moved Permanently,Thread Group 1-9,,true,,328,127,20,20,http://www.softwaremon.quora.com/,14,0,5
+1619158183821,266,Quora -1,301,Moved Permanently,Thread Group 1-9,,true,,632,127,20,20,https://www.softwaremon.quora.com/,266,0,0
+1619158184087,782,Quora -2,200,OK,Thread Group 1-9,text,true,,159004,123,20,20,https://softwaremon.quora.com/,310,0,0
+1619158184327,591,Twitter,200,OK,Thread Group 1-15,text,true,,68118,383,19,19,https://twitter.com/intent/tweet,176,0,0
+1619158184327,176,Twitter-0,301,Moved Permanently,Thread Group 1-15,,true,,614,129,19,19,http://www.twitter.com/intent/tweet,176,0,0
+1619158184503,175,Twitter-1,301,Moved Permanently,Thread Group 1-15,,true,,656,129,19,19,https://www.twitter.com/intent/tweet,175,0,0
+1619158184678,240,Twitter-2,200,OK,Thread Group 1-15,text,true,,66848,125,19,19,https://twitter.com/intent/tweet,211,0,0
+1619158183899,1049,Quora ,200,OK,Thread Group 1-13,text,true,,159934,377,19,19,https://softwaremon.quora.com/,12,0,5
+1619158183899,12,Quora -0,301,Moved Permanently,Thread Group 1-13,,true,,328,127,19,19,http://www.softwaremon.quora.com/,12,0,5
+1619158183911,273,Quora -1,301,Moved Permanently,Thread Group 1-13,,true,,631,127,19,19,https://www.softwaremon.quora.com/,273,0,0
+1619158184184,764,Quora -2,200,OK,Thread Group 1-13,text,true,,158975,123,19,19,https://softwaremon.quora.com/,294,0,0
+1619158184490,488,Facebook,200,OK,Thread Group 1-8,text,true,,192478,236,19,19,https://www.facebook.com/,201,0,0
+1619158184490,201,Facebook-0,301,Moved Permanently,Thread Group 1-8,text,true,,366,118,19,19,http://www.facebook.com/,201,0,0
+1619158184692,286,Facebook-1,200,OK,Thread Group 1-8,text,true,,192112,118,19,19,https://www.facebook.com/,259,0,0
+1619158184508,506,Facebook,200,OK,Thread Group 1-19,text,true,,192466,236,19,19,https://www.facebook.com/,202,0,0
+1619158184508,202,Facebook-0,301,Moved Permanently,Thread Group 1-19,text,true,,366,118,19,19,http://www.facebook.com/,202,0,0
+1619158184711,303,Facebook-1,200,OK,Thread Group 1-19,text,true,,192100,118,19,19,https://www.facebook.com/,269,0,0
+1619158184556,517,Facebook,200,OK,Thread Group 1-14,text,true,,192457,236,19,19,https://www.facebook.com/,223,0,0
+1619158184556,223,Facebook-0,301,Moved Permanently,Thread Group 1-14,text,true,,349,118,19,19,http://www.facebook.com/,223,0,0
+1619158184780,293,Facebook-1,200,OK,Thread Group 1-14,text,true,,192108,118,19,19,https://www.facebook.com/,261,0,0
+1619158184496,589,Twitter,200,OK,Thread Group 1-1,text,true,,68117,383,19,19,https://twitter.com/intent/tweet,182,0,0
+1619158184496,182,Twitter-0,301,Moved Permanently,Thread Group 1-1,,true,,614,129,19,19,http://www.twitter.com/intent/tweet,182,0,0
+1619158184678,171,Twitter-1,301,Moved Permanently,Thread Group 1-1,,true,,656,129,19,19,https://www.twitter.com/intent/tweet,171,0,0
+1619158184850,235,Twitter-2,200,OK,Thread Group 1-1,text,true,,66847,125,19,19,https://twitter.com/intent/tweet,208,0,0
+1619158184565,525,Facebook,200,OK,Thread Group 1-3,text,true,,192456,236,18,18,https://www.facebook.com/,210,0,0
+1619158184565,210,Facebook-0,301,Moved Permanently,Thread Group 1-3,text,true,,349,118,18,18,http://www.facebook.com/,210,0,0
+1619158184776,314,Facebook-1,200,OK,Thread Group 1-3,text,true,,192107,118,18,18,https://www.facebook.com/,284,0,0
+1619158184687,491,Facebook,200,OK,Thread Group 1-16,text,true,,192451,236,18,18,https://www.facebook.com/,197,0,0
+1619158184687,197,Facebook-0,301,Moved Permanently,Thread Group 1-16,text,true,,349,118,18,18,http://www.facebook.com/,197,0,0
+1619158184885,293,Facebook-1,200,OK,Thread Group 1-16,text,true,,192102,118,18,18,https://www.facebook.com/,258,0,0
+1619158184587,606,Twitter,200,OK,Thread Group 1-6,text,true,,68090,383,18,18,https://twitter.com/intent/tweet,184,0,0
+1619158184155,1038,Quora ,200,OK,Thread Group 1-10,text,true,,160002,377,18,18,https://softwaremon.quora.com/,16,0,10
+1619158184587,184,Twitter-0,301,Moved Permanently,Thread Group 1-6,,true,,600,129,18,18,http://www.twitter.com/intent/tweet,184,0,0
+1619158184155,16,Quora -0,301,Moved Permanently,Thread Group 1-10,,true,,328,127,18,18,http://www.softwaremon.quora.com/,16,0,10
+1619158184772,174,Twitter-1,301,Moved Permanently,Thread Group 1-6,,true,,642,129,18,18,https://www.twitter.com/intent/tweet,174,0,0
+1619158184946,247,Twitter-2,200,OK,Thread Group 1-6,text,true,,66848,125,18,18,https://twitter.com/intent/tweet,211,0,0
+1619158184171,271,Quora -1,301,Moved Permanently,Thread Group 1-10,,true,,632,127,18,18,https://www.softwaremon.quora.com/,271,0,0
+1619158184442,751,Quora -2,200,OK,Thread Group 1-10,text,true,,159042,123,18,18,https://softwaremon.quora.com/,293,0,0
+1619158183919,1324,Quora ,200,OK,Thread Group 1-2,text,true,,159982,377,17,17,https://softwaremon.quora.com/,11,0,5
+1619158183919,11,Quora -0,301,Moved Permanently,Thread Group 1-2,,true,,328,127,17,17,http://www.softwaremon.quora.com/,11,0,5
+1619158183930,269,Quora -1,301,Moved Permanently,Thread Group 1-2,,true,,631,127,17,17,https://www.softwaremon.quora.com/,269,0,0
+1619158184199,1044,Quora -2,200,OK,Thread Group 1-2,text,true,,159023,123,17,17,https://softwaremon.quora.com/,307,0,0
+1619158184752,521,Facebook,200,OK,Thread Group 1-7,text,true,,192475,236,17,17,https://www.facebook.com/,199,0,0
+1619158184752,199,Facebook-0,301,Moved Permanently,Thread Group 1-7,text,true,,366,118,17,17,http://www.facebook.com/,199,0,0
+1619158184951,322,Facebook-1,200,OK,Thread Group 1-7,text,true,,192109,118,17,17,https://www.facebook.com/,296,0,0
+1619158184810,524,Facebook,200,OK,Thread Group 1-17,text,true,,192463,236,17,17,https://www.facebook.com/,203,0,0
+1619158184810,203,Facebook-0,301,Moved Permanently,Thread Group 1-17,text,true,,349,118,17,17,http://www.facebook.com/,203,0,0
+1619158185014,320,Facebook-1,200,OK,Thread Group 1-17,text,true,,192114,118,17,17,https://www.facebook.com/,273,0,0
+1619158184759,587,Twitter,200,OK,Thread Group 1-11,text,true,,68516,383,17,17,https://twitter.com/intent/tweet,173,0,0
+1619158184759,173,Twitter-0,301,Moved Permanently,Thread Group 1-11,,true,,614,129,17,17,http://www.twitter.com/intent/tweet,173,0,0
+1619158184932,176,Twitter-1,301,Moved Permanently,Thread Group 1-11,,true,,642,129,17,17,https://www.twitter.com/intent/tweet,176,0,0
+1619158185108,238,Twitter-2,200,OK,Thread Group 1-11,text,true,,67260,125,17,17,https://twitter.com/intent/tweet,203,0,0
+1619158184869,503,Facebook,200,OK,Thread Group 1-9,text,true,,192461,236,16,16,https://www.facebook.com/,210,0,0
+1619158184869,210,Facebook-0,301,Moved Permanently,Thread Group 1-9,text,true,,349,118,16,16,http://www.facebook.com/,210,0,0
+1619158185080,292,Facebook-1,200,OK,Thread Group 1-9,text,true,,192112,118,16,16,https://www.facebook.com/,269,0,0
+1619158184780,593,Twitter,200,OK,Thread Group 1-12,text,true,,68283,383,16,16,https://twitter.com/intent/tweet,172,0,0
+1619158184780,172,Twitter-0,301,Moved Permanently,Thread Group 1-12,,true,,614,129,16,16,http://www.twitter.com/intent/tweet,172,0,0
+1619158184952,182,Twitter-1,301,Moved Permanently,Thread Group 1-12,,true,,642,129,16,16,https://www.twitter.com/intent/tweet,182,0,0
+1619158185134,239,Twitter-2,200,OK,Thread Group 1-12,text,true,,67027,125,16,16,https://twitter.com/intent/tweet,212,0,0
+1619158184562,892,Twitter,200,OK,Thread Group 1-20,text,true,,68070,383,15,15,https://twitter.com/intent/tweet,180,0,0
+1619158184562,180,Twitter-0,301,Moved Permanently,Thread Group 1-20,,true,,600,129,15,15,http://www.twitter.com/intent/tweet,180,0,0
+1619158184742,173,Twitter-1,301,Moved Permanently,Thread Group 1-20,,true,,642,129,15,15,https://www.twitter.com/intent/tweet,173,0,0
+1619158184915,539,Twitter-2,200,OK,Thread Group 1-20,text,true,,66828,125,15,15,https://twitter.com/intent/tweet,209,0,0
+1619158184949,523,Facebook,200,OK,Thread Group 1-13,text,true,,192473,236,15,15,https://www.facebook.com/,228,0,0
+1619158184949,228,Facebook-0,301,Moved Permanently,Thread Group 1-13,text,true,,349,118,15,15,http://www.facebook.com/,228,0,0
+1619158185177,295,Facebook-1,200,OK,Thread Group 1-13,text,true,,192124,118,15,15,https://www.facebook.com/,265,0,0
+1619158184188,1305,Quora ,200,OK,Thread Group 1-4,text,true,,159994,377,15,15,https://softwaremon.quora.com/,13,0,7
+1619158184188,13,Quora -0,301,Moved Permanently,Thread Group 1-4,,true,,328,127,15,15,http://www.softwaremon.quora.com/,13,0,7
+1619158184201,288,Quora -1,301,Moved Permanently,Thread Group 1-4,,true,,632,127,15,15,https://www.softwaremon.quora.com/,288,0,0
+1619158184490,1003,Quora -2,200,OK,Thread Group 1-4,text,true,,159034,123,15,15,https://softwaremon.quora.com/,526,0,0
+1619158184472,1065,Quora ,200,OK,Thread Group 1-5,text,true,,159992,377,15,15,https://softwaremon.quora.com/,33,0,22
+1619158184472,33,Quora -0,301,Moved Permanently,Thread Group 1-5,,true,,328,127,15,15,http://www.softwaremon.quora.com/,33,0,22
+1619158184505,266,Quora -1,301,Moved Permanently,Thread Group 1-5,,true,,632,127,15,15,https://www.softwaremon.quora.com/,266,0,0
+1619158184772,765,Quora -2,200,OK,Thread Group 1-5,text,true,,159032,123,15,15,https://softwaremon.quora.com/,292,0,0
+1619158184979,588,Twitter,200,OK,Thread Group 1-8,text,true,,68089,383,15,15,https://twitter.com/intent/tweet,178,0,0
+1619158184979,178,Twitter-0,301,Moved Permanently,Thread Group 1-8,,true,,600,129,15,15,http://www.twitter.com/intent/tweet,178,0,0
+1619158185157,177,Twitter-1,301,Moved Permanently,Thread Group 1-8,,true,,642,129,15,15,https://www.twitter.com/intent/tweet,177,0,0
+1619158185334,233,Twitter-2,200,OK,Thread Group 1-8,text,true,,66847,125,15,15,https://twitter.com/intent/tweet,203,0,0
+1619158185014,590,Twitter,200,OK,Thread Group 1-19,text,true,,68118,383,14,14,https://twitter.com/intent/tweet,179,0,0
+1619158185014,179,Twitter-0,301,Moved Permanently,Thread Group 1-19,,true,,614,129,14,14,http://www.twitter.com/intent/tweet,179,0,0
+1619158185193,179,Twitter-1,301,Moved Permanently,Thread Group 1-19,,true,,656,129,14,14,https://www.twitter.com/intent/tweet,179,0,0
+1619158185373,231,Twitter-2,200,OK,Thread Group 1-19,text,true,,66848,125,14,14,https://twitter.com/intent/tweet,203,0,0
+1619158185074,586,Twitter,200,OK,Thread Group 1-14,text,true,,68090,383,13,13,https://twitter.com/intent/tweet,174,0,0
+1619158185074,174,Twitter-0,301,Moved Permanently,Thread Group 1-14,,true,,600,129,13,13,http://www.twitter.com/intent/tweet,174,0,0
+1619158185248,174,Twitter-1,301,Moved Permanently,Thread Group 1-14,,true,,642,129,13,13,https://www.twitter.com/intent/tweet,174,0,0
+1619158185422,238,Twitter-2,200,OK,Thread Group 1-14,text,true,,66848,125,13,13,https://twitter.com/intent/tweet,209,0,0
+1619158185091,607,Twitter,200,OK,Thread Group 1-3,text,true,,68307,383,12,12,https://twitter.com/intent/tweet,177,0,0
+1619158185091,177,Twitter-0,301,Moved Permanently,Thread Group 1-3,,true,,614,129,12,12,http://www.twitter.com/intent/tweet,177,0,0
+1619158185269,173,Twitter-1,301,Moved Permanently,Thread Group 1-3,,true,,642,129,12,12,https://www.twitter.com/intent/tweet,173,0,0
+1619158185442,256,Twitter-2,200,OK,Thread Group 1-3,text,true,,67051,125,12,12,https://twitter.com/intent/tweet,211,0,0
+1619158185244,494,Facebook,200,OK,Thread Group 1-2,text,true,,192457,236,11,11,https://www.facebook.com/,198,0,0
+1619158185244,198,Facebook-0,301,Moved Permanently,Thread Group 1-2,text,true,,349,118,11,11,http://www.facebook.com/,198,0,0
+1619158185442,296,Facebook-1,200,OK,Thread Group 1-2,text,true,,192108,118,11,11,https://www.facebook.com/,268,0,0
+1619158185193,555,Facebook,200,OK,Thread Group 1-10,text,true,,192459,236,11,11,https://www.facebook.com/,204,0,0
+1619158185193,204,Facebook-0,301,Moved Permanently,Thread Group 1-10,text,true,,349,118,11,11,http://www.facebook.com/,204,0,0
+1619158185398,350,Facebook-1,200,OK,Thread Group 1-10,text,true,,192110,118,11,11,https://www.facebook.com/,266,0,0
+1619158185274,581,Twitter,200,OK,Thread Group 1-7,text,true,,68269,383,11,11,https://twitter.com/intent/tweet,178,0,0
+1619158185274,178,Twitter-0,301,Moved Permanently,Thread Group 1-7,,true,,600,129,11,11,http://www.twitter.com/intent/tweet,178,0,0
+1619158185453,173,Twitter-1,301,Moved Permanently,Thread Group 1-7,,true,,642,129,11,11,https://www.twitter.com/intent/tweet,173,0,0
+1619158185626,229,Twitter-2,200,OK,Thread Group 1-7,text,true,,67027,125,11,11,https://twitter.com/intent/tweet,202,0,0
+1619158185373,582,Twitter,200,OK,Thread Group 1-9,text,true,,68344,383,10,10,https://twitter.com/intent/tweet,171,0,0
+1619158185373,171,Twitter-0,301,Moved Permanently,Thread Group 1-9,,true,,614,129,10,10,http://www.twitter.com/intent/tweet,171,0,0
+1619158185545,179,Twitter-1,301,Moved Permanently,Thread Group 1-9,,true,,656,129,10,10,https://www.twitter.com/intent/tweet,179,0,0
+1619158185725,230,Twitter-2,200,OK,Thread Group 1-9,text,true,,67074,125,10,10,https://twitter.com/intent/tweet,200,0,0
+1619158185178,817,Twitter,200,OK,Thread Group 1-16,text,true,,68089,383,9,9,https://twitter.com/intent/tweet,175,0,0
+1619158185178,175,Twitter-0,301,Moved Permanently,Thread Group 1-16,,true,,600,129,9,9,http://www.twitter.com/intent/tweet,175,0,0
+1619158185353,179,Twitter-1,301,Moved Permanently,Thread Group 1-16,,true,,642,129,9,9,https://www.twitter.com/intent/tweet,179,0,0
+1619158185533,462,Twitter-2,200,OK,Thread Group 1-16,text,true,,66847,125,9,9,https://twitter.com/intent/tweet,209,0,0
+1619158185493,509,Facebook,200,OK,Thread Group 1-4,text,true,,192449,236,8,8,https://www.facebook.com/,205,0,0
+1619158185493,205,Facebook-0,301,Moved Permanently,Thread Group 1-4,text,true,,349,118,8,8,http://www.facebook.com/,205,0,0
+1619158185698,304,Facebook-1,200,OK,Thread Group 1-4,text,true,,192100,118,8,8,https://www.facebook.com/,276,0,0
+1619158185538,523,Facebook,200,OK,Thread Group 1-5,text,true,,192476,236,8,8,https://www.facebook.com/,206,0,0
+1619158185538,206,Facebook-0,301,Moved Permanently,Thread Group 1-5,text,true,,366,118,8,8,http://www.facebook.com/,206,0,0
+1619158185744,317,Facebook-1,200,OK,Thread Group 1-5,text,true,,192110,118,8,8,https://www.facebook.com/,270,0,0
+1619158184919,1300,Quora ,200,OK,Thread Group 1-15,text,true,,159994,377,8,8,https://softwaremon.quora.com/,14,0,8
+1619158184919,14,Quora -0,301,Moved Permanently,Thread Group 1-15,,true,,328,127,8,8,http://www.softwaremon.quora.com/,14,0,8
+1619158184933,275,Quora -1,301,Moved Permanently,Thread Group 1-15,,true,,633,127,8,8,https://www.softwaremon.quora.com/,275,0,0
+1619158185208,1011,Quora -2,200,OK,Thread Group 1-15,text,true,,159033,123,8,8,https://softwaremon.quora.com/,530,0,0
+1619158185334,895,Twitter,200,OK,Thread Group 1-17,text,true,,68083,383,8,8,https://twitter.com/intent/tweet,174,0,0
+1619158185334,174,Twitter-0,301,Moved Permanently,Thread Group 1-17,,true,,614,129,8,8,http://www.twitter.com/intent/tweet,174,0,0
+1619158185508,190,Twitter-1,301,Moved Permanently,Thread Group 1-17,,true,,642,129,8,8,https://www.twitter.com/intent/tweet,190,0,0
+1619158185698,531,Twitter-2,200,OK,Thread Group 1-17,text,true,,66827,125,8,8,https://twitter.com/intent/tweet,215,0,0
+1619158185738,583,Twitter,200,OK,Thread Group 1-2,text,true,,68090,383,8,8,https://twitter.com/intent/tweet,175,0,0
+1619158185738,175,Twitter-0,301,Moved Permanently,Thread Group 1-2,,true,,600,129,8,8,http://www.twitter.com/intent/tweet,175,0,0
+1619158185913,172,Twitter-1,301,Moved Permanently,Thread Group 1-2,,true,,642,129,8,8,https://www.twitter.com/intent/tweet,172,0,0
+1619158186085,236,Twitter-2,200,OK,Thread Group 1-2,text,true,,66848,125,8,8,https://twitter.com/intent/tweet,207,0,0
+1619158185749,582,Twitter,200,OK,Thread Group 1-10,text,true,,68104,383,7,7,https://twitter.com/intent/tweet,171,0,0
+1619158185749,171,Twitter-0,301,Moved Permanently,Thread Group 1-10,,true,,614,129,7,7,http://www.twitter.com/intent/tweet,171,0,0
+1619158185920,172,Twitter-1,301,Moved Permanently,Thread Group 1-10,,true,,642,129,7,7,https://www.twitter.com/intent/tweet,172,0,0
+1619158186092,239,Twitter-2,200,OK,Thread Group 1-10,text,true,,66848,125,7,7,https://twitter.com/intent/tweet,207,0,0
+1619158185472,880,Twitter,200,OK,Thread Group 1-13,text,true,,68070,383,6,6,https://twitter.com/intent/tweet,172,0,0
+1619158185472,172,Twitter-0,301,Moved Permanently,Thread Group 1-13,,true,,600,129,6,6,http://www.twitter.com/intent/tweet,172,0,0
+1619158185644,172,Twitter-1,301,Moved Permanently,Thread Group 1-13,,true,,642,129,6,6,https://www.twitter.com/intent/tweet,172,0,0
+1619158185817,535,Twitter-2,200,OK,Thread Group 1-13,text,true,,66828,125,6,6,https://twitter.com/intent/tweet,205,0,0
+1619158186002,584,Twitter,200,OK,Thread Group 1-4,text,true,,68089,383,5,5,https://twitter.com/intent/tweet,172,0,0
+1619158186002,172,Twitter-0,301,Moved Permanently,Thread Group 1-4,,true,,600,129,5,5,http://www.twitter.com/intent/tweet,172,0,0
+1619158186174,171,Twitter-1,301,Moved Permanently,Thread Group 1-4,,true,,642,129,5,5,https://www.twitter.com/intent/tweet,171,0,0
+1619158186345,241,Twitter-2,200,OK,Thread Group 1-4,text,true,,66847,125,5,5,https://twitter.com/intent/tweet,209,0,0
+1619158186061,594,Twitter,200,OK,Thread Group 1-5,text,true,,68090,383,4,4,https://twitter.com/intent/tweet,174,0,0
+1619158186061,174,Twitter-0,301,Moved Permanently,Thread Group 1-5,,true,,600,129,4,4,http://www.twitter.com/intent/tweet,174,0,0
+1619158186235,173,Twitter-1,301,Moved Permanently,Thread Group 1-5,,true,,642,129,4,4,https://www.twitter.com/intent/tweet,173,0,0
+1619158186408,247,Twitter-2,200,OK,Thread Group 1-5,text,true,,66848,125,4,4,https://twitter.com/intent/tweet,207,0,0
+1619158185455,1255,Quora ,200,OK,Thread Group 1-20,text,true,,159979,377,3,3,https://softwaremon.quora.com/,13,0,8
+1619158186219,491,Facebook,200,OK,Thread Group 1-15,text,true,,192449,236,3,3,https://www.facebook.com/,200,0,0
+1619158185455,13,Quora -0,301,Moved Permanently,Thread Group 1-20,,true,,328,127,3,3,http://www.softwaremon.quora.com/,13,0,8
+1619158185468,262,Quora -1,301,Moved Permanently,Thread Group 1-20,,true,,632,127,3,3,https://www.softwaremon.quora.com/,262,0,0
+1619158186219,200,Facebook-0,301,Moved Permanently,Thread Group 1-15,text,true,,349,118,3,3,http://www.facebook.com/,200,0,0
+1619158185730,980,Quora -2,200,OK,Thread Group 1-20,text,true,,159019,123,3,3,https://softwaremon.quora.com/,282,0,0
+1619158186419,291,Facebook-1,200,OK,Thread Group 1-15,text,true,,192100,118,3,3,https://www.facebook.com/,259,0,0
+1619158186710,489,Facebook,200,OK,Thread Group 1-20,text,true,,192448,236,3,3,https://www.facebook.com/,197,0,0
+1619158186710,197,Facebook-0,301,Moved Permanently,Thread Group 1-20,text,true,,349,118,3,3,http://www.facebook.com/,197,0,0
+1619158186907,292,Facebook-1,200,OK,Thread Group 1-20,text,true,,192099,118,3,3,https://www.facebook.com/,273,0,0
+1619158186710,569,Twitter,200,OK,Thread Group 1-15,text,true,,68117,383,3,3,https://twitter.com/intent/tweet,172,0,0
+1619158186710,172,Twitter-0,301,Moved Permanently,Thread Group 1-15,,true,,614,129,3,3,http://www.twitter.com/intent/tweet,172,0,0
+1619158186882,171,Twitter-1,301,Moved Permanently,Thread Group 1-15,,true,,656,129,3,3,https://www.twitter.com/intent/tweet,171,0,0
+1619158187054,225,Twitter-2,200,OK,Thread Group 1-15,text,true,,66847,125,3,3,https://twitter.com/intent/tweet,200,0,0
+1619158186230,1261,Quora ,200,OK,Thread Group 1-17,text,true,,159994,377,2,2,https://softwaremon.quora.com/,11,0,4
+1619158186230,11,Quora -0,301,Moved Permanently,Thread Group 1-17,,true,,328,127,2,2,http://www.softwaremon.quora.com/,11,0,4
+1619158186241,254,Quora -1,301,Moved Permanently,Thread Group 1-17,,true,,633,127,2,2,https://www.softwaremon.quora.com/,254,0,0
+1619158186495,996,Quora -2,200,OK,Thread Group 1-17,text,true,,159033,123,2,2,https://softwaremon.quora.com/,526,0,0
+1619158187200,914,Twitter,200,OK,Thread Group 1-20,text,true,,68070,383,2,2,https://twitter.com/intent/tweet,173,0,0
+1619158187200,173,Twitter-0,301,Moved Permanently,Thread Group 1-20,,true,,600,129,2,2,http://www.twitter.com/intent/tweet,173,0,0
+1619158187373,172,Twitter-1,301,Moved Permanently,Thread Group 1-20,,true,,642,129,2,2,https://www.twitter.com/intent/tweet,172,0,0
+1619158187545,569,Twitter-2,200,OK,Thread Group 1-20,text,true,,66828,125,2,2,https://twitter.com/intent/tweet,259,0,0
+1619158187491,630,Facebook,200,OK,Thread Group 1-17,text,true,,192465,236,1,1,https://www.facebook.com/,312,0,0
+1619158187491,312,Facebook-0,301,Moved Permanently,Thread Group 1-17,text,true,,366,118,1,1,http://www.facebook.com/,312,0,0
+1619158187804,317,Facebook-1,200,OK,Thread Group 1-17,text,true,,192099,118,1,1,https://www.facebook.com/,306,0,0
+1619158188122,1019,Twitter,200,OK,Thread Group 1-17,text,true,,68084,383,1,1,https://twitter.com/intent/tweet,194,0,0
+1619158188122,194,Twitter-0,301,Moved Permanently,Thread Group 1-17,,true,,614,129,1,1,http://www.twitter.com/intent/tweet,194,0,0
+1619158188317,203,Twitter-1,301,Moved Permanently,Thread Group 1-17,,true,,642,129,1,1,https://www.twitter.com/intent/tweet,203,0,0
+1619158188520,621,Twitter-2,200,OK,Thread Group 1-17,text,true,,66828,125,1,1,https://twitter.com/intent/tweet,311,0,0
