@@ -72,9 +72,9 @@ public class WorldUIManager : MonoBehaviour
         int totalStars1 = PlayerPrefs.GetInt("Lv" + 1) + PlayerPrefs.GetInt("Lv" + 2) + PlayerPrefs.GetInt("Lv" + 3);
         int totalStars2 = PlayerPrefs.GetInt("Lv" + 4) + PlayerPrefs.GetInt("Lv" + 5) + PlayerPrefs.GetInt("Lv" + 6);
         int totalStars3 = PlayerPrefs.GetInt("Lv" + 7) + PlayerPrefs.GetInt("Lv" + 6) + PlayerPrefs.GetInt("Lv" + 9);
-        unlockedStarsText[0].text = totalStars1.ToString() + "/ 9";
-        unlockedStarsText[1].text = totalStars2.ToString() + "/ 9";
-        unlockedStarsText[2].text = totalStars3.ToString() + "/ 9";
+        unlockedStarsText[0].text = totalStars1.ToString() + "/ 12";
+        unlockedStarsText[1].text = totalStars2.ToString() + "/ 12";
+        unlockedStarsText[2].text = totalStars3.ToString() + "/ 12";
     }
     //This method update the total stars the user has
     private void UpdateStars()
