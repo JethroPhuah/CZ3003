@@ -2059,6 +2059,12 @@ MonoBehaviour:
   scoreElement: {fileID: 1879445940651037232, guid: 829cd42e5df49e047a3a4afb1ba6859d,
     type: 3}
   ranktext: {fileID: 1588454745}
+--- !u!4 &211359585 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4014655423217701799, guid: 86fbf37de5d42ca4583a7d7b78494814,
+    type: 3}
+  m_PrefabInstance: {fileID: 1552580710}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &231823657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3261,6 +3267,7 @@ RectTransform:
   - {fileID: 2069035537}
   - {fileID: 660845378}
   - {fileID: 1204756560}
+  - {fileID: 211359585}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22107,7 +22114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -22140,7 +22147,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 355612024}
         m_TargetAssemblyTypeName: WorldUIManager, Assembly-CSharp
-        m_MethodName: pressBackButton
+        m_MethodName: pressExitButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -45313,7 +45320,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 355612023}
     m_Modifications:
     - target: {fileID: 4014655423217701797, guid: 86fbf37de5d42ca4583a7d7b78494814,
         type: 3}
@@ -45358,17 +45365,17 @@ PrefabInstance:
     - target: {fileID: 4014655423217701799, guid: 86fbf37de5d42ca4583a7d7b78494814,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4014655423217701799, guid: 86fbf37de5d42ca4583a7d7b78494814,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -960
       objectReference: {fileID: 0}
     - target: {fileID: 4014655423217701799, guid: 86fbf37de5d42ca4583a7d7b78494814,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -540
       objectReference: {fileID: 0}
     - target: {fileID: 4014655423217701799, guid: 86fbf37de5d42ca4583a7d7b78494814,
         type: 3}
@@ -45383,17 +45390,17 @@ PrefabInstance:
     - target: {fileID: 4014655423217701799, guid: 86fbf37de5d42ca4583a7d7b78494814,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4014655423217701799, guid: 86fbf37de5d42ca4583a7d7b78494814,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4014655423217701799, guid: 86fbf37de5d42ca4583a7d7b78494814,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4014655423217701799, guid: 86fbf37de5d42ca4583a7d7b78494814,
         type: 3}
