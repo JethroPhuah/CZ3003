@@ -165,10 +165,10 @@ public class WorldUIManager : MonoBehaviour
         Application.OpenURL("https://softwaremon.quora.com/");
     }
     //This method is similar to logout
-    public void pressBackButton()
+    public void pressExitButton()
     {
         AudioManager.Instance.PlaySFX(cfmClickSFX); 
-        SceneManager.LoadScene("LoginScene");
+        Application.Quit();
     }
     //This method is called when the user is done making their custom room
     public void PressCustomBackButton()
